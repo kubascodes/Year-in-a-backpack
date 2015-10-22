@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=.8">
+	<title>Year in a backpack</title>
+	<meta name="author" content="Jakub Velfl and Simon Tomanik" />
+	<meta name="description" content="Year in a backpack" />
+	<meta name="keywords"  content="travel, backpacking, explore" />
+	<meta name="Resource-type" content="Document" />
+
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+	<script type="text/javascript" src="./jquery-2.1.4.min.js"></script>
+    <script src="./jquery.sidr.min.js"></script>
+    
+	<script type="text/javascript">
+	$(document).ready(function() {
+    $('#simple-menu').sidr({
+        side: 'right',
+        });
+        $('#btnClose').click(function(){ // when 'btnClose' is clicked…
+        $.sidr('close', 'sidr');  // close the div with the ID of "sidr"
+    });
+        $('#start').click(function(){ // when 'btnClose' is clicked…
+        $.sidr('close', 'sidr');  // close the div with the ID of "sidr"
+    });
+    $('body').click(function(){
+        $.sidr('close', 'sidr');
+    });
+});
+	</script>
+</head>
+
+    
+<a class="menu" id="simple-menu" href="#sidr"><img src="./img/menu.png" id="btnMenu"></a>
+
+<div id="sidr">
+  <ul id="scroll">
+    <li><a href="#section0">Home</a></li>
+<li><a href="#section1">Year in a backpack</a></li>
+<li><a href="#section2">About</a></li>
+<li><a href="#section3">Who are we?</a></li>
+<li><a href="#section4">What do you get?</a></li>
+<li><a href="#section5">Contact</a></li>
+<li><a href="#" id="btnClose">Close</a></li>
+    </ul> 
+    
+</div>
+     
+<body>
+    
+<div class="wrapper">
+	<div class="section" id="section0">
+        <div class="content">
+        <div class="together">
+            <img src="img/Yearinabackpack_logowhite.png" id="hlavniLogo">
+        
+        <ul id="social">
+     <a href="http://www.facebook.com/yearinabackpack"><li id="btnFb" class="socialMargin">fb</li></a>
+            <a href="http://www.twitter.com/yearinabackpack"><li id="btnTw" class="socialMargin">tw</li></a>
+            <a href="mailto:info@yearinabackpack.com"><li id="btnMail">@</li></a>
+     </ul>
+            </div>
+        </div>
+            
+    </div>
+    
+    <div class="section" id="section1">
+        <div class="content">
+<!--        <img src="img/yiab_hand.png" id="handwritten">-->
+        <img src="./img/titles/yearinabackpack.png" alt="Year in a backpack" class="titles">
+    <p id="scroll">It all began a year ago as an idea to go around the world in a van. So we started considering our options, were looking to buy one, went for some test rides but found out it won’t be as easy as we imagined. Travelling in a van is expensive, logistically complicated and needs experience with mechanics.
+Eventually, we switched to a more realistic plan to pack our few belongings in a backpack and then see what happens next. We hope that this choice gives us more freedom to travel, the ability to take spontaneous decisions and live on low budget. 
+</p>
+            </div>
+    </div>
+    
+    <div class="section" id="section2">
+<!--            <img src="img/what.png" id="what">-->
+        <div class="content">
+            <img src="./img/titles/about.png" alt="About" class="titles">
+    <p id="scroll">So far the plan is to find cheap plane tickets to South America - Chile or Argentina would be the best. Once we’re there, we will get motorbikes, which will be our mean of transport. Heading up north, our aim is to explore the splendid nature, spend time with locals and get a grasp of what it’s like to live there. None of us has ever been to South America and we strive to discover what this region has to offer. Our time frame for the American continent is about 6 months time, after which we plan to fly to Asia from either Seattle or Vancouver. Another 6+ months in Asia, we want explore as many countries and cultures as we can but this way ahead. </p>
+    </div>
+        </div>
+    
+	<div class="section" id="section3">
+        <div class="content">
+            <img src="./img/titles/whoWeAre.png" alt="Who are we?" class="titles">
+            <br>
+            <br>
+            <img class="profilPic" src="./img/spolecnassimonem.jpg" alt="Simon and Jakub">
+        </div>
+    </div>
+<!--            <img src="img/whoarewe.png" id="whoarewe">-->
+        <div class="section" id="simon">
+            <div class="content">
+            
+                <img src="img/simon.jpg" class="profilPic" alt="Simon">
+                <br>
+            <img src="./img/titles/simon.png" alt="Simon" class="titles">
+        <p id="scroll">Hi, my name is Šimon and I am from and live in Prague. I have finished high school but after a few 
+months at university, I decided that it is not what I want to do. Currently I am making a living mainly by renting flats for tourists. Thanks to that  I was able to meet a lot of people from around the world and  maybe that's one of the reason why I want to to it! Also this time is maybe the only chance I will be able to do something like this, leaving home for a year is not easy but I am sure it will be worth it!
+            </p>
+                </div>
+                
+        </div>
+        
+	    <div class="section" id="jakub">
+            <div class="content">
+            
+                 <img src="img/jakub.jpg" class="profilPic" alt="Jakub">
+                <br>
+                
+            <img src="./img/titles/kuba.png" alt="Jakub" class="titles">
+            <p id="scroll">Hello, my name is Kuba and I am 21 years old. I am currently finishing up my studies at the University of Bristol. I  have an active approach to life, I love being outdoors, particularly mountain biking. I am open-minded, worry-less and always up to some spontaneous ideas. 
+            </p>
+            <p id="scroll">Why Year in a Backpack?
+            </p>
+            <p id="scroll">
+                Traveling makes me really happy and exploring the world has always been my dream. That's why I want to do this!
+            </p>
+                </div>
+            </div>
+	
+    
+    <div class="section" id="section4">
+<!--        <img src="img/yiab_hand.png" id="handwritten">-->
+        <div class="content">
+        <img src="./img/titles/whatDoYouGet.png" alt="What do you get?" class="titles">
+    <p id="scroll">We want to 'take' you on our journey with us. We believe that we will see a lot of interesting places, meet inspiring people and do incredible things. 
+</p>
+    <p id="scroll">This adventure will be shared with you on our social media and this website. We promise to take loads of pictures, write up the experiences we are going through and upload occasional vlogs. We want to share everything with you!
+</p>
+    </div>
+    </div>
+    
+    <div class="section" id="section5">
+        <div class="layer"></div>
+        <div class="content" id="scroll">
+        
+<!--            <img src="img/getintouch.png" id="getintouch">-->
+            <div class="content">
+            <img src="./img/titles/getInTouch.png" alt="Get in touch" class="titles">
+    <p class="white" id="scroll">It sounds easy to spend a year in a backpack but we know it will be much harder to carry this idea out.</p>
+        <p class="white" id="scroll">For this reason, your help is greatly appreciated! We would be happy for your tips, a place to sleep or any other form of support you can think of.</p>
+        <p class="white" id="scroll">Do you like this idea? You can help a lot by sending us some $$.</p>
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="RMQBV2XZDLFUN">
+<input type="image"  src="img/titles/donate.png" class="btnPaypal" name="submit" alt="DONATE VIA PAYPAL">
+</form>
+
+            </div>
+        <br>
+        <ul id="social">
+     <a href="http://www.facebook.com/yearinabackpack"><li id="btnFb" class="socialMargin">fb</li></a>
+            <a href="http://www.twitter.com/yearinabackpack"><li id="btnTw" class="socialMargin">tw</li></a>
+            <a href="mailto:info@yearinabackpack.com"><li id="btnMail">@</li></a>
+     </ul>
+        </div>
+    
+    </div>
+    
+    
+    
+</div>
+    
+</body>
+</html>
