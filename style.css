@@ -102,18 +102,20 @@ p{
     
 }
 
-#section0 {
+#Home {
     background-image: url(img/cover2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
-#section1 {   
+#YearinaBackpack {   
     
 }
-#section2 {
+#About {
     
 }
-#section3 {
+#WhoAreWe {
+}
+#WhatDoYouGet {
 }
 
 #animation {
@@ -149,7 +151,7 @@ p{
    height: 100%;
     margin-bottom: 1em;
 }
-#section5 {
+#Contact {
     background-size: cover;
     background-image: url(img/road.jpg);
     background-repeat: no-repeat;
