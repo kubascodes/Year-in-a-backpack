@@ -189,6 +189,9 @@ p{
 }
 #social {
     display: inline-flex;
+    display: -webkit-inline-flex;
+    align-items: center;
+    -webkit-align-items: center;
     position: relative;
     z-index: 70;
     margin-top: 3em;
