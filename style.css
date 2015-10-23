@@ -183,10 +183,6 @@ p{
     height: 30px;
     width: 30px;
 }
-.together {
-    display: flex;
-    flex-direction: column;
-}
 #social {
     display: inline-flex;
     display: -webkit-inline-flex;
