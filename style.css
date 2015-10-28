@@ -243,7 +243,7 @@ p{
     right: 20px;
     top: 20px;
 }
-.sidr {
+#sidr {
   /* Default Settings */
   display: none;
   position: fixed;
@@ -258,11 +258,11 @@ p{
   color: black;
 }
 .sidr a {
-   color: black;
+    color: black;
     font-family: courier new;
     font-size: 1.4em;
     padding: 0.25em .25em .25em .25em;
-   margin: 1em;
+    margin: 1em;
     display: flex;
     flex-direction: column;
     line-height: 1em;
