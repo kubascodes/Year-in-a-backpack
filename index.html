@@ -29,6 +29,9 @@
     $('body').click(function(){
         $.sidr('close', 'sidr');
     });
+    $('.maps').click(function () {
+    $('.maps iframe').css("pointer-events", "auto");
+});
 });
 	</script>
 </head>
@@ -86,12 +89,6 @@ Eventually, we switched to a more realistic plan to pack our few belongings in a
             <p>The trip will start in summer 2016 depending on the plane tickets we can get and will be more or less 1 year long.</p>
             <br>
             <br>
-            <img src="./img/titles/where.png" alt="About" class="titles">
-            <br>
-            <br>
-            <p>South America and Asia. Our exact itinerary is still in the clouds but we would like to start in South America and then make our way up along the west coast to North America. There, we will hope on a plane to South Asia - what we do there depends on the resources we have and the location where we'd get.</p>
-            <br>
-            <br>
             <img src="./img/titles/how.png" alt="About" class="titles">
             <br>
             <br>
@@ -99,6 +96,19 @@ Eventually, we switched to a more realistic plan to pack our few belongings in a
     </div>
         </div>
     
+    <div class="section">
+        <div class="content">
+        <img src="./img/titles/where.png" alt="About" class="titles">
+            <br>
+            <br>
+            <p>South America and Asia. Although our exact itinerary is still in the clouds, you can see what's in our heads below - <span style="color:red">red</span> countries are a must, <span style="color:#e7e719">yellow</span> countries are a maybe. We would like to start in South America and make our way up along the West Coast to North America. There, we will hop on a plane to South Asia - what we do there depends on the remaining cash and the location where we'd get to. </p>
+            <br>
+            <br>
+            <div class="google-maps maps"> 
+            <iframe src="https://www.google.com/maps/d/embed?mid=z_RREq856LXg.kTHPuC2Mq1l8&z=1 &ll=-0.386962, -160" width="650" height="500" frameborder="0" style="border:0"></iframe>
+            </div>
+    </div>
+    </div>
 	<div class="section" id="WhoAreWe">
         <div class="content">
             <img src="./img/titles/whoWeAre.png" alt="Who are we?" class="titles">
@@ -115,7 +125,7 @@ Eventually, we switched to a more realistic plan to pack our few belongings in a
                 <br>
             <img src="./img/titles/simon.png" alt="Simon" class="titles">
         <p id="scroll">Hi, my name is Šimon and I am from and live in Prague. I have finished high school but after a few 
-months at university, I decided that it is not what I want to do. Currently I am making a living mainly by renting flats for tourists. Thanks to that  I was able to meet a lot of people from around the world and  maybe that's one of the reason why I want to to it! Also this time is maybe the only chance I will be able to do something like this, leaving home for a year is not easy but I am sure it will be worth it!
+months at university, I decided that it is not what I want to do. Currently I am making a living mainly by renting flats for tourists. Thanks to that  I was able to meet a lot of people from around the world and  maybe that's one of the reason why I want to do it! Also this time is maybe the only chance I will be able to do something like this, leaving home for a year is not easy but I am sure it will be worth it!
             </p>
                 </div>
                 
@@ -130,11 +140,7 @@ months at university, I decided that it is not what I want to do. Currently I am
             <img src="./img/titles/kuba.png" alt="Jakub" class="titles">
             <p id="scroll">Hello, my name is Kuba and I am 21 years old. I am currently finishing up my studies at the University of Bristol. I  have an active approach to life, I love being outdoors, particularly keen about mountain biking. I am open-minded, worry-less and always up to some spontaneous ideas. 
             </p>
-            <p id="scroll">Why Year in a Backpack?
-            </p>
-            <p id="scroll">
-                Travelling makes me really happy and exploring the world has always been my dream. That's why I want to do this!
-            </p>
+            <p>I had this trip in my head for a long time and it's now time to make it happen!</p>
                 </div>
             </div>
 	

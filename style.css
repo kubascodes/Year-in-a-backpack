@@ -181,6 +181,27 @@ p{
     margin-left: auto;
     margin-right: auto;
 }
+.google-maps {
+    position: relative;
+    padding-bottom: 77%;
+    height: 0;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.maps iframe {
+    pointer-events: none;
+}
 /* LOGOS & BUTTONS
  * --------------------------------------- */
 #hlavniLogo {
