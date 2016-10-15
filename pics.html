@@ -14,14 +14,20 @@ layout: default
 </div>
 
     <h1 class="container center">Pics</h1>
-<div class="row" id="links">
+<div id="links">
+    <ul class="row nopadding">
 {% for image in site.static_files %}
         {% if image.path contains 'original' %}
-        <a class="col-lg-2 col-md-2 col-sm-3 col-xs-4 nopadding" href="{{ site.baseurl }}{{ image.path }}" alt="image.path">
+    <li class="nopadding">
+        <a class="nopadding" href="{{ site.baseurl }}{{ image.path }}" alt="image.path">
     <img class="img-responsive" src="{{ site.baseurl }}{{ image.path | replace: 'original', 'thumbnail' }}" alt="{{ image.path }}">
-    </a>  
-    {% endif %}    
-   {% endfor %} 
+    </a>
+        </li>
+    {% endif %} 
+            
+   {% endfor %}
+        
+        </ul> 
     </div>
     
 
