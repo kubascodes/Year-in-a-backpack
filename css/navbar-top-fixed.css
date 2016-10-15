@@ -296,3 +296,60 @@ body {
   column-count:         1;
   }
 }
+
+.menuTrigger {
+    display: inline-flex;
+    width: 35px;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+    margin: 0 3%;
+    vertical-align: middle;
+}
+.mainLine {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 6px;
+    margin-top: -3px;
+    background: #666666;
+    transition: all linear 0.3s;
+}
+.mainLine:after, .mainLine:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 6px;
+    background: #666666;
+    transform: rotate(0);
+    transition: all linear 0.3s;
+}
+.mainLine:before {
+    top: -13px;
+}
+.mainLine:after {
+    top: 13px;
+}
+#hamburger-one:hover .mainLine:before {
+    top: -16px;
+}
+#hamburger-one:hover .mainLine:after {
+    top: 16px;
+}
+#hamburger-one.menuToggle .mainLine {
+    background: transparent;
+    transition: all 0.3s linear ;
+}
+#hamburger-one.menuToggle .mainLine:before {
+    visibility: visible;
+    top: 0 !important;
+    transform: rotate(45deg);
+}
+#hamburger-one.menuToggle .mainLine:after {
+    visibility: visible;
+    top: 0 !important;
+    transform: rotate(-45deg);
+}
