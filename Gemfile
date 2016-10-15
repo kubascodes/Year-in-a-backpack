@@ -23,4 +23,5 @@ gem "minima"
 #   gem "jekyll-github-metadata", "~> 1.0"
 # end
 
-ruby source 'https://rubygems.org' gem 'github-pages'
+ruby source 'https://rubygems.org' 
+gem 'github-pages'
