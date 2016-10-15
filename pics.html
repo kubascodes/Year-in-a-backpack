@@ -15,7 +15,7 @@ layout: default
 
     <h1 class="container center">Pics</h1>
 <div id="links">
-    <ul class="row nopadding">
+    <ul class="row nopadding" id="photo-wall">
 {% for image in site.static_files %}
         {% if image.path contains 'original' %}
     <li class="nopadding">

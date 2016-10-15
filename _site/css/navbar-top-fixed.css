@@ -258,19 +258,10 @@ body {
 .instagram {
     padding: 1em 1em 1em 1em;
 }
-ul.row li a {
-    display: inline;
-}
-ul.row li {
-    list-style-type: none;
-}
-ul.row li img {
-    display: block;
-    vertical-align: top;
-}
+
 
 @media (min-width: 1200px) {
-  ul.row {
+  #photo-wall {
         column-gap:           0px;  
       line-height: 0;
   -moz-column-count:    4;
@@ -279,7 +270,7 @@ ul.row li img {
   }
 }
 @media (max-width: 1200px) {
-  ul.row {
+  #photo-wall {
         column-gap:           0px;  
       line-height: 0;
   -moz-column-count:    3;
@@ -288,7 +279,7 @@ ul.row li img {
   }
 }
 @media (max-width: 800px) {
-  ul.row {
+  #photo-wall {
         column-gap:           0px;  
       line-height: 0;
   -moz-column-count:    2;
@@ -297,7 +288,7 @@ ul.row li img {
   }
 }
 @media (max-width: 400px) {
-  ul.row {
+  #photo-wall {
         column-gap:           0px;  
       line-height: 0;
   -moz-column-count:    1;
