@@ -1,0 +1,30 @@
+.fill {
+    margin-top: -1em;
+    height: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    background-image: url(../img/cover2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    min-height: 400px;
+    width: 100%;  
+}
+
+#hlavniLogo {
+    width: 400px;
+}
+
+#navbar-custom {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    color: transparent;
+}
+
+#center {
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Year in a backpack</title>
+    <description>A blog of year round travel adventure around South America and Asia.
+</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 15 Oct 2016 03:15:39 +0200</pubDate>
+    <lastBuildDate>Sat, 15 Oct 2016 03:15:39 +0200</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Tester</title>
+        <description>&lt;p&gt;Just testing behaviour for this post to see how would 3 posts look like on the site.&lt;/p&gt;
+
+&lt;p&gt;Check how links, images etc. look together.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 11 Oct 2016 00:00:00 +0200</pubDate>
+        <link>/europe/2016/10/11/Tester2.html</link>
+        <guid isPermaLink="true">/europe/2016/10/11/Tester2.html</guid>
+        
+        <category>italy</category>
+        
+        
+        <category>Europe</category>
+        
+      </item>
+    
+      <item>
+        <title>Packing for Rio</title>
+        <description>&lt;p&gt;We are packing our things, getting ready, finishing off before we head to Venice and later to Brazil.&lt;/p&gt;
+
+&lt;h3 id=&quot;rio&quot;&gt;Rio&lt;/h3&gt;
+
+&lt;p&gt;We are starting in Rio.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 07 Oct 2016 00:00:00 +0200</pubDate>
+        <link>/2016/10/07/Trial.html</link>
+        <guid isPermaLink="true">/2016/10/07/Trial.html</guid>
+        
+        <category>czech republic</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>El Brasiliero</title>
+        <description>&lt;p&gt;Ahoj prave sedime v indigu. A vymyslim tenhle testovaci post.&lt;/p&gt;
+
+&lt;p&gt;Nahore bude obrazek, kterej se bude jmenovat lead.jpg, ono si ho pak automaticky vezme ze slozky.&lt;/p&gt;
+
+&lt;p&gt;Dole bude link, kterej by mel vytvorit dojem nekonecny flow clanku (pokud je vubec budeme psat).&lt;/p&gt;
+
+&lt;p&gt;Mozna bych mohl na pozadi tohoto noveho odkazu dat obrazek. Nicmene zalezi hodne na rychlosti renderingu.&lt;/p&gt;
+
+&lt;p&gt;Je potreba dodelat galerii, aby byla rychla na mobilu. i.e. lazyload nebo load on click. Mozno take uploadovat verzi obrazku v thumbnails…&lt;/p&gt;
+
+&lt;p&gt;Taky to nesmi byt jen o textu, clanky bychom meli rozbit nejakym dynamickym content (obrazky? nebo odkazy? nebo nejaky boxy s quotes?? A taky se domluvit na standardizovanym formatovani. Inspirace z internetu.)&lt;/p&gt;
+</description>
+        <pubDate>Thu, 06 Oct 2016 12:59:20 +0200</pubDate>
+        <link>/south%20america/2016/10/06/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">/south%20america/2016/10/06/welcome-to-jekyll.html</guid>
+        
+        <category>brazil</category>
+        
+        
+        <category>south america</category>
+        
+      </item>
+    
+  </channel>
+</rss>

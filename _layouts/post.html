@@ -1,0 +1,81 @@
+---
+layout: default
+---
+
+
+<link rel="stylesheet" href="/css/blueimp-gallery.css">
+<link rel="stylesheet" href="/css/post.css">
+
+<div class="container-fluid postHeader hovereffect">
+    {% for image in site.static_files %}
+    {% if image.path contains page.img and image.path contains 'lead' %}
+    {% unless image.path contains 'thumbnail' %}
+    <a href="#links">
+    <img class="img-responsive" src="{{ site.baseurl }}{{ image.path }}">
+    </a>
+    {% endunless %}
+    {% endif %}   
+    {% endfor %}
+</div>
+
+<div class="container">   
+    <h1>{{ page.title }}</h1>
+    {% include category.html %}
+    {{ content }}
+</div>
+
+
+<div id="blueimp-gallery" class="blueimp-gallery">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+</div>
+
+    <h4 class="container">Pics</h4>
+<div id="links">
+    <div class="container-fluid row">
+{% for image in site.static_files %}
+    {% if image.path contains page.img %}
+        {% if image.path contains 'original' %}
+        <a class="col-xs-6 col-sm-4 col-lg-3 nopadding gallery pull-right" href="{{ site.baseurl }}{{ image.path }}" alt="image.path">
+    <img class="gallery" src="{{ site.baseurl }}{{ image.path | replace: 'original', 'thumbnail' }}" alt="image.path">
+    </a>
+        {% endif %}
+   {% endif %}
+{% endfor %} 
+</div>
+</div>
+
+<div class="pageNavigation center">
+  {% if page.previous.url %}
+    <a class="prev" href="{{page.previous.url}}">
+        <h4>Next: {{page.previous.title}}</h4>
+    <p>{{page.previous.content | truncate: 50}}</p>
+    </a>
+    
+    {% elsif page.next.url %}
+    <a class="next" href="{{page.next.url}}">
+        <h4>Next: {{page.next.title}}</h4>
+<p>{{page.next.content | truncate: 50}}</p>
+        </p> 
+    </a>
+
+  {% endif %}
+</div>
+
+<script src="/js/blueimp-gallery.min.js"></script>
+</script>
+<script>
+document.getElementById('links').onclick = function (event) {
+    event = event || window.event;
+    var target = event.target || event.srcElement,
+        link = target.src ? target.parentNode : target,
+        options = {index: link, event: event},
+        links = this.getElementsByTagName('a');
+    blueimp.Gallery(links, options);
+};
+</script>

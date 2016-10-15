@@ -1,0 +1,47 @@
+<!--Previous page code-->
+
+{% if page.previous.url %}
+        <div class=".col-md-6">
+    <a class="prev" href="{{page.previous.url}}"><h4>{{page.previous.title}}</h4>
+    <p id="hiddenContent">{{page.previous.content | truncatewords: 5}}</p>
+        <span style="glyphicon glyphicon-chevron-up"></span>
+    </a>
+  {% endif %}
+    </div>
+    
+    
+    
+<!--Working links-->
+
+<div id="links">
+{% for image in site.static_files %}
+    {% if image.path contains page.img %}
+        {% unless image.path contains 'thumbnail' %}
+<a href="{{ site.baseurl }}{{ image.path }}" alt="image.path">
+        {% endunless %}
+    
+        {% if image.path contains 'thumbnail' %}
+    <img src="{{ site.baseurl }}{{ image.path }}" alt="image.path">
+    </a>
+        {% endif %}
+   {% endif %}
+{% endfor %} 
+</div>
+
+
+<!--screen size settings-->
+
+
+
+    
+@media only screen and (max-width: 480px) { 
+    div#links img {
+    width: 50%;
+    }
+}
+
+@media only screen and (min-width: 1600px) { 
+    div#links img {
+    width: 15%;
+    }
+}

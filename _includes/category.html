@@ -1,0 +1,11 @@
+<div class="category">
+  {% if post %}
+    {% assign categories = post.categories %}
+  {% else %}
+    {% assign categories = page.categories %}
+  {% endif %}
+  {% for category in categories %}
+  <p>Posted in: <a class="archive-title" href="{{site.baseurl}}/regions/#{{category|slugize}}">{{category}}</a></p>
+  {% unless forloop.last %}&nbsp;{% endunless %}
+  {% endfor %}
+</div>

@@ -1,0 +1,40 @@
+--- 
+layout: default
+---
+<link rel="stylesheet" href="/css/blueimp-gallery.css">
+
+<div id="blueimp-gallery" class="blueimp-gallery">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+</div>
+
+    <h1 class="container center">Pics</h1>
+<div class="row" id="links">
+{% for image in site.static_files %}
+        {% if image.path contains 'original' %}
+        <a class="col-xs-6 col-sm-4 col-lg-2 nopadding" href="{{ site.baseurl }}{{ image.path }}" alt="image.path">
+    <img src="{{ site.baseurl }}{{ image.path | replace: 'original', 'thumbnail' }}" alt="{{ image.path }}">
+    </a>  
+    {% endif %}    
+   {% endfor %} 
+    </div>
+    
+
+
+<script src="/js/blueimp-gallery.min.js"></script>
+</script>
+<script>
+document.getElementById('links').onclick = function (event) {
+    event = event || window.event;
+    var target = event.target || event.srcElement,
+        link = target.src ? target.parentNode : target,
+        options = {index: link, event: event},
+        links = this.getElementsByTagName('a');
+    blueimp.Gallery(links, options);
+};
+</script>
