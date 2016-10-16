@@ -2,7 +2,8 @@
     position: relative;
 }
 
-.center {text-align:center;
+.center {
+    text-align:center;
     justify-content: center;
     align-items: center;
 }
@@ -10,10 +11,8 @@
 body, html {
   height: 100%;
   width: 100%;
-    overflow-x: hidden;
-    font-size: 1.1em;
-	line-height: 1.6;
-	-webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
 }
 
 .container-fluid>iframe {
@@ -248,7 +247,7 @@ body {
   flex-direction: column;
 }
 .content {
-  margin-top: 3em;
+  margin-top: 3.5em;
   flex: 1;
 }
 
