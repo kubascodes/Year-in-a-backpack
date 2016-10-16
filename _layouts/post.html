@@ -18,12 +18,11 @@ layout: default
     {% endfor %}
 </div>
 
-<div class="container">   
+<div class="container-post">   
     <h1>{{ page.title }}</h1>
     {% include category.html %}
-    <div class="container-text">
     {{ content }}
-    </div>
+    {% include sharer.html %}
 </div>
 
 
@@ -37,7 +36,6 @@ layout: default
     <ol class="indicator"></ol>
 </div>
 
-    <h4 class="container">Pics</h4>
 <div id="links">
     <div class="container-fluid row">
 {% for image in site.static_files %}

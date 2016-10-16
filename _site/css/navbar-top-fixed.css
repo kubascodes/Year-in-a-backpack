@@ -295,6 +295,10 @@ li#photowall {
   -webkit-column-count: 2;
   column-count:         2;
   }
+    .container-post {
+    padding-right: 1em;
+    padding-left: 1em;
+    }
 }
 @media (max-width: 400px) {
   #photo-wall {
@@ -304,6 +308,10 @@ li#photowall {
   -webkit-column-count: 1;
   column-count:         1;
   }
+    .container-post {
+    padding-right: 1em;
+    padding-left: 1em;
+    }
 }
 
 .sandwich {
@@ -346,6 +354,12 @@ li#photowall {
     height: 100%;
 }
 
-.container-text {
+.container-post {
     max-width: 800px;
+    padding-right: 2em;
+    padding-left: 2em;
+    padding-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
