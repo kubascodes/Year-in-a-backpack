@@ -263,7 +263,7 @@ body {
     padding: 1em 1em 1em 1em;
 }
 
-li#photowall {
+ul#photowall {
     list-style: none;
     list-style-type: none;
 }
