@@ -251,6 +251,7 @@ body {
 .content {
   margin-top: 3em;
   flex: 1;
+    overflow-x: hidden;
 }
 
 .footer {
@@ -358,6 +359,8 @@ li#photowall {
 .container-post {
     max-width: 800px;
     padding-bottom: 1em;
+    padding-right: 2em;
+    padding-left: 2em;
     margin-left: auto;
     margin-right: auto;
     display: block;
