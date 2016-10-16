@@ -28,7 +28,6 @@ body, html {
     min-height: 100%;
     height: 100%;
     padding: 0 0 0 0;
-    overflow-x: hidden;
 }
 
 #social {
@@ -144,7 +143,6 @@ footer {
 }
 body {
     color: #666666;
-    overflow-x: hidden;
 }
 h1 {
     font-family: 'avenir next';
@@ -252,7 +250,6 @@ body {
 .content {
   margin-top: 3em;
   flex: 1;
-    overflow-x: hidden;
 }
 
 .footer {
@@ -299,8 +296,8 @@ li#photowall {
   column-count:         2;
   }
     .container-post {
-    padding-right: 0.5em;
-    padding-left: 0.5em;
+    padding-right: 1em;
+    padding-left: 1em;
     }
 }
 @media (max-width: 400px) {
@@ -312,8 +309,8 @@ li#photowall {
   column-count:         1;
   }
     .container-post {
-    padding-right: 0.5em;
-    padding-left: 0.5em;
+    padding-right: 1em;
+    padding-left: 1em;
     }
 }
 
@@ -359,6 +356,8 @@ li#photowall {
 
 .container-post {
     max-width: 800px;
+    padding-right: 2em;
+    padding-left: 2em;
     padding-bottom: 1em;
     margin-left: auto;
     margin-right: auto;
