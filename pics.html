@@ -2,6 +2,7 @@
 layout: default
 ---
 <link rel="stylesheet" href="/css/blueimp-gallery.css">
+<link rel="stylesheet" href="/css/blueimp-gallery.css">
 
 <div id="blueimp-gallery" class="blueimp-gallery">
     <div class="slides"></div>
@@ -16,11 +17,15 @@ layout: default
     <h1 class="container center">Pics</h1>
 <div id="links">
     <ul class="row nopadding" id="photo-wall">
-{% for image in site.static_files %}
+{% assign sorted_images = site.static_files | sort:"date" | reverse %}
+        {% for image in sorted_images %}
         {% if image.path contains 'original' %}
     <li class="nopadding">
-        <a class="nopadding" href="{{ site.baseurl }}{{ image.path }}" alt="image.path">
-    <img class="img-responsive" src="{{ site.baseurl }}{{ image.path | replace: 'original', 'thumbnail' }}" alt="{{ image.path }}">
+        <a class="nopadding" href="{{ site.baseurl }}{{ image.path }}" alt="{{ image.path }}">
+    <img placeholder="/img/sandwich.png" class="img-responsive lazy" data-original="{{ site.baseurl }}{{ image.path | replace: 'original', 'thumbnail' }}"  alt="{{ image.path }}">
+            <noscript>
+    <img class="img-responsive" src="{{ site.baseurl }}{{ image.path | replace: 'original', 'thumbnail' }}"  alt="{{ image.path }}">
+</noscript>
     </a>
         </li>
     {% endif %} 
@@ -32,8 +37,9 @@ layout: default
     
 
 
+
+<script src="/js/jquery.min.js"></script>
 <script src="/js/blueimp-gallery.min.js"></script>
-</script>
 <script>
 document.getElementById('links').onclick = function (event) {
     event = event || window.event;
@@ -44,3 +50,7 @@ document.getElementById('links').onclick = function (event) {
     blueimp.Gallery(links, options);
 };
 </script>
+<script src="/js/jquery.lazyload.js"></script>
+<script>$("img.lazy").show().lazyload({
+    effect : "fadeIn"
+});</script>

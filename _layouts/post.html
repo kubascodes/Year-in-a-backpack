@@ -21,7 +21,9 @@ layout: default
 <div class="container">   
     <h1>{{ page.title }}</h1>
     {% include category.html %}
+    <div class="container-text">
     {{ content }}
+    </div>
 </div>
 
 
@@ -41,7 +43,7 @@ layout: default
 {% for image in site.static_files %}
     {% if image.path contains page.img %}
         {% if image.path contains 'original' %}
-        <a class="col-xs-6 col-sm-4 col-lg-3 nopadding gallery pull-right" href="{{ site.baseurl }}{{ image.path }}" alt="image.path">
+        <a class="col-xs-6 col-sm-4 col-lg-3 nopadding gallery pull-left" href="{{ site.baseurl }}{{ image.path }}" alt="image.path">
     <img class="gallery" src="{{ site.baseurl }}{{ image.path | replace: 'original', 'thumbnail' }}" alt="image.path">
     </a>
         {% endif %}
@@ -50,16 +52,17 @@ layout: default
 </div>
 </div>
 
+    <div class="next-article center">Read next</div>
 <div class="pageNavigation center">
   {% if page.previous.url %}
     <a class="prev" href="{{page.previous.url}}">
-        <h4>Next: {{page.previous.title}}</h4>
+        <h4>{{page.previous.title}}</h4>
     <p>{{page.previous.content | truncate: 50}}</p>
     </a>
     
     {% elsif page.next.url %}
     <a class="next" href="{{page.next.url}}">
-        <h4>Next: {{page.next.title}}</h4>
+        <h4>{{page.next.title}}</h4>
 <p>{{page.next.content | truncate: 50}}</p>
         </p> 
     </a>
