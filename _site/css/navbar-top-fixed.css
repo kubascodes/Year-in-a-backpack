@@ -335,3 +335,8 @@ body {
     top: 11px;
     width: 100%;
 }
+
+.sandwich {
+    width: 25px;
+    height: 100%;
+}
