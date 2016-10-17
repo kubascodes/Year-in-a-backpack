@@ -1,19 +1,22 @@
 ---
 layout: default
+fontstyle: 'white'
 currentLocation: Prague
 nextLocation: Venice
 ---
 <link href="/css/intro.css" rel="stylesheet">
 
-<div class="container content center white">
-<h1>Year in a backpack</h1>
+<div class="container content center {{ page.fontstyle }}">
+<h1 class="center caps">Year in a backpack</h1>
     <hr style="width: 200px">
-<h4>Backpacking adventure around America and Asia.</h4>
-    <h3>We are in <a href="/map.html"> {{ page.currentLocation }}</a></h3>
-<h3>We are going to {{ page.nextLocation }}</h3>
+<h4 class="center">Backpacking adventure around America and Asia.</h4>
+    
+    <h2>We are in <span class="caps"><a href="/map.html"> {{ page.currentLocation }}</a></span></h2>
+    <h2>We are going to <span class="caps">{{ page.nextLocation }}</span></h2>
     {% for post in site.posts limit: 1 %}
-      <h3>Read our latest <a href="{{ post.url }}">post</a></h3>{% endfor %}
-    <h3>Check out fresh <a href="/news.html">news</a></h3>
-    <h3>Look at <a href="/pics.html">pictures</a>!</h3>
-    <h3>Say <a href="/about.html">hello</a> on social media.</h3>
+    <h2>Read our latest <span class="caps"><a href="{{ post.url }}">post</a></span></h2>{% endfor %}
+    <h2>Check out fresh <span class="caps"><a href="/news.html">news</a></span></h2>
+    <h2>Look at <span class="caps"><a href="/pics.html">pictures</a></span></h2>
+    <h2>Say <span class="caps"><a href="/about.html">hello</a></span> on social media.</h2>
+        </span>
     </div>

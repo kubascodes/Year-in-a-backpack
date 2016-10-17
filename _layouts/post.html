@@ -6,13 +6,12 @@ layout: default
 <link rel="stylesheet" href="/css/blueimp-gallery.css">
 <link rel="stylesheet" href="/css/post.css">
 
-<div class="container-fluid postHeader hovereffect">
+<div class="container-fluid postHeader textover">
     {% for image in site.static_files %}
     {% if image.path contains page.img and image.path contains 'lead' %}
     {% unless image.path contains 'thumbnail' %}
     <a href="#links">
-    <img class="img-responsive" src="{{ site.baseurl }}{{ image.path }}">
-    </a>
+        <img class="img-responsive" src="{{ site.baseurl }}{{ image.path }}" alt="{{ page.title }}"></a>
     {% endunless %}
     {% endif %}   
     {% endfor %}

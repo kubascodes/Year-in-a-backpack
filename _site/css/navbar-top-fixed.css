@@ -13,6 +13,7 @@ body, html {
   width: 100%;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
+    font-family: 'Droid Sans', 'serif';
 }
 
 .container-fluid>iframe {
@@ -21,6 +22,7 @@ body, html {
 div.financials {
     margin-left: 10px;
     margin-right: 10px;
+    max-width: 650px;
 }
 
 .financials iframe {
@@ -52,7 +54,7 @@ a.twitter-timeline {
   background-size: 1em 1em;
  
   /* Text */
-  font: normal 12px/18px Helvetica, Arial, sans-serif;
+  font: normal 12px/18px 'Droid Sans', 'serif';
   color: #333;
   white-space: nowrap;
 }
@@ -72,20 +74,19 @@ blockquote.twitter-tweet {
   border: #000 1px solid;
   border-top-color: #eee;
   border-bottom-color: #bbb;
-  border-radius: 5px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.15);
-  font: bold 14px/18px Helvetica, Arial, sans-serif;
-  color: #000;
+  font: bold 14px/18px 'Droid Sans', 'serif';;
+  color: #666666;
 }
  
 blockquote.twitter-tweet p {
-  font: normal 18px/24px Georgia, "Times New Roman", Palatino, serif;
+  font: normal 18px/24px 'Droid Sans', 'serif';
   margin: 0 5px 10px 0;
+  color: #666666;
 }
  
 blockquote.twitter-tweet a[href^="https://twitter.com"] {
   font-weight: normal;
-  color: #666;
+  color: #666666;
   font-size: 12px;
 }
 footer {
@@ -95,28 +96,60 @@ footer {
 .white {
     color: #eeeeee;
 }
+.caps {
+    text-transform: uppercase;
+}
 body {
     color: #666666;
+    font-size: 16px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
 }
 h1 {
-    font-family: 'Avenir next';
+    font-weight: 900;
+    font-size: 400%;
+    overflow: hidden;
+}
+h2 {
     font-weight: 700;
+    font-size: 200%;
+}
+h3 {
+    font-weight: 600;
+    font-size: 150%;
+}
+h4 {
+    font-weight: 500;
+    font-size: 130%;
+}
+h5 {
+    font-weight: 400;
+}
+h6 {
+    font-weight: 400;
 }
 ul.nav.navbar-nav {
-    font-family: 'Helvetica Neue';
+    font-family: 'Droid Sans', 'serif';
     font-weight: 700;
 }
 p {
-    font-family: 'Helvetica Neue';
+    font-family: 'Droid Sans', 'serif';
     font-weight: 300;
+    font-size: 1.2em;
 }
-
+.white {
+    color: #f5f5f5;
+}
+.white a {
+    color: #ffb6c1;
+}
 a {
-    color: #333333;
+    font-weight: 500;
 }
 
 a:hover {
-    color: #d3ffce;
+    color: #333333;
     text-decoration: none;
 }
 .journal {
@@ -423,4 +456,18 @@ nav.navbar.navbar-fixed-top.navbar-default {
 .navbar-default .navbar-nav > li > a {
   color: #191919;
     font-family: 'avenir';
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+.contact-form input, textarea, input {
+    border: 1px grey solid;
+    float: right;
+}
+label {
+	float: left;
+	text-align: left;
+	margin-right: 15px;
+	width: 100px;
 }
