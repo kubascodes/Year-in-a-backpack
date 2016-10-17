@@ -235,9 +235,7 @@ div#links img {
     border-top: 3px solid #eeeeee;
     background-color: rgba(245,245,245,0.7);
     height: 60px;
-    position:absolute;
-	bottom:0;
-	left:0;
+    position:relative;
 }
 
 #links {
