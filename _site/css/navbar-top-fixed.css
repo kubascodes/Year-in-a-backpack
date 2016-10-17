@@ -236,6 +236,7 @@ div#links img {
     background-color: rgba(245,245,245,0.7);
     height: 60px;
     position:relative;
+    margin-bottom: 0;
 }
 
 #links {
