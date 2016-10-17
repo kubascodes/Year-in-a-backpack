@@ -4,20 +4,24 @@ permalink: /countries/
 title: Countries
 ---
 
-
 <div class="container">
 <h1 class="center">Countries</h1>
-{% for tag in site.tags %}
+<div class="tag-box">
+{% for category in site.categories %}
+    {% capture category_name %}{{ category | first }}{% endcapture %}<button class="button country-button"><a class="archive-title" href="#{{ category_name }}">{{ category_name | slugize }}</a></button>
+{% endfor %}
+</div>
+{% for category in site.categories %}
   <div class="archive-title center">
-    {% capture tag_name %}{{ tag | first }}{% endcapture %}
-    <div id="#{{ tag_name | slugize }}"></div>
-    <h3 class="tag-head">{{ tag_name }}</h3>
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+    <div id="#{{ category_name | slugize }}"></div>
+    <h3 class="category-head">{{ category_name }}</h3>
     <a name="{{ category_name | slugize }}"></a>
-    {% for post in site.tags[tag_name] %}
+    {% for post in site.categories[category_name] %}
     <article class="archive-item">
       <h4>{{post.date | date_to_long_string}} <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
     </article>
     {% endfor %}
   </div>
 {% endfor %}
-</div>
+    </div>

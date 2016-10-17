@@ -18,6 +18,16 @@ body, html {
 .container-fluid>iframe {
   width: 100%; height: 100%;
 }
+div.financials {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.financials iframe {
+    min-width: 100%;
+    min-height: 400px;
+}
+
 
 .center>iframe {
     width: 100%; min-height: 30rem; height: 100%; max-width: 65rem;
@@ -28,40 +38,6 @@ body, html {
     height: 100%;
     padding: 0 0 0 0;
 }
-
-#social {
-    display: inline-flex;
-    display: -webkit-inline-flex;
-    align-items: center;
-    -webkit-align-items: center;
-    position: relative;
-    z-index: 70;
-    margin-left: auto;
-    margin-right: auto;
-}
-#btnFb, #btnTw, #btnMail {
-    height: 30px;
-    width: 30px;
-    display: block;
-    color: white;
-    font-family: courier new;
-    font-size: 1.5em;
-}
-
-#btnFb:hover {
-    border: 4px #0066cc solid;
-}
-#btnTw:hover {
-    border: 4px #5BADFF solid;
-}
-#btnMail:hover {
-    border: 4px #c1ffc1 solid;
-}
-
-.socialMargin {
-    margin-right: .5em;
-}
-
 
 a.twitter-timeline {
   /* Buttonish */
@@ -114,27 +90,6 @@ blockquote.twitter-tweet a[href^="https://twitter.com"] {
 }
 footer {
     margin-top: 1em;
-    position: relative;
-}
-
-#intro {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 110%;
-    min-height: 110%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background: url(polina.jpg) no-repeat;
-    background-size: cover;
-    -webkit-filter: blur(3px);
-  -moz-filter: blur(3px);
-  -o-filter: blur(3px);
-  -ms-filter: blur(3px);
-  filter: blur(3px);
 }
 
 .white {
@@ -144,20 +99,20 @@ body {
     color: #666666;
 }
 h1 {
-    font-family: 'avenir next';
+    font-family: 'Avenir next';
     font-weight: 700;
 }
 ul.nav.navbar-nav {
-    font-family: 'helvetica neue';
+    font-family: 'Helvetica Neue';
     font-weight: 700;
 }
 p {
-    font-family: 'helvetica neue';
+    font-family: 'Helvetica Neue';
     font-weight: 300;
 }
 
 a {
-    color: #f6546a;
+    color: #333333;
 }
 
 a:hover {
@@ -217,7 +172,7 @@ a:hover {
 }
 
 body {
-    font-family: 'avenir';
+    
 }
 
 #GMaps {
@@ -237,23 +192,19 @@ div#links img {
 .archive-title {
   text-transform: capitalize;
 }
-
-html {
-  height: 100%;
-}
-body {
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-}
 .content {
-  margin-top: 3.5em;
-  flex: 1;
+    margin-top: 40px;
+    padding-bottom: 1em;
+    padding-top: 1em;
 }
 
 .footer {
-    background-color: #cbbeb5;
+    border-top: 3px solid #eeeeee;
+    background-color: rgba(245,245,245,0.7);
     height: 60px;
+    position:absolute;
+	bottom:0;
+	left:0;
 }
 
 #links {
@@ -361,4 +312,115 @@ ul#photowall {
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+.button {
+    padding: 0.2em 0.5em 0.2em 0.5em;
+    border-radius: 3px;
+    margin-top: 0.5em;
+}
+.tag-button {
+    border: 1px #eeeeee solid;
+    background: #eeeeee;
+}
+.country-button a {
+    color: #5A4B3F;
+}
+.country-button {
+    border: 1px #cbbeb5 solid;
+    background: #cbbeb5;
+}
+.country-button:hover {
+    background: #ab9788;
+    border: 1px #ab9788 solid;
+}
+.tag-button a {
+    color: black;
+}
+.tag-box {
+    max-width: 70%;
+}
+button.tag-button:hover {
+    background: #c0c0c0;
+    border: 1px #c0c0c0 solid;
+
+}
+.twitter-button {
+    border: 1px #4da6ff solid;
+    margin-top: 0.5em;
+    background: transparent;
+    color: #4da6ff;
+}
+.twitter-button:hover {
+    background: #4da6ff;
+    color: white;
+}
+.facebook-button {
+    border: 1px #2F7DED solid;
+    background: transparent;
+    color: #2F7DED;
+}
+.facebook-button:hover {
+    background: #2F7DED;
+    color: white;
+}
+.google-button {
+    border: 1px #ff4444 solid;
+    background: transparent;
+    color: #ff4444;
+}
+.google-button:hover {
+    background: #ff4444;
+    color: white;
+}
+
+.time-button {
+    border: 1px #6897bb solid;
+    color: #6897bb;
+    background: transparent;
+}
+.normal-font {
+    color: #666666
+}
+#inline {
+    
+}
+.content-push {
+    height: 50px;
+    margin-bottom: 1em;
+}
+.vertical-align {
+    vertical-align: middle;
+    line-height: 50px;
+}
+.footer {
+    height: 50px;
+    line-height: 50px;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+	bottom:0;
+	left:0;
+
+}
+html,
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+navbar-default {
+    background-color: rgba(245,245,245, 0.8);
+      border-bottom: 3px solid #eeeeee;
+}
+div#myNavbar.navbar-collapse.collapse.ul.nav.navbar-nav {
+    background-color: rgba(245,245,245, 0.8);
+}
+
+nav.navbar.navbar-fixed-top.navbar-default {
+    background-color: rgba(245,245,245, 0.8);
+  border-bottom: 3px solid #eeeeee;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #191919;
+    font-family: 'avenir';
 }

@@ -6,8 +6,8 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 16 Oct 2016 17:12:00 +0200</pubDate>
-    <lastBuildDate>Sun, 16 Oct 2016 17:12:00 +0200</lastBuildDate>
+    <pubDate>Mon, 17 Oct 2016 21:22:56 +0200</pubDate>
+    <lastBuildDate>Mon, 17 Oct 2016 21:22:56 +0200</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -17,13 +17,21 @@
 &lt;p&gt;Check how links, images etc. look together.&lt;/p&gt;
 </description>
         <pubDate>Tue, 11 Oct 2016 00:00:00 +0200</pubDate>
-        <link>/europe/2016/10/11/Tester2.html</link>
-        <guid isPermaLink="true">/europe/2016/10/11/Tester2.html</guid>
+        <link>/colombia/2016/10/11/Tester2.html</link>
+        <guid isPermaLink="true">/colombia/2016/10/11/Tester2.html</guid>
         
-        <category>italy</category>
+        <category>nature</category>
+        
+        <category>waterfall</category>
+        
+        <category>hike</category>
+        
+        <category>prague</category>
+        
+        <category>yearinabackpack</category>
         
         
-        <category>Europe</category>
+        <category>Colombia</category>
         
       </item>
     
@@ -36,11 +44,13 @@
 &lt;p&gt;We are starting in Rio.&lt;/p&gt;
 </description>
         <pubDate>Fri, 07 Oct 2016 00:00:00 +0200</pubDate>
-        <link>/2016/10/07/Trial.html</link>
-        <guid isPermaLink="true">/2016/10/07/Trial.html</guid>
+        <link>/brazil/2016/10/07/Trial.html</link>
+        <guid isPermaLink="true">/brazil/2016/10/07/Trial.html</guid>
         
-        <category>czech republic</category>
+        <category>city</category>
         
+        
+        <category>brazil</category>
         
       </item>
     
@@ -59,13 +69,19 @@
 &lt;p&gt;Taky to nesmi byt jen o textu, clanky bychom meli rozbit nejakym dynamickym content (obrazky? nebo odkazy? nebo nejaky boxy s quotes?? A taky se domluvit na standardizovanym formatovani. Inspirace z internetu.)&lt;/p&gt;
 </description>
         <pubDate>Thu, 06 Oct 2016 12:59:20 +0200</pubDate>
-        <link>/south%20america/2016/10/06/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">/south%20america/2016/10/06/welcome-to-jekyll.html</guid>
+        <link>/brazil/2016/10/06/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">/brazil/2016/10/06/welcome-to-jekyll.html</guid>
+        
+        <category>nature</category>
+        
+        <category>city</category>
+        
+        <category>mountains</category>
+        
+        <category>lakes</category>
+        
         
         <category>brazil</category>
-        
-        
-        <category>south america</category>
         
       </item>
     

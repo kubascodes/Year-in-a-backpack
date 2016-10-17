@@ -5,7 +5,7 @@
     {% assign categories = page.categories %}
   {% endif %}
   {% for category in categories %}
-  <p>Posted in: <a class="archive-title" href="{{site.baseurl}}/regions/#{{category|slugize}}">{{category}}</a></p>
+  <button class="country-button"><a class="archive-title" href="{{site.url}}/countries/#{{category|slugize}}">{{category}}</a></button>
   {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
 </div>

@@ -3,8 +3,8 @@ layout: post
 title:  "El Brasiliero"
 date:   2016-10-06 12:59:20 +0200
 img: 'img/2016-11-06'
-category: south america
-tags: [brazil]
+categories: brazil
+tags: [nature, city, mountains, lakes]
 ---
 
 Ahoj prave sedime v indigu. A vymyslim tenhle testovaci post. 

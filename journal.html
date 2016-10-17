@@ -12,12 +12,12 @@ layout: default
         <a href="{{ post.url }}"><img class="postImage" src="{{ image.path }}"></a>
     {% endif %}
     {% endfor %}
-        <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+        <a class="normal-font" href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+        <div>On {{ post.date | date_to_long_string }} in <span class="button archive-title country-button"><a href="{{site.url}}/countries/#{{ post.categories }}">{{post.categories }}</a></span></div>
         {% for tag in post.tags %}
-			 <a href="{{ site.baseurl }}/countries#{{ tag | slugify }}"> #{{ tag }} </a>
+        <button class="button tag-button"><a href="{{ site.baseurl }}/tags#{{ tag | slugify }}">{{ tag }}</a></button>
 		 {% endfor %}
-        <h6>{{ post.date | date_to_long_string }}</h6>
-        <p>{{ post.content | truncatewords: 18 }}</p>
+        <a class="normal-font" href="{{ post.url }}"><p>{{ post.excerpt | truncatewords: 18 }}</p></a>
         
     </li>
   {% endfor %}      
@@ -27,7 +27,7 @@ layout: default
 <hr>
 
 <div class="container center">
-        <h1>Archive</h1>
+    <a class="normal-font" href="{{ site.url }}/archive"><h1>Archive</h1></a>
           <ul class="journal row">
   {% for post in site.posts limit: 10 %}
     <li class="col-xs-12 col-sm-4 col-lg-2 center">
@@ -40,17 +40,17 @@ layout: default
 <hr>
 
 <div class="container center">
-        <h1>Regions</h1>
+    <a class="normal-font" href="{{ site.url }}/countries"><h1>Countries</h1></a>
           {% for category in site.categories %}
     {% capture category_name %}{{ category | first }}{% endcapture %}
-    <a class="archive-title" href="{{ site.baseurl }}/regions#{{ category_name }}">{{ category_name }}</a><br>
+    <button class="button country-button"><a class="archive-title" href="{{ site.baseurl }}/countries#{{ category_name }}">{{ category_name }}</a></button>
     {% endfor %}
     
     </div>
 <hr>
 
 <div class="container center">
-        <h1>Countries</h1>
+        <a class="normal-font" href="{{ site.url }}/tags"><h1>Tags</h1></a>
           {% assign rawtags = "" %}
 {% for post in site.posts %}
 	{% assign ttags = post.tags | join:'|' | append:'|' %}
@@ -70,10 +70,12 @@ layout: default
 		{% endunless %}
 	{% endif %}
 {% endfor %}
-    
+   <div class="tag-box center-block"> 
 {% for tag in tags %}
-	<a href="{{ site.baseurl }}/countries#{{ tag | slugify }}"> #{{ tag }} </a>
-    <br>
+	<button class="button tag-button">
+    <a href="{{ site.url }}/tags#{{ tag | slugify }}">{{ tag }}</a></button>
 {% endfor %}
-
+</div>
     </div>
+
+{% include signature.html %}

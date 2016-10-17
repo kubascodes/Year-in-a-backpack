@@ -1,0 +1,3 @@
+  {% for tag in page.tags %}
+        <button class="tag-button"><a class="archive-title" href="{{ site.baseurl }}/tags#{{ tag | slugify }}">{{ tag }}</a></button>
+		 {% endfor %}

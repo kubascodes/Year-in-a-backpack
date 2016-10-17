@@ -1,0 +1,16 @@
+<ul class="list-inline">
+    <li><button class="button time-button">{{ page.date | date: "%-d %B %Y"}}</button></li>
+  {% if post %}
+    {% assign categories = post.categories %}
+  {% else %}
+    {% assign categories = page.categories %}
+  {% endif %}
+  {% for category in categories %}
+  <li><button class="button country-button"><a class="archive-title" href="{{site.url}}/countries/#{{category|slugize}}">{{category}}</a></button></li>
+  {% unless forloop.last %}&nbsp;{% endunless %}
+  {% endfor %}
+
+    {% for tag in page.tags %}
+        <li><button class="button tag-button"><a class="archive-title" href="{{ site.baseurl }}/tags#{{ tag | slugify }}">{{ tag }}</a></button></li>
+		 {% endfor %}
+</ul>
