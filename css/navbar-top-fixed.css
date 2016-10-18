@@ -141,15 +141,12 @@ p {
 .white {
     color: #f5f5f5;
 }
-.white a {
-    color: #ffb6c1;
-}
 a {
     font-weight: 500;
 }
 
 a:hover {
-    color: #333333;
+    color: #ff7373;
     text-decoration: none;
 }
 .journal {
