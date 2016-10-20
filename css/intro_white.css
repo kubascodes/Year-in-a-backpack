@@ -1,4 +1,4 @@
-.fill {
+body {
   background-image: url(/assets/intro_cover/cover_small.jpg);
   
   /* Background image is centered vertically and horizontally at all times */
@@ -22,7 +22,7 @@
 }
 
 @media only screen and (min-width: 800px) {
-    .fill {
+    body {
     background-image: url(/assets/intro_cover/cover.jpg) no-repeat center center fixed; 
 }
 }
@@ -38,40 +38,10 @@
     max-width: 400px;
     max-height: 400px;
 }
-.push-arrow {
-    height: 4em;
-}
-.arrow {
-  border: 1px solid #f5f5f5;
-  border-width: 0 0 2px 2px;
-  width: 30px;
-  height: 30px;
-  line-height: 0;
-  font-size: 0;
-  -webkit-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-}
 .logo-main a {
     padding: 0.25em 0.5em 0.25em 0.5em;
     color: white;
 }
 a:hover {
     color: #ff7373
-}
-.logo-main-margin {
-    margin-top: 1em;
-}
-.below-intro {
-    position: absolute;
-    top: 100%;
-    width: 100%;
-    height: 200px;
-    background: white;
-    color: black;
-}
-.below-intro div {
-    background: white;
-    border: 3px black solid;
 }

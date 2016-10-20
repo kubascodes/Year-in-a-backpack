@@ -32,3 +32,51 @@ layout: default
           <a class="twitter-timeline" href="https://twitter.com/YearinaBackpack" data-chrome="noheader noborders transparent nofooter">></a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
     </div>
+
+
+
+<!---Index with stuff below the main picture--->
+
+<div class="push-arrow"></div>
+            <a href="#information"<div class="arrow center"></div></a>
+            </div>
+</div>
+
+<div id="information" class="center below-intro row">
+    <div class="col-xs-12 col-sm-6 col-lg-3">
+    <p>We are in {{page.currentLocation}}</p>
+        <p>We are going to {{page.nextLocation}}</p></div>
+        
+    
+    
+  {% for post in site.posts limit: 1 %}
+    <div class="col-xs-12 col-sm-6 col-lg-3 index-post">
+        {% for image in site.static_files %}
+    {% if image.path contains post.img and image.path contains 'thumbnail' and image.path contains 'lead' %}
+        <a href="{{ post.url }}"><img class="postImage" src="{{ image.path }}"></a>
+    {% endif %}
+    {% endfor %}
+        <a class="normal-font" href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
+        <a class="normal-font" href="{{ post.url }}"><p>{{ post.excerpt | truncatewords: 18 }}</p></a>
+        
+    </div>
+  {% endfor %}     
+    
+    
+    
+    <div class="col-xs-12 col-sm-6 col-lg-3">
+        Check out fresh <a href="/news.html">news</a></div>
+        
+    
+    <div class="col-xs-12 col-sm-6 col-lg-3">
+    {% assign sorted_images = site.static_files | sort:"date" | reverse %}
+        {% for image in sorted_images limit: 1 %}
+        {% if image.path contains 'thumbnail' %}
+        <a class="nopadding" href="{{ site.baseurl }}/ pics.html">
+    <img class="img-responsive" src="{{ site.baseurl }}{{ image.path }}"  alt="{{ image.path }}">
+    </a>
+    {% endif %}       
+   {% endfor %}
+        
+    
+    </div>

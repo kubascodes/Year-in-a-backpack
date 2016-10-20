@@ -1,0 +1,29 @@
+.push-arrow {
+    height: 4em;
+}
+.arrow {
+  border: 1px solid #f5f5f5;
+  border-width: 0 0 2px 2px;
+  width: 30px;
+  height: 30px;
+  line-height: 0;
+  font-size: 0;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.logo-main-margin {
+}
+.below-intro {
+    background: white;
+    color: black;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.below-intro div {
+    border: 1px solid black;
+}
+div.index-post {
+}
