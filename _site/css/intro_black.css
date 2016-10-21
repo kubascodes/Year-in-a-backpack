@@ -5,8 +5,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-color: transparent;
-  background-color: transparent;
-    color: #f5f5f5;
+    color: #333333;
 }
 
 @media only screen and (min-width: 800px) {
@@ -28,8 +27,5 @@ body {
 }
 .logo-main a {
     padding: 0.25em 0.5em 0.25em 0.5em;
-    color: #f5f5f5;
-}
-a:hover {
-    color: #ff7373
+    color: #333333;
 }

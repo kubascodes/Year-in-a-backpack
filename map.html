@@ -1,10 +1,16 @@
 ---
 layout: default
+permalink: /map
+current-location: "Prague"
+next-location: "Venice"
 ---
     
 <div class="container fill">
-    <h1 class="center">Where are we?</h1>
-      <iframe class="center-block" id="GMaps" src="https://www.google.com/maps/d/embed?mid=1OGmIt94HZaIg38Wxfl9-833P7mM&z=2.25" width="80%" height="80%" frameborder="0"></iframe>
+    <h1 class="center">Map</h1>
+    <p class="center">Follow our journey on a map. Right now, we are in <b>{{ page.current-location }}</b> and are going to <b>{{ page.next-location }}</b>. Come join us :)</p>
+    <iframe class="center-block" style="padding-bottom:2em;" id="GMaps" src="https://www.google.com/maps/d/u/2/embed?mid=1n_D3vW1uBFLTrFud5GLe5sC43Pg&z=2.25" width="80%" height="80%" frameborder="0"></iframe>  
+    
           </div>
+
 
 {% include signature.html %}
