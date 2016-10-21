@@ -126,6 +126,7 @@ h4 {
 }
 h5 {
     font-weight: 400;
+    font-size: 100%;
 }
 h6 {
     font-weight: 400;
@@ -474,8 +475,16 @@ label {
     padding: 0.2em 0.5em 0.2em 0.5em;
     border-radius: 3px;
     margin-top: 0.5em;
-    border: 3px #cbbeb5 solid;
-    background: #cbbeb5;
+}
+.countries {
+    border-bottom: 2px rgba(203,190,181,1) solid;
+    border-right: 1px rgba(203,190,181,1) solid;
+    background: rgba(203,190,181,0.6);
+}
+.tags {
+    border-bottom: 2px rgba(238,238,238,1) solid;
+    border-right: 1px rgba(238,238,238,1) solid;
+    background: rgba(238,238,238,0.6);
 }
 a {
     color: #0E2F44;
