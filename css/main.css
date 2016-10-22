@@ -233,9 +233,7 @@ div#links img {
 .footer {
     border-top: 3px solid #eeeeee;
     background-color: rgba(245,245,245,0.7);
-    height: 60px;
-    bottom: 0;
-    position:absolute;
+    position:relative;
     margin-bottom: 0;
 }
 
