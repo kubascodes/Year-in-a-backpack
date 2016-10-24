@@ -17,7 +17,6 @@ permalink: /journal
         <a class="normal-font" href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
         <div>On {{ post.date | date_to_long_string }} in
     {% assign categories = post.categories %}
-  {% endif %}
   {% for category in categories %} <span class="button archive-title country-button"><a class="archive-title" href="{{site.url}}/countries/#{{category|slugize}}">{{category}}</a></span>
   {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
