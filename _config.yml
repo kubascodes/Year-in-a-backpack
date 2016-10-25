@@ -28,6 +28,7 @@ theme: minima
 
 include: ["_pages"]
 exclude: ["working_files"]
+permalink: /journal/:title
 
 defaults:
   -
@@ -36,9 +37,3 @@ defaults:
       type: "" # a collection in your site, in plural form
     values:
       layout: "default"
-   -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      permalink: /journal/:title
