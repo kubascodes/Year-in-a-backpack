@@ -40,4 +40,5 @@ defaults:
     scope:
       path: ""
       type: "posts"
+    values:
       permalink: /journal/:title
