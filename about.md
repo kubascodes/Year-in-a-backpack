@@ -1,6 +1,8 @@
 ---
 layout: default
 permalink: /about
+title: About
+description: "Find out more stuff about this backpacking trip and the guys behind it."
 ---
 <h1 class="center">About</h1>
 

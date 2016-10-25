@@ -1,6 +1,8 @@
 ---
 layout: default
 permalink: /gear
+title: Gear
+description: "Gear and things we have in our backpacks. "
 ---
 
 # Gear

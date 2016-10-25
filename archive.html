@@ -1,10 +1,12 @@
 ---
 layout: default
 permalink: /archive
+title: Archive
+description: "Older posts from Year in a Backpack. Sorted from most recent to oldest."
 ---
 <h1 class="center">Archive</h1>
 <ul class="journal row">
-  {% for post in site.posts limit: 10 %}
+  {% for post in site.posts %}
     <li class="col-xs-12 col-sm-4 col-lg-3 center">
         <a class="archive-title normal-font" href="{{ post.url }}"><b>{{ post.title }}</b><br> {{ post.date | date_to_long_string }}, {{ post.categories }}</a>
     </li>
