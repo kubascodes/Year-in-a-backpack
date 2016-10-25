@@ -38,5 +38,6 @@ defaults:
       layout: "default"
    -
     scope:
+      path: ""
       type: "posts"
       permalink: /journal/:title
