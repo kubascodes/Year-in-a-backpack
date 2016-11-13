@@ -59,8 +59,10 @@ document.getElementById('links').onclick = function (event) {
 </script>
 
 
-<script type= "text/javascript" >
-  $( "img.lazy" ).show().lazyload({
+<script type= "text/javascript" >$( document).ready( function() {
+$( "img.lazy" ).lazyload({
 event : "scrollstop"
 });
+});
+  
 </script>
