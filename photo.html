@@ -54,9 +54,17 @@ document.getElementById('links').onclick = function (event) {
     blueimp.Gallery(links, options);
 };
 </script>
-<script src="/js/jquery.lazyload.js"></script>
-<script>$("img").show().lazyload({
-    effect : "fadeIn",
-    placeholder : "/assets/icons/Yearinabackpack_logowhite.png",
-    skip_invisible: false
-});</script>
+
+
+<script type= "text/javascript" >
+  $(document).ready( function () {
+      $( "img.lazy" )
+         .lazyload({
+             event: "lazyload" ,
+             effect: "fadeIn" ,
+             effectspeed: 2000,
+             placeholder : "/assets/icons/Yearinabackpack_logowhite.png"
+           })
+         .trigger( "lazyload" );
+  });
+</script>
