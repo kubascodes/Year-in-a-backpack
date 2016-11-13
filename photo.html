@@ -26,7 +26,7 @@ description: "Photographs from two guys backpacking America and Asia."
         {% if image.path contains 'original' %}
     <li class="nopadding">
         <a class="nopadding" href="{{ site.baseurl }}{{ image.path }}" alt="{{ image.path }}">
-    <img class="lazy img-responsive" data-original="{{ site.baseurl }}{{ image.path | replace: 'original', 'thumbnail' }}"  alt="{{ image.path }}" width="100%">
+    <img class="lazy img-responsive" data-original="{{ site.baseurl }}{{ image.path | replace: 'original', 'thumbnail' }}"  alt="{{ image.path }}" width="100%" height="auto">
             <noscript>
     <img class="img-responsive" src="{{ site.baseurl }}{{ image.path | replace: 'original', 'thumbnail' }}"  alt="{{ image.path }}">
 </noscript>
