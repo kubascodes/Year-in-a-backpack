@@ -17,6 +17,7 @@ description: "Photographs from two guys backpacking America and Asia."
     <ol class="indicator"></ol>
 </div>
 
+<img src="/assets/icons/Yearinabackpack_logowhite.png" style="display: none">
     <h1 class="container center">Pics</h1>
 <div id="links">
     <ul class="row nopadding" id="photo-wall">
@@ -55,5 +56,6 @@ document.getElementById('links').onclick = function (event) {
 </script>
 <script src="/js/jquery.lazyload.js"></script>
 <script>$("img.lazy").show().lazyload({
-    effect : "fadeIn"
+    effect : "fadeIn",
+    placeholder : "/assets/icons/Yearinabackpack_logowhite.png"
 });</script>
