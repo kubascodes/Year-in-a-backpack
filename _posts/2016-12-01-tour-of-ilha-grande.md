@@ -37,8 +37,8 @@ Next, we went to Praia do Longa, a small fishing village, where we stayed at Ern
 ### Tourists
 Around *Sitio Forte* and before ugly towns of Bananal and Matariz were very pretty beaches. One had lots of palms with big coconuts and we harvested as many as we could. They were really good with more or less a litre of coconut water. There were also some tourists, who got there by boat and were mixing up their coconuts with vodka and redbull. Ok… For them, we were an attraction, for they asked us how long we've been living on the island. They gave us some biscuits which was nice from them. 
 
-### Julieta and
-That night, we ended up wild camping next to an Argentinian couple, who's travelling like real punks. We spoke together for a long time, exchanged tips on travelling in Argentina/Ilha Grande and taught them how to make our little beer can stove (aka *el cozcinhador*)… They ended up inviting us for dinner - spaghetti with tomato sauce. To the sound of monkeys, we went to sleep. We spent the next day chilling together  with our Argentinian friends at one of the prettiest beaches so far, with azure water and no one. 
+### Julieta and Augustín
+That night, we ended up wild camping next to an Argentinian couple, who's travelling like real punks. We spoke together for a long time, exchanged tips on travelling in Argentina/Ilha Grande and taught them how to make our little beer can stove (aka *el cozcinador*)… They ended up inviting us for dinner - spaghetti with tomato sauce. To the sound of monkeys, we went to sleep. We spent the next day chilling together  with our Argentinian friends at one of the prettiest beaches so far, with azure water and no one. 
 
 ### Two guys from Sao Paulo
 Our second night wild camping was spent next to two guys from Sao Paulo, who were illegally camping there for 3 nights. It was a perfect location next to a cachoeira and very nice beach. The only downside were annoying dogs. They were leaving early in the morning and left us some food :)
