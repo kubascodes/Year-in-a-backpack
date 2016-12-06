@@ -17,6 +17,8 @@ We stayed at Raio de Sol camping, where a Brazilian couple shared their food wit
 
 The island is crossed with many marked footpaths that take you to beaches, villages, cachoeiras or viewpoints. We hiked mainly through the atlantic jungle and across beaches, it was really beautiful. The trail was said to be well marked, it probably was to Brazilian standards, but the signs were missing many times and the trail split in two quite often. But we didn't get lost and if you do, you're still on the island. In more frequented areas (Abraao, western coast overlooking to Angra), the path is rather large. However, it can get very narrow (trilha 16 from Dois Rios to Parnaioca) and you need to make your way through fallen trees, vegetation, creeks, spider nets and occasional snakes.
 
+### If this is too long and boring to read, why not watch our [link](https://m.youtube.com/watch?v=tvt6JdnBnCA "video")?
+
  The forbidden path that leads through a biological reservation is actually better than some others and you walk 3/4 on a beach. Unfortunately with a lot of trash washed up from the sea. The only thing is that you need to cross a quite slippery rock a river and a swamp, it's not deep but you can't see the bottom and Kuba unfortunately cut his foot.
 
  We walked around 7-15km a day, depending on how much time we wanted to spend on the beach, how hard each section was and where we could find a campsite (wild camping is banned). The whole circle had about 50km.
