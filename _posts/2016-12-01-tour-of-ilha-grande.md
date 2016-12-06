@@ -4,7 +4,7 @@ img: 'img/2016-12-01'
 title: "Tour of Ilha Grande"
 categories: [Brazil]
 tags: [beach, people, island, jungle]
-description: "In the waters nearby Angra Dos Reis lies a small island called Ilha Grande. Its shores are washed to white sand, separated by wild jungle with great diversity of flora and fauna. A tiny footpath connects all these places and we spent a week touring this paradise on Earth. "
+description: "In the waters nearby Angra Dos Reis lies a small island called Ilha Grande. Its shores are washed to white sand, separated by wild jungle with great diversity of flora and fauna. A tiny footpath connects all these places and we spent a week touring this paradise on Earth."
 ---
 
 We, as well as supplies for the whole island, were unloaded off the ferry and we stood on the pier and observed our new surroundings. It was already too late to walk anywhere, so we decided to look for an accommodation to make a fresh start tomorrow morning. 
@@ -17,7 +17,7 @@ We stayed at Raio de Sol camping, where a Brazilian couple shared their food wit
 
 The island is crossed with many marked footpaths that take you to beaches, villages, cachoeiras or viewpoints. We hiked mainly through the atlantic jungle and across beaches, it was really beautiful. The trail was said to be well marked, it probably was to Brazilian standards, but the signs were missing many times and the trail split in two quite often. But we didn't get lost and if you do, you're still on the island. In more frequented areas (Abraao, western coast overlooking to Angra), the path is rather large. However, it can get very narrow (trilha 16 from Dois Rios to Parnaioca) and you need to make your way through fallen trees, vegetation, creeks, spider nets and occasional snakes.
 
-### If this is too long and boring to read, why not watch our [video](https://m.youtube.com/watch?v=tvt6JdnBnCA "video")?
+#### If this is too long and boring to read, why not watch our [video](https://m.youtube.com/watch?v=tvt6JdnBnCA "video")?
 
  The forbidden path that leads through a biological reservation is actually better than some others and you walk 3/4 on a beach. Unfortunately with a lot of trash washed up from the sea. The only thing is that you need to cross a quite slippery rock a river and a swamp, it's not deep but you can't see the bottom and Kuba unfortunately cut his foot.
 
