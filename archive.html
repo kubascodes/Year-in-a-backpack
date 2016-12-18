@@ -6,7 +6,7 @@ description: "Older posts from Year in a Backpack. Sorted from most recent to ol
 ---
 <h1 class="center">Archive</h1>
 <ul class="journal row">
-  {% for post in site.posts limit: 3 %}
+  {% for post in site.posts %}
     <li class="col-md-4">
         {% for image in site.static_files %}
     {% if image.path contains post.img and image.path contains 'thumbnail' and image.path contains 'lead' %}
