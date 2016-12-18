@@ -148,10 +148,11 @@ p {
 a {
     font-weight: 500;
 }
-
+a, a:hover, a:active, a:visited {
+    text-decoration:none;
+}
 a:hover {
     color: #ff7373;
-    text-decoration: none;
 }
 .journal {
     list-style-type: none;
