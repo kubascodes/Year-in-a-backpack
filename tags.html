@@ -9,6 +9,7 @@ description: "Posts from Year in a Backpack sorted by tags - you can read posts 
 
 <div class="container">
 <h1 class="center">Tags</h1>
+    <p class="center">Our backpacking journal sorted by tags - read posts related by their topics.</p>
     {% assign sorted_tags = (site.tags | sort:0) %}
 <div style="tag-box">
 {% for tag in sorted_tags %}
@@ -17,19 +18,21 @@ description: "Posts from Year in a Backpack sorted by tags - you can read posts 
 {% endfor %}
 </div>
     <hr>
-{% for tag in site.tags %}
+
+{% assign sorted_tags = (site.tags | sort:0) %}
+{% for tag in sorted_tags %}
   <div class="center">
     {% capture tag_name %}{{ tag | first }}{% endcapture %}
     <div id="#{{ tag_name | slugize }}"></div>
     <h3 class="tag-head archive-title button tag-button">{{ tag_name }}</h3>
     <a name="{{ tag_name | slugize }}"></a>
-    {% for post in site.tags[tag_name] %}
+    {% for post in sorted_tags[tag_name] %}
     <article class="archive-item tags">
       <h5>{{post.date | date_to_long_string}} <a href="{{ site.baseurl }}{{ post.url }}"> - <b>{{post.title}}</b></a> in <a class="button country-button archive-title" href="{{ site.baseurl }}/countries#{{ category_name }}">{{ post.categories }}</a></h5>
     </article>
-    {% endfor %}
-      
+    {% endfor %} 
   </div>
 {% endfor %}
+    
 </div>
 {% include signature.html %}
