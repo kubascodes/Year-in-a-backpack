@@ -346,13 +346,13 @@ ul#photowall {
     margin-right: auto;
     display: block;
 }
-a.button {
+a.button, .button {
     padding: 0.2em 0.5em 0.2em 0.5em;
     border-radius: 3px;
     margin-top: 0.5em;
 	display: inline-block;
 }
-a.tag-button {
+a.tag-button, .tag-button {
     border: 1px #c0c0c0 solid;
     background: #c0c0c0;
 }
