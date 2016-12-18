@@ -346,63 +346,63 @@ ul#photowall {
     margin-right: auto;
     display: block;
 }
-.button {
+a.button {
     padding: 0.2em 0.5em 0.2em 0.5em;
     border-radius: 3px;
-    margin-top: 1em;
-	margin-bottom: 1em;
+    margin-top: 0.5em;
+	position: relative;
 }
-.tag-button {
+a.tag-button {
     border: 1px #c0c0c0 solid;
     background: #c0c0c0;
 }
-.country-button a {
+a.country-button {
     color: #5A4B3F;
 }
-.country-button {
+a.country-button {
     border: 1px #cbbeb5 solid;
     background: #cbbeb5;
 }
-.country-button:hover {
+a.country-button:hover {
     background: #ab9788;
     border: 1px #ab9788 solid;
 }
-.tag-button a {
+a.tag-button {
     color: black;
 }
 .tag-box {
     max-width: 70%;
 }
-button.tag-button:hover {
+a.tag-button:hover {
     background: #737373;
     border: 1px #737373 solid;
 
 }
-.twitter-button {
+a.twitter-button {
     border: 1px #4da6ff solid;
     margin-top: 0.5em;
     background: transparent;
     color: #4da6ff;
 }
-.twitter-button:hover {
+a.twitter-button:hover {
     background: #4da6ff;
     color: white;
 }
-.facebook-button {
+a.facebook-button {
     border: 1px #2F7DED solid;
     background: transparent;
     color: #2F7DED;
 }
-.facebook-button:hover {
+a.facebook-button:hover {
     background: #2F7DED;
     color: white;
 }
-.google-button {
+a.google-button {
     border: 1px #ff4444 solid;
     background: transparent;
     color: #ff4444;
 }
-.google-button:hover {
+a.google-button:hover {
     background: #ff4444;
     color: white;
 }
