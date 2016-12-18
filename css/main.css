@@ -227,8 +227,10 @@ div#links img {
   text-transform: capitalize;
 }
 .row {
-   overflow: hidden;
-	display: inline-block;
+	display: table;
+}
+.row li {
+	display: table-row;
 }
 .content {
     margin-top: 40px;
