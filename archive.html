@@ -23,7 +23,6 @@ description: "Older posts from Year in a Backpack. Sorted from most recent to ol
         <a class="button tag-button archive-title" href="{{ site.baseurl }}/tags#{{ tag | slugify }}">{{ tag }}</a>
 		 {% endfor %}
         <a class="normal-font" href="{{ post.url }}"><p>{{ post.excerpt | truncatewords: 18 }}</p></a>  
-    {% endfor %}
 		</li>
 </ul>
 {% include signature.html %}
