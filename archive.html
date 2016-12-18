@@ -9,7 +9,7 @@ description: "Older posts from Year in a Backpack. Sorted from most recent to ol
 
 <ul class="journal row">
 {% for post in site.posts %}
-    <li class="col-md-4 archive-child">
+    <li class="col-md-4" id="archive-child">
         {% for image in site.static_files %}
     {% if image.path contains post.img and image.path contains 'thumbnail' and image.path contains 'lead' %}
         <a href="{{ post.url }}"><img class="postImage" src="{{ image.path }}"></a>
