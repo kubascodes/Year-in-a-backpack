@@ -233,6 +233,7 @@ ul.row {
 }
 .archive-child {
 	display: table-row;
+	margin-bottom: 1em;
 }
 .content {
     margin-top: 40px;
