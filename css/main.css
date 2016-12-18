@@ -227,8 +227,7 @@ div#links img {
   text-transform: capitalize;
 }
 .row {
-   display: inline-block;
-	line-height: 100%;
+   overflow: auto;
 }
 .content {
     margin-top: 40px;
