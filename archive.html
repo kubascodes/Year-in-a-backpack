@@ -8,7 +8,7 @@ description: "Older posts from Year in a Backpack. Sorted from most recent to ol
 <h1 class="center">Archive</h1>
 
 <ul class="journal row">
-  {% for post in site.posts %}
+{% for post in site.posts %}
     <li class="col-md-4">
         {% for image in site.static_files %}
     {% if image.path contains post.img and image.path contains 'thumbnail' and image.path contains 'lead' %}
@@ -26,7 +26,7 @@ description: "Older posts from Year in a Backpack. Sorted from most recent to ol
 		 {% endfor %}
         <a class="normal-font" href="{{ post.url }}"><p>{{ post.excerpt | truncatewords: 18 }}</p></a>  
 		</li>
-</ul>
-</div>
-	  {% endfor %}      
+{% endfor %}
+	</ul>
+</div>  
 {% include signature.html %}
