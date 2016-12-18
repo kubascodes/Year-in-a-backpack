@@ -352,8 +352,8 @@ ul#photowall {
     margin-top: 0.5em;
 }
 .tag-button {
-    border: 1px #eeeeee solid;
-    background: #eeeeee;
+    border: 1px #c0c0c0 solid;
+    background: #c0c0c0;
 }
 .country-button a {
     color: #5A4B3F;
@@ -373,8 +373,8 @@ ul#photowall {
     max-width: 70%;
 }
 button.tag-button:hover {
-    background: #c0c0c0;
-    border: 1px #c0c0c0 solid;
+    background: #737373;
+    border: 1px #737373 solid;
 
 }
 .twitter-button {
