@@ -227,13 +227,10 @@ div#links img {
   text-transform: capitalize;
 }
 ul.row {
-	display: table;
-	overflow: hidden;
-	clear: both;
+	display: inline-block;
 }
 #archive-child {
-	display: table-row;
-	margin-bottom: 4em;
+	margin-bottom: 5em;
 }
 .content {
     margin-top: 40px;
