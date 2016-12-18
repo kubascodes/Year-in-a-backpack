@@ -6,11 +6,11 @@
     {% assign categories = page.categories %}
   {% endif %}
   {% for category in categories %}
-  <li><button class="button country-button"><a class="archive-title" href="{{site.url}}/countries/#{{category|slugize}}">{{category}}</a></button></li>
+  <li><a class="button country-button archive-title" href="{{site.url}}/countries/#{{category|slugize}}">{{category}}</a></li>
   {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
 
     {% for tag in page.tags %}
-        <li><button class="button tag-button"><a class="archive-title" href="{{ site.baseurl }}/tags#{{ tag | slugify }}">{{ tag }}</a></button></li>
+        <li><a class="button tag-button archive-title" href="{{ site.baseurl }}/tags#{{ tag | slugify }}">{{ tag }}</a></li>
 		 {% endfor %}
 </ul>
