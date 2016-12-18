@@ -228,6 +228,7 @@ div#links img {
 }
 .row {
    overflow: auto;
+	display: inline-block;
 }
 .content {
     margin-top: 40px;
