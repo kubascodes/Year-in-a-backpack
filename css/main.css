@@ -351,6 +351,7 @@ a.button {
     border-radius: 3px;
     margin-top: 0.5em;
 	position: relative;
+	clear: both;
 }
 a.tag-button {
     border: 1px #c0c0c0 solid;
