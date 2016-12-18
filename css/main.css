@@ -350,8 +350,7 @@ a.button {
     padding: 0.2em 0.5em 0.2em 0.5em;
     border-radius: 3px;
     margin-top: 0.5em;
-	position: relative;
-	clear: both;
+	display: block;
 }
 a.tag-button {
     border: 1px #c0c0c0 solid;
