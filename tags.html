@@ -15,7 +15,7 @@ description: "Posts from Year in a Backpack sorted by tags - you can read posts 
     {% assign sorted_tags = (site.tags | sort:0) %}
 <div style="tag-box">
 {% for tag in sorted_tags %}
-<button class="button tag-button"><a href="#{{tag_name|slugize}}">{{ tag | first }}</a></button>
+<a href="#{{tag_name|slugize}}" class="button tag-button">{{ tag | first }}</a>
     {% unless forloop.last %}&nbsp;{% endunless %}
 {% endfor %}
 </div>
@@ -28,7 +28,7 @@ description: "Posts from Year in a Backpack sorted by tags - you can read posts 
     <a name="{{ tag_name | slugize }}"></a>
     {% for post in site.tags[tag_name] %}
     <article class="archive-item tags">
-      <h5>{{post.date | date_to_long_string}} <a href="{{ site.baseurl }}{{ post.url }}"> - <b>{{post.title}}</b></a> in <button class="button country-button"><a class="archive-title" href="{{ site.baseurl }}/countries#{{ category_name }}">{{ post.categories }}</a></button></h5>
+      <h5>{{post.date | date_to_long_string}} <a href="{{ site.baseurl }}{{ post.url }}"> - <b>{{post.title}}</b></a> in <a class="button country-button archive-title" href="{{ site.baseurl }}/countries#{{ category_name }}">{{ post.categories }}</a></h5>
     </article>
     {% endfor %}
       
