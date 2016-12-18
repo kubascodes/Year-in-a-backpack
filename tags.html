@@ -9,9 +9,6 @@ description: "Posts from Year in a Backpack sorted by tags - you can read posts 
 
 <div class="container">
 <h1 class="center">Tags</h1>
-    {% for tag in site.tags %}
-    {% capture tag_name %}{{ tag | first }}{% endcapture %}
-{% endfor %}
     {% assign sorted_tags = (site.tags | sort:0) %}
 <div style="tag-box">
 {% for tag in sorted_tags %}
@@ -24,7 +21,7 @@ description: "Posts from Year in a Backpack sorted by tags - you can read posts 
   <div class="center">
     {% capture tag_name %}{{ tag | first }}{% endcapture %}
     <div id="#{{ tag_name | slugize }}"></div>
-    <h3 class="tag-head archive-title">{{ tag_name }}</h3>
+    <h3 class="tag-head archive-title button tag-button">{{ tag_name }}</h3>
     <a name="{{ tag_name | slugize }}"></a>
     {% for post in site.tags[tag_name] %}
     <article class="archive-item tags">
