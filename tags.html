@@ -24,7 +24,7 @@ description: "Posts from Year in a Backpack sorted by tags - you can read posts 
 {% for tag in sorted_tags %}
   <div class="center">
     <div id="#{{ tag | slugize }}"></div>
-    <h3 class="tag-head archive-title button tag-button">{{ tag | first }}</h3>
+    <h3 class="tag-head archive-title button tag-button">{{ tag | first | size }}</h3>
     <a name="{{ tag | slugize }}"></a>
     {% for post in sorted_tags[tag] %}
     <article class="archive-item tags">
