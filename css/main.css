@@ -229,6 +229,7 @@ div#links img {
 ul.row {
 	display: table;
 	overflow: hidden;
+	clear: both;
 }
 .archive-child {
 	display: table-row;
