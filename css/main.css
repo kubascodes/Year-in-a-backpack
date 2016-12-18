@@ -226,10 +226,11 @@ div#links img {
 .archive-title {
   text-transform: capitalize;
 }
-.row {
+ul.row {
 	display: table;
+	overflow: hidden;
 }
-.row li {
+.archive-child {
 	display: table-row;
 }
 .content {
