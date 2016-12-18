@@ -50,20 +50,20 @@ a.twitter-timeline {
   padding: 6px 12px 6px 30px;
   margin: 10px 0;
     height: auto;
-  border: white solid 1px;
+  border: transparent;
   border-radius: 3px;
-  background: white;
+  background: transparent;
   background-size: 1em 1em;
  
   /* Text */
   font: normal 12px/18px 'Droid Sans', 'serif';
-  color: #333;
+  color: #666666;
   white-space: nowrap;
 }
  
 a.twitter-timeline:hover,
 a.twitter-timeline:focus {
-  background-color: #e6e6fa;
+  background-color: transparent;
 }
 
 
