@@ -226,6 +226,10 @@ div#links img {
 .archive-title {
   text-transform: capitalize;
 }
+.row {
+   display: inline-block;
+	line-height: 100%;
+}
 .content {
     margin-top: 40px;
     padding-bottom: 1em;
