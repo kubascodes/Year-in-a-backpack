@@ -231,9 +231,9 @@ ul.row {
 	overflow: hidden;
 	clear: both;
 }
-.archive-child {
+li.archive-child {
 	display: table-row;
-	margin-bottom: 1em;
+	margin-bottom: 4em;
 }
 .content {
     margin-top: 40px;
