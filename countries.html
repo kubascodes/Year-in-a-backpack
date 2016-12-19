@@ -9,7 +9,14 @@ description: "Posts from Yearinabackpack sorted by country. "
 <h1 class="center">Countries</h1>
 <p class="center">Our backpacking journal sorted by countries - read posts by their location.</p>
 	
-	
+{% assign sorted_categories = (site.categories | sort:0) %}
+<div class="tag-box">
+{% for category in sorted_categories %}
+    <a href="#{{ category | slugize }}" class="button country-button archive-title" >{{ category | first }}</a>
+	    {% unless forloop.last %}&nbsp;{% endunless %}
+{% endfor %}
+</div>
+    <hr>	
 
 	
 {% assign sorted_categories = (site.categories | sort:0) %}
@@ -23,11 +30,10 @@ description: "Posts from Yearinabackpack sorted by country. "
     <article class="archive-item countries">
       <h5>{{post.date | date_to_long_string}} - <a href="{{ site.baseurl }}{{ post.url }}"><b>{{post.title}} 
 </b> </a>
-        <a class="archive-title button tag-button" href="{{ site.baseurl }}/tags#{{ tag | slugify }}">{{ tag }}</a>{% unless forloop.last %}&nbsp;{% endunless %}
-		 {% endfor %}</h5>
+        <a class="archive-title button tag-button" href="{{ site.baseurl }}/tags#{{ tag | slugify }}">{{ tag }}</a>{% unless forloop.last %}&nbsp;{% endunless %}</h5> 
     </article>
     {% endfor %}
   </div>
-    
+{% endfor %}
     </div>
 {% include signature.html %}
