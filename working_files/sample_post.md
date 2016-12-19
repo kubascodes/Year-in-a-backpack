@@ -1,6 +1,6 @@
 ---
 layout: post
-img: 'img/
+img: 'img/'
 title: ""
 author: [kuba, simon]
 landmark: [City]
