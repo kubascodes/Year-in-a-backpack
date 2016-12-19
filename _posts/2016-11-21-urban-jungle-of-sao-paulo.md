@@ -9,26 +9,26 @@ tags: [art, city, food]
 description: "Known for its great nightlife, Sao Paulo is a vibrant city filled with art, good food and boutiques. It is also a city with highly visible inequalities between rich living in heavily guarded mansions and poor living either in the streets or in the suburbs. We spent 2 days there and had a great time."
 ---
 
-[comment] <> (
+<!---
 This is how to include an image. copy the line below
 
 ![{{page.title}}]({{ site.url }}/{{ page.img }}/original/replace_this.jpg){:class="img-responsive center-block img-article"}
 
-)
+-->
 
-[comment] <> (
+<!---
 This is how to include a place map. Fill in landmark and make sure it's correctly spelled.
 
 {% include place-map.html %}
 
-)
+-->
 
-[comment] <> (
+<!---
 This is how to include a directions map. Fill in origin and destination and make sure it's correctly spelled.
 
 {% include directions-map.html %}
 
-)
+-->
 
 After spending a night in an overnight bus from Pirenopolis to sao Paulo at 7am we arrived in the centre of Sao Paulo and took an Uber pool, which is cheaper than public transport, to the hostel we were staying. On the way we saw a street market nearby so we went there to get something for breakfast. At the hostel we were told that their central par called Parque Ibirapuera is a must so we headed off there.
 
