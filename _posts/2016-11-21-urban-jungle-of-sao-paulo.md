@@ -43,7 +43,10 @@ On the way to the *Ibirapuera* park is a posh neighborhood called *Jardins* wher
 Sao Paulo's so called Central Park, Ibirapuera, is beautiful with a lot of black swans on a lake and another Niemeyer's building (Ibirapuera Auditorium) and a museum of modern art MAM. We went in to see an exhibition of Volhi's landscape and square/triangle paintings plus an exhibition of hysteria. We didn't really like it so we enjoyed the park drinking some coconut water instead.
 
 ## Late Afternoon
-<img src="blank.gif" data-src="({{ site.url }}/{{ page.img }}/original/P1400301.jpg)" class="img-responsive center-block img-article" />
+<img src="/assets/icons/sandwich.png" data-src="{{ site.url }}/{{ page.img }}/original/P1400301.jpg" class="img-responsive center-block img-article" />
+<noscript>
+<img src="{{ site.url }}/{{ page.img }}/original/P1400301.jpg" class="img-responsive center-block img-article" />
+</noscript>
 On the way back to the hostel we walked through financial centre with lot of crazy skyscrapers, huge shopping mall covered in gold and homeless families living in the streets... 
 
 It started raining and we were waved into a small restaurant by a hippie looking guy that introduced himself as Kaká. He gave us a free coffee and talked about Bahian food he is makinkg there. We were after dinner so we said we will stop by the next day.
