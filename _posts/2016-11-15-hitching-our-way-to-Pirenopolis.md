@@ -4,6 +4,8 @@ img: 'img/2016-11-15'
 title: "Hitching Our Way To Pirenopolis"
 author: kuba
 landmark: [Niquelandia]
+origin: [Chapada Dos Veadoires]
+destination: Pirenopolis
 categories: [Brazil]
 tags: [hitch, waterfall, village]
 description: "Everyone told us it's impossible to hitch hike in Brazil. So we decided to do just that and it was quite fun!"
@@ -14,6 +16,8 @@ To save some money and to avoid taking the same touristic route back to Brasilia
 ## Niquelandia
 
 We started the next day with tapioca and oats + fresh mango from the city garden! We walked, it was hot. First ride was a pickup who took us 1km and refilled our empty water bottles. Not too many cars stop, so we waited for like 2hrs under *Baru* tree (we did not know it had really good nuts) playing cards. The second ride, a Brazilian couple going to the lady's father's farm, took us 30km further to the crossing of BR239 and BR237. There, we got some more water at the *lanchonete* (refreshments). We cooked tapiocas with goiaba jam under another tree and when we were done, a pickup van offered us a ride to **Niquelandia**. Sweet! In Niquelandia, they also had their Redeemer just like in Rio, so it's probably just waiting to become famous. On the way out of the town, two young **men chilling by the road offered us some coffee, we sat down and chilled with them**. They told us about beautiful *cachoeiras* and the lake close to Niquelandia, recommended that truck drivers start their day at 5, so it's best to start hitching early. We also asked them if they know a good spot to sleep. Their first response was the nearby gas station with good food. Then, they thought about a better place - a laguna 10km away from Niquelandia, where you can camp and bath. They even offered to take us there! We said yes and Thiago started up a 30 year old Chevy and hit the road. The car had a loose rear axis, it couldn't keep a straight line and **before we reached the destination, we ran out of fuel**. Luckily, Thiego stopped a passing car to send for his amigo, who was meant to arrive with more gas. In the meantime, we learned some mechanics in Portugese. And some time later, we were already bathing in the Laguna, drank one more shot of Becherovka before we bid farewell to Thiego and fell asleep our tent to the sound of the jungle. 
+
+{% include directions-map.html %}
 
 ## Hitchhiking through fire
 
