@@ -50,8 +50,7 @@ a.twitter-timeline {
   padding: 6px 12px 6px 30px;
   margin: 10px 0;
     height: auto;
-  border: transparent;
-  border-radius: 3px;
+  border: none;
   background: transparent;
   background-size: 1em 1em;
  
