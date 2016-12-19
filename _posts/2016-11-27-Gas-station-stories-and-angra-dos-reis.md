@@ -2,16 +2,20 @@
 layout: post
 img: 'img/2016-11-27'
 title: "Gas Station Stories and Angra Dos Reis"
+author: simon
+landmark: [Angra Dos Reis]
 categories: [Brazil]
 tags: [beach, people, sport]
 description: "From being stuck at a gas station to visiting a colonial port town of Paraty before finally making it to Angra. There, we spent 3 days at Ivan's pousada, sea kayaked and visited a condomínio."
 ---
 
 No car in 4 hours we were **wet and hungry** so we went to buy some food to a supermarket and went back to the gas station, which we considered our home at that point. We were ready to take the expensive bus that would take us to Ivan. The first one arrived and here's our talk with the driver:
+
 > "Tiene espacio en el bus?" 
-> "Sí" 
-> "Perfecto! Y podemos comprar bilhetes?" 
-> "No.." 
+  "Sí" 
+  "Perfecto! Y podemos comprar bilhetes?" 
+  "No.."
+ 
 and he walked away… We were shocked but apparently that's the way it is as the next bus driver said the same.. Now we were really **STUCK**.
 
 Kuba has since been asking tired drivers directly where they go and whether they'd take us with them. That didn't work plus a mid-aged man told me "*passeio*" was wrong and that we probably mean "*carona*", which means can you give us a ride. We were hungry again and decided to cook more food. But then miracle happened and Kuba's effort was worth it as one driver made up their mind and sent her daughter to tell us **they'd take us to Paraty** if we don't mind being squeezed in a small car!!
