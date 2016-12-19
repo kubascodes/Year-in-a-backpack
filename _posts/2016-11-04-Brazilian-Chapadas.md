@@ -22,7 +22,7 @@ For lunch, we were cooking a lot of rice with random veggies.. Or we cooked and 
 
 We had fun in the evenings getting high with the residents of the house and later baking a bÃ¡bovka from corn flour (typical Brazilian cake, the corn version of Czech bábovka). Kuba also had massive allergic reactions all over his body and we believe he's now allergic to corn or bábovka?! Kirti was a massive help as he chopped fresh aloe vera to calm it down. Stoned, we watched massive fireflies lighting up the vegetation and it felt like Christmas already. 
 
-# Chapada Dos Veadoires
+## Chapada Dos Veadoires
 
 This amazing Chapada is located at San George, a small village where you can spot aliens and UFOs. Our highlight was that there were mango trees everywhere and you could pick as many mangos as you wanted for free. We wanted to go for a 2 day hike *Travessia das Sete Quedas* but you need to apply for a permit 3 days before you go on the internet - Brazilian bureaucracy stopped us this time. Also, the park was closed on Monday so we just camped out in front of the entrance and slept in the parking lot as security guards were ok with it. 
 
