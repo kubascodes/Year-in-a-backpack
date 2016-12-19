@@ -2,6 +2,8 @@
 layout: post
 img: 'img/2016-11-21'
 title: "Urban Jungle of Sao Paulo"
+author: [kuba, simon]
+landmark: [Sao Paulo]
 categories: [Brazil]
 tags: [art, city, food]
 description: "Known for its great nightlife, Sao Paulo is a vibrant city filled with art, good food and boutiques. It is also a city with highly visible inequalities between rich living in heavily guarded mansions and poor living either in the streets or in the suburbs. We spent 2 days there and had a great time."
