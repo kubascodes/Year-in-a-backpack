@@ -11,7 +11,7 @@ layout: default
     {% if image.path contains page.img and image.path contains 'lead' %}
     {% unless image.path contains 'thumbnail' %}
     <a href="#links">
-        <img class="img-responsive" src="{{ site.baseurl }}{{ image.path }}" alt="{{ page.title }}">
+        <img class="img-responsive fade-image" src="{{ site.baseurl }}{{ image.path }}" alt="{{ page.title }}">
     </a>
     {% endunless %}
     {% endif %}   
