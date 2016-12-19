@@ -2,7 +2,7 @@
 layout: post
 img: 'img/2016-11-15'
 title: "Hitching Our Way To Pirenopolis"
-author: Jakub Velfl
+author: kuba
 landmark: [Niquelandia]
 categories: [Brazil]
 tags: [hitch, waterfall, village]
