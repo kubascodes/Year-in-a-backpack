@@ -2,6 +2,7 @@
 layout: post
 img: 'img/2016-10-31'
 title: "Niemayer's Brasilia"
+author: Jakub Velfl
 landmark: [Brasilia]
 categories: [Brazil]
 tags: [city, architecture]
