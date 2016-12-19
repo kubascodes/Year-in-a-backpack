@@ -146,8 +146,9 @@ p {
 }
 a {
     font-weight: 500;
+    color: #0E2F44;
 }
-a, a:active, a:visited {
+a, a:active, a:hover, a:visited {
     text-decoration:none;
 }
 a:hover {
@@ -357,57 +358,57 @@ a.button, .button {
     margin-top: 0.5em;
 	display: inline-block;
 }
-a.tag-button, .tag-button {
+.tag-button, .tag-button {
     border: 1px #c0c0c0 solid;
     background: #c0c0c0;
 }
-a.country-button {
+.country-button {
     color: #5A4B3F;
 }
-a.country-button {
+.country-button {
     border: 1px #cbbeb5 solid;
     background: #cbbeb5;
 }
-a.country-button:hover {
+.country-button:hover {
     background: #ab9788;
     border: 1px #ab9788 solid;
 }
-a.tag-button {
+.tag-button {
     color: black;
 }
 .tag-box {
     max-width: 70%;
 }
-a.tag-button:hover {
+.tag-button:hover {
     background: #737373;
     border: 1px #737373 solid;
 
 }
-a.twitter-button {
+.twitter-button {
     border: 1px #4da6ff solid;
     margin-top: 0.5em;
     background: transparent;
     color: #4da6ff;
 }
-a.twitter-button:hover {
+.twitter-button:hover {
     background: #4da6ff;
     color: white;
 }
-a.facebook-button {
+.facebook-button {
     border: 1px #2F7DED solid;
     background: transparent;
     color: #2F7DED;
 }
-a.facebook-button:hover {
+.facebook-button:hover {
     background: #2F7DED;
     color: white;
 }
-a.google-button {
+.google-button {
     border: 1px #ff4444 solid;
     background: transparent;
     color: #ff4444;
 }
-a.google-button:hover {
+.google-button:hover {
     background: #ff4444;
     color: white;
 }
@@ -492,9 +493,7 @@ label {
     border-right: 1px rgba(238,238,238,1) solid;
     background: rgba(238,238,238,0.6);
 }
-a {
-    color: #0E2F44;
-}
+
 .pageNavigation {
     width: 100%;
 }
