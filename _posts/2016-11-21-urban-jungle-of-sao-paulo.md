@@ -9,12 +9,33 @@ tags: [art, city, food]
 description: "Known for its great nightlife, Sao Paulo is a vibrant city filled with art, good food and boutiques. It is also a city with highly visible inequalities between rich living in heavily guarded mansions and poor living either in the streets or in the suburbs. We spent 2 days there and had a great time."
 ---
 
+[comment] <> (
+This is how to include an image. copy the line below
+
+![{{page.title}}]({{ site.url }}/{{ page.img }}/original/replace_this.jpg){:class="img-responsive center-block img-article"}
+
+)
+
+[comment] <> (
+This is how to include a place map. Fill in landmark and make sure it's correctly spelled.
+
+{% include place-map.html %}
+
+)
+
+[comment] <> (
+This is how to include a directions map. Fill in origin and destination and make sure it's correctly spelled.
+
+{% include directions-map.html %}
+
+)
+
 After spending a night in an overnight bus from Pirenopolis to sao Paulo at 7am we arrived in the centre of Sao Paulo and took an Uber pool, which is cheaper than public transport, to the hostel we were staying. On the way we saw a street market nearby so we went there to get something for breakfast. At the hostel we were told that their central par called Parque Ibirapuera is a must so we headed off there.
 
 First stop was *Boco de Batman* which is a little street famous for its graffiti covered walls. Nearby was an art gallery - *Choque Cultural*, full of great street and urban art. An interesting place celebrating creativity with artwork both inside and outside the gallery. We took a ride on a circle skate and chilled in a Fatboy. After some walking we saw a small coffee place called *King of The Fork*, it looked really cool so we went in for our so far the best coffee in Brazil ! 
 
 ## Jardins
-![Jardins]({{ site.url }}/{{ page.img }}/original/P1400301.jpg){:class="img-responsive center-block"}
+![Jardins]({{ site.url }}/{{ page.img }}/original/P1400301.jpg){:class="img-responsive center-block img-article"}
 On the way to the *Ibirapuera* park is a posh neighborhood called *Jardins* where we realized, for the first time, that the Brazilians are not feeling safe at all. There are huge walls with an electric fence around every house and on each corner there is a small booth with a security guard. Apart from that it's a really nice area with lots of green and you can pick *Acerola* right from a tree.
 
 ## Ibirapuera Park
