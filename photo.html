@@ -16,6 +16,29 @@ description: "Photographs from two guys backpacking America and Asia."
     <ol class="indicator"></ol>
 </div>
 
+<div>
+    <p>This is the new photo page with folders according to countries</p>
+{% assign sorted_categories = (site.categories | sort:0) %}
+{% for category in sorted_categories %}
+  <div class="archive-title center">
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+    <h3 id="#{{ category_name | slugize }}" class="category-head">{{ category_name }}</h3>
+    {% for post in site.categories[category_name] %}
+      <h5>{{post.date | date_to_long_string}} - <a href="{{ site.baseurl }}{{ post.url }}"><b>{{post.title}} 
+</b> </a>
+	    </h5> 
+      {% for image in site.static_files %}
+    {% if image.path contains post.img and image.path contains 'thumbnail' and image.path contains 'lead' %}
+        <a href="{{ post.url }}#links"><img class="postImage" src="{{ image.path }}"></a>
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
+  </div>
+{% endfor %}
+    </div>
+
+
+
     <h1 class="container center">Pics</h1>
 <div id="links">
     <ul class="row nopadding" id="photo-wall">
