@@ -43,7 +43,7 @@ layout: default
     {% if image.path contains page.img %}
         {% if image.path contains 'original' %}
         <a class="col-xs-6 col-sm-4 col-lg-3 nopadding gallery pull-left" href="{{ site.baseurl }}{{ image.path }}" alt="image.path">
-    <img class="gallery lazy" src="blank.gif" data-original="{{ site.baseurl }}{{ image.path | replace: 'original', 'thumbnail' }}" alt="image.path">
+    <img class="gallery lazyload" data-src="{{ site.baseurl }}{{ image.path | replace: 'original', 'thumbnail' }}" alt="image.path">
     </a>
         {% endif %}
    {% endif %}
@@ -81,9 +81,5 @@ document.getElementById('links').onclick = function (event) {
     blueimp.Gallery(links, options);
 };
 </script>
-<script src="/js/jquery.lazyload.min.js"></script>
-<script>
-    $(function() {
-    $("img.lazy").lazyload();
-});
-</script>
+<script src="/js/jquery.lazysizes.min.js"></script>
+
