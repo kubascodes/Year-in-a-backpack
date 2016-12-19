@@ -14,7 +14,7 @@ After spending a night in an overnight bus from Pirenopolis to sao Paulo at 7am 
 First stop was *Boco de Batman* which is a little street famous for its graffiti covered walls. Nearby was an art gallery - *Choque Cultural*, full of great street and urban art. An interesting place celebrating creativity with artwork both inside and outside the gallery. We took a ride on a circle skate and chilled in a Fatboy. After some walking we saw a small coffee place called *King of The Fork*, it looked really cool so we went in for our so far the best coffee in Brazil ! 
 
 ## Jardins
-![The plan]({{ site.baseurl }}{{ page.img }}/original/P1400301.jpg){:class="img-responsive center-block"}
+![The plan]({{ site.url }}{{ page.img }}/original/P1400301.jpg){:class="img-responsive center-block"}
 On the way to the *Ibirapuera* park is a posh neighborhood called *Jardins* where we realized, for the first time, that the Brazilians are not feeling safe at all. There are huge walls with an electric fence around every house and on each corner there is a small booth with a security guard. Apart from that it's a really nice area with lots of green and you can pick *Acerola* right from a tree.
 
 ## Ibirapuera Park
