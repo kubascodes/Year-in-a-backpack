@@ -517,3 +517,16 @@ div>.pageNavigation>a.next {
 
 div>.pageNavigation>a.prev {
 }
+
+#textover a {  
+  display: inline-block;
+}
+
+#textover p {
+	color: #ffffff;
+  font-size: 2em;
+  position: absolute;
+  top: 50%;
+  left: 50%;  
+  transform: translate(-50%, -50%);	
+}
