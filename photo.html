@@ -6,7 +6,6 @@ description: "Photographs from two guys backpacking America and Asia."
 ---
 <link rel="stylesheet" href="/css/blueimp-gallery.css">
 
-<div>
     <h1 class="container center">Pics</h1>
 {% assign sorted_categories = (site.categories | sort:0) %}
 {% for category in sorted_categories %}
@@ -14,8 +13,8 @@ description: "Photographs from two guys backpacking America and Asia."
     {% capture category_name %}{{ category | first }}{% endcapture %}
 	  <div class="container">
     <h3 id="#{{ category_name | slugize }}" class="category-head">{{ category_name }}</h3>
-          	  <div class="col-md-4">
 	  {% for post in site.categories[category_name] %}
+          <div class="col-md-4">
       {% for image in site.static_files %}
     {% if image.path contains post.img and image.path contains 'thumbnail' and image.path contains 'lead' %}
         <a href="{{ post.url }}#links"><img class="postImage" src="{{ image.path }}"></a>
@@ -25,7 +24,6 @@ description: "Photographs from two guys backpacking America and Asia."
 			  	  </div>
     {% endfor %}
   </div>
-	</div>
 {% endfor %}
     </div>
 
