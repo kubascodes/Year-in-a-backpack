@@ -2,6 +2,7 @@
 layout: post
 img: 'img/2016-10-30'
 title: "3 days in Rio de Janeiro"
+landmark: [Rio de Janeiro]
 categories: [Brazil]
 tags: [city, nature, culture]
 description: "We went to Rio for the first time and we loved it! Watermelon for breakfast, long walks through narrow streets and extraordinary sceneries are only a tip of what's the city all about."
