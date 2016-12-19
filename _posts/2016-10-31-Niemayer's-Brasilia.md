@@ -2,16 +2,15 @@
 layout: post
 img: 'img/2016-10-31'
 title: "Niemayer's Brasilia"
+landmark: [Brasilia]
 categories: [Brazil]
 tags: [city, architecture]
 description: "Brazilians are very proud of their capital so we had to give a shot... And we had a really good time."
 ---
 
-## Artificial city
+On our way up to the Chapadas, we payed a short visit to Brazil's capital city - Brasilia. This **artificially** created city looks like a bird from the sky, where the city centre sits in the middle with residential blocks on the wings. A modernist masterpiece, it was designed by Oscar Niemayer (architecture) and Burle Marx (landscaping). The order was a huge contrast to Rio's disorder. Architecture is really interesting, **we loved the metropolitan cathedral** (glass roofing creates a unique atmosphere in the church), the congress (city's dominant), the ministry's buildings (for their exterior coating) and the justice palace (with waterfalls!!). We could not help it, but the residential blocks looked like hotel resorts (palms, paved footpaths through gardens, which were well maintained) - hope the residents felt like that too. 
 
-On our way up to the Chapadas, we payed a short visit to Brazil's capital city - Brasilia. This artificially created city looks like a bird from the sky, where the city centre sits in the middle with residential blocks on the wings. A modernist masterpiece, it was designed by Oscar Niemayer (architecture) and Burle Marx (landscaping). The order was a huge contrast to Rio's disorder. Architecture is really interesting, **we loved the metropolitan cathedral** (glass roofing creates a unique atmosphere in the church), the congress (city's dominant), the ministry's buildings (for their exterior coating) and the justice palace (with waterfalls!!). We could not help it, but the residential blocks looked like hotel resorts (palms, paved footpaths through gardens, which were well maintained) - hope the residents felt like that too. 
-
-## The city and us
+## How was it?
 
 We booked an Airbnb. That turned out to be the best idea because Christina and her daughter Karina were our hosts. **We made our first Tapioca** for lunch (2 kinds - one with cheese, the other with bananas) and it was a success! We spent the day walking and of course it was raining. So we went to the shopping mall to sort out our Brazilian SIM card - that was really fun (more about it on our Facebook page). But the consequent visit to the art gallery showcasing computer art was way better! When it started raining, we got **our first açai** - delicious kinda ice cream with nuts, bananas and oats for toppings... We didn't know our way back and it was heavily raining.. So we asked a pretty girl, she told us which bus to take and let us share her umbrella :) Later, we went to the local supermarket to taste free fruit samples and to buy more Tapioca. 
 
