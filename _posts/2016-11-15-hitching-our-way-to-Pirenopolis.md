@@ -4,7 +4,7 @@ img: 'img/2016-11-15'
 title: "Hitching Our Way To Pirenopolis"
 author: kuba
 landmark: [Niquelandia]
-origin: [Chapada Dos Veadoires]
+origin: [Chapada Dos Veadeiros]
 destination: Pirenopolis
 categories: [Brazil]
 tags: [hitch, waterfall, village]
