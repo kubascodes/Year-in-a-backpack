@@ -2,6 +2,7 @@
 layout: post
 img: 'img/2016-10-30'
 title: "3 days in Rio de Janeiro"
+author: simon
 landmark: [Rio de Janeiro]
 categories: [Brazil]
 tags: [city, nature, culture]
