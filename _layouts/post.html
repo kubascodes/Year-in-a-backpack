@@ -5,6 +5,7 @@ layout: default
 <meta name="geo.placename" content="{{ page.categories }}">
 <link rel="stylesheet" href="/css/blueimp-gallery.css">
 <link rel="stylesheet" href="/css/post.css">
+<script src="/js/jquery.lazysizes.min.js"></script>
 
 <div class="container-fluid postHeader" id="textover">
     {% for image in site.static_files %}
@@ -81,5 +82,4 @@ document.getElementById('links').onclick = function (event) {
     blueimp.Gallery(links, options);
 };
 </script>
-<script src="/js/jquery.lazysizes.min.js"></script>
 
