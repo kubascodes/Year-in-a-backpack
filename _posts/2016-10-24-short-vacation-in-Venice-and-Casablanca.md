@@ -2,6 +2,7 @@
 layout: post
 img: 'img/2016-10-24'
 title: "Short vacation in Venice and Casablanca"
+author: kuba
 landmark: [Venice and Casablanca]
 categories: [Italy, Morocco]
 tags: [city]
