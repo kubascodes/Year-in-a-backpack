@@ -12,7 +12,8 @@ description: "Posts from Yearinabackpack sorted by country. "
 {% assign sorted_categories = (site.categories | sort:0) %}
 <div style="tag-box">
 {% for category in sorted_categories %}
-<a href="#{{ category | slugize}}" class="button country-button">{{ category | first }}</a>
+	    {% capture category_name %}{{ category | first }}{% endcapture %}
+<a href="#{{ category_name | slugize}}" class="button country-button">{{ category | first }}</a>
     {% unless forloop.last %}&nbsp;{% endunless %}
 {% endfor %}
 </div>
