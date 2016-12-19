@@ -50,21 +50,12 @@ description: "Travel blog from Year in a backpack. Read our regular posts and en
 <div class="container center">
     <a class="normal-font" href="{{ site.baseurl }}/countries"><h1>Countries</h1></a>
            <p>Sorts posts by country.</p>
-          {% for category in site.categories %}
-    {% capture category_name %}{{ category | first }}{% endcapture %}
-    <a class="button country-button archive-title" href="{{ site.baseurl }}/countries#{{ category_name }}">{{ category_name }}</a>
-    {% endfor %}
-    
-	<hr>
-	
 	{% assign sorted_categories = (site.categories | sort:0) %}
-<div style="tag-box">
 {% for category in sorted_categories %}
 	    {% capture category_name %}{{ category | first }}{% endcapture %}
 <a href="{{ site.baseurl }}/countries#{{ category_name | slugize}}" class="archive-title button country-button">{{ category | first }}</a>
     {% unless forloop.last %}&nbsp;{% endunless %}
 {% endfor %}
-</div>
 	
     </div>
 <hr>
