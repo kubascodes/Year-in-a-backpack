@@ -2,6 +2,7 @@
 layout: post
 img: 'img/2016-10-24'
 title: "Short vacation in Venice and Casablanca"
+landmark: [Venice and Casablanca]
 categories: [Italy, Morocco]
 tags: [city]
 description: "Last Friday, we left the comfort of our homes for the adventures that await us on the road. This is the first post in our journal. The story of Venice and Casablanca."
