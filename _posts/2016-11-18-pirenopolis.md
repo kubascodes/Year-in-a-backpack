@@ -2,6 +2,8 @@
 layout: post
 img: 'img/2016-11-18'
 title: "Pirenopolis"
+author: kuba
+landmark: [Pirenopolis]
 categories: [Brazil]
 tags: [food, waterfall, city]
 description: "Pirenopolis is a colonial town near Brasilia made rich from gold mining. Although it is quite touristy, it is definitely worth a visit as it takes you back in time and offers its visitors a retreat in nearby mountains and cachoeiras."
