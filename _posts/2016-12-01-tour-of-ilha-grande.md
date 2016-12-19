@@ -2,6 +2,8 @@
 layout: post
 img: 'img/2016-12-01'
 title: "Tour of Ilha Grande"
+author: kuba
+landmark: [Ilha Grande]
 categories: [Brazil]
 tags: [beach, people, island, jungle]
 description: "In the waters nearby Angra Dos Reis lies a small island called Ilha Grande. Its shores are washed to white sand, separated by wild jungle with great diversity of flora and fauna. A tiny footpath connects all these places and we spent a week touring this paradise on Earth."
