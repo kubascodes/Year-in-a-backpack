@@ -9,14 +9,7 @@ description: "Posts from Yearinabackpack sorted by country. "
 <h1 class="center">Countries</h1>
 <p class="center">Our backpacking journal sorted by countries - read posts by their location.</p>
 	
-	{% assign sorted_categories = (site.categories | sort:0) %}
-<div class="tag-box">
-{% for category in sorted_categories %}
-    <a href="#{{ category | slugize }}" class="button country-button archive-title" >{{ category | first }}</a>
-	    {% unless forloop.last %}&nbsp;{% endunless %}
-{% endfor %}
-</div>
-    <hr>
+	
 
 	
 {% assign sorted_categories = (site.categories | sort:0) %}
