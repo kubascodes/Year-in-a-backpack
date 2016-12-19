@@ -6,7 +6,7 @@ layout: default
 <link rel="stylesheet" href="/css/blueimp-gallery.css">
 <link rel="stylesheet" href="/css/post.css">
 
-<div class="container-fluid postHeader textover">
+<div class="container-fluid postHeader" id="textover">
     {% for image in site.static_files %}
     {% if image.path contains page.img and image.path contains 'lead' %}
     {% unless image.path contains 'thumbnail' %}
