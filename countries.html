@@ -7,13 +7,18 @@ description: "Posts from Yearinabackpack sorted by country. "
 
 <div class="container">
 <h1 class="center">Countries</h1>
+<p class="center">Our backpacking journal sorted by countries - read posts by their location.</p>
 <div class="tag-box">
-{% for category in site.categories %}
-    {% capture category_name %}{{ category | first }}{% endcapture %}<a class="button country-button archive-title" href="#{{ category_name }}">{{ category_name | slugize }}</a>
+{% assign sorted_categories = (site.categories | sort:0) %}
+{% for category in sorted_categories %}
+    <a class="button country-button archive-title" href="#{{ category|slugize }}">{{ category | first }}</a>
+	    {% unless forloop.last %}&nbsp;{% endunless %}
 {% endfor %}
 </div>
     <hr>
-{% for category in site.categories %}
+	
+{% assign sorted_categories = (site.categories | sort:0) %}
+{% for category in sorted_categories %}
   <div class="archive-title center">
     {% capture category_name %}{{ category | first }}{% endcapture %}
     <div id="#{{ category_name | slugize }}"></div>
