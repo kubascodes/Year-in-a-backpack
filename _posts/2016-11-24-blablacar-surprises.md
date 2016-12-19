@@ -2,6 +2,8 @@
 layout: post
 img: 'img/2016-11-24'
 title: "Blablacar Surprises"
+landmark: [Caraguatatuba]
+author: simon
 categories: [Brazil]
 tags: [beach, people]
 description: "The best adventures happen when you don't plan them. We didn't plan on spending any time in Caraguatuba, but we met a Slovakian surf girl Míša, went to the beach, met new people, tried skim surfing.. Good vibes, good times!"
