@@ -3,6 +3,7 @@ layout: post
 img: 'img/2016-11-04'
 title: "Brazilian Chapadas"
 landmark: [Alto Paraiso]
+author: Jakub Velfl
 categories: [Brazil]
 tags: [nature, waterfall, hike]
 description: "Chapadas, the green highlands crossed with cachoeiras are paradise on earth. Bathing in cristal clear water with water falling over your head and loud parrots flying over, you'd never want to leave"
