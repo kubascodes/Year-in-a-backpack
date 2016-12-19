@@ -522,7 +522,7 @@ div>.pageNavigation>a.prev {
   display: inline-block;
 }
 
-#textover p {
+#textover h2 {
 	color: #ffffff;
   font-size: 2em;
   position: absolute;
