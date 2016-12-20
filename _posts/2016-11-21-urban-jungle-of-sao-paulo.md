@@ -35,7 +35,10 @@ After spending a night in an overnight bus from Pirenopolis to sao Paulo at 7am 
 First stop was *Boco de Batman* which is a little street famous for its graffiti covered walls. Nearby was an art gallery - *Choque Cultural*, full of great street and urban art. An interesting place celebrating creativity with artwork both inside and outside the gallery. We took a ride on a circle skate and chilled in a Fatboy. After some walking we saw a small coffee place called *King of The Fork*, it looked really cool so we went in for our so far the best coffee in Brazil ! 
 
 ## Jardins
-![Jardins](/{{ page.img }}/original/P1400301.jpg){:class="img-responsive center-block img-article"}
+<img data-original="/{{ page.img }}/original/P1400301.jpg" width="100%" height="100%" class="lazy img-responsive center-block img-article" />
+<noscript>
+<img src="/{{ page.img }}/original/P1400301.jpg" class="img-responsive center-block img-article" />
+</noscript>
 On the way to the *Ibirapuera* park is a posh neighborhood called *Jardins* where we realized, for the first time, that the Brazilians are not feeling safe at all. There are huge walls with an electric fence around every house and on each corner there is a small booth with a security guard. Apart from that it's a really nice area with lots of green and you can pick *Acerola* right from a tree.
 
 ## Ibirapuera Park
@@ -43,10 +46,7 @@ On the way to the *Ibirapuera* park is a posh neighborhood called *Jardins* wher
 Sao Paulo's so called Central Park, Ibirapuera, is beautiful with a lot of black swans on a lake and another Niemeyer's building (Ibirapuera Auditorium) and a museum of modern art MAM. We went in to see an exhibition of Volhi's landscape and square/triangle paintings plus an exhibition of hysteria. We didn't really like it so we enjoyed the park drinking some coconut water instead.
 
 ## Late Afternoon
-<img data-original="/{{ page.img }}/original/P1400301.jpg" width="640" height="480" class="lazy" />
-<noscript>
-<img src="/{{ page.img }}/original/P1400301.jpg" class="img-responsive center-block img-article" />
-</noscript>
+
 On the way back to the hostel we walked through financial centre with lot of crazy skyscrapers, huge shopping mall covered in gold and homeless families living in the streets... 
 
 It started raining and we were waved into a small restaurant by a hippie looking guy that introduced himself as Kaká. He gave us a free coffee and talked about Bahian food he is makinkg there. We were after dinner so we said we will stop by the next day.
