@@ -43,7 +43,7 @@ On the way to the *Ibirapuera* park is a posh neighborhood called *Jardins* wher
 Sao Paulo's so called Central Park, Ibirapuera, is beautiful with a lot of black swans on a lake and another Niemeyer's building (Ibirapuera Auditorium) and a museum of modern art MAM. We went in to see an exhibition of Volhi's landscape and square/triangle paintings plus an exhibition of hysteria. We didn't really like it so we enjoyed the park drinking some coconut water instead.
 
 ## Late Afternoon
-<img data-src="{{ site.url }}/{{ page.img }}/original/P1400301.jpg" src="/assets/icons/sandwich.png" class="img-responsive center-block img-article lazy" />
+<img data-src="{{ site.url }}/{{ page.img }}/original/P1400301.jpg" src="/assets/icons/sandwich.png" class="lazy img-responsive center-block img-article" />
 <noscript>
 <img src="{{ site.url }}/{{ page.img }}/original/P1400301.jpg" class="img-responsive center-block img-article" />
 </noscript>
