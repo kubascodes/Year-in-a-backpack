@@ -12,14 +12,24 @@ description: "description to show up when sharing link"
 <!---
 This is how to include an image. copy the line below
 
-![{{page.title}}]({{ site.url }}/{{ page.img }}/original/replace_this.jpg){:class="img-responsive center-block img-article"}
+<img data-src="/{{ page.img }}/original/REPLACE.jpg" class="lazyload img-responsive center-block img-article" />
+<noscript>
+<img src="/{{ page.img }}/original/REPLACE.jpg" class="img-responsive center-block img-article" />
+</noscript>
 
 -->
 
 <!---
-This is how to include a place map. Fill in landmark and make sure it's correctly spelled.
+This is how to include a place map with zoom to 5 (zoomed out). Fill in landmark and make sure it's correctly spelled.
 
 {% include place-map.html %}
+
+-->
+
+<!---
+This is how to include a place map with zoom to 10 (zoomed in). Fill in landmark and make sure it's correctly spelled.
+
+{% include place-map_large.html %}
 
 -->
 
