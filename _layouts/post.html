@@ -4,18 +4,7 @@ layout: default
 <head>
 <meta name="geo.placename" content="{{ landmark }}, {{ page.categories }}">
 <link rel="stylesheet" href="/css/blueimp-gallery.css">
-<script src="/js/jquery.lazyload.min.js"></script>
 <script src="/js/lazysizes.min.js"></script>
-
-    <script type="text/javascript">  
-        $(document).ready(function(){
-
-   $(function() {
-    $("img.lazy").lazyload();
-});
-
-});
-    </script>
 </head>
 
 <div class="container-fluid postHeader" id="textover">
@@ -55,7 +44,7 @@ layout: default
     {% if image.path contains page.img %}
         {% if image.path contains 'original' %}
         <a class="col-xs-6 col-sm-4 col-lg-3 nopadding gallery pull-left" href="{{ site.baseurl }}{{ image.path }}" alt="image.path">
-    <img class="gallery" src="{{ site.baseurl }}{{ image.path | replace: 'original', 'thumbnail' }}" alt="image.path" />
+    <img class="gallery lazyload" src="{{ site.baseurl }}{{ image.path | replace: 'original', 'thumbnail' }}" alt="image.path" />
     </a>
         {% endif %}
    {% endif %}
