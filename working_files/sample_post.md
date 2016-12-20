@@ -22,14 +22,14 @@ This is how to include an image. copy the line below
 <!---
 This is how to include a place map with zoom to 5 (zoomed out). Fill in landmark and make sure it's correctly spelled.
 
-{% include place-map.html %}
+{% include map.html %}
 
 -->
 
 <!---
 This is how to include a place map with zoom to 10 (zoomed in). Fill in landmark and make sure it's correctly spelled.
 
-{% include place-map_large.html %}
+{% include map_large.html %}
 
 -->
 
