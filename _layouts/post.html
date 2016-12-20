@@ -14,6 +14,15 @@ layout: default
 });                 
     </script>
 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="jquery.unveil.js"></script>
+
+    <script>
+    $(function() {
+        $("li img").unveil(300);
+    });
+    </script>
+
 <div class="container-fluid postHeader" id="textover">
     {% for image in site.static_files %}
     {% if image.path contains page.img and image.path contains 'lead' %}
