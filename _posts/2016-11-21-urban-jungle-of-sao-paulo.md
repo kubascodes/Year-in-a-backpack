@@ -12,14 +12,24 @@ description: "Known for its great nightlife, Sao Paulo is a vibrant city filled 
 <!---
 This is how to include an image. copy the line below
 
-![{{page.title}}]({{ site.url }}/{{ page.img }}/original/replace_this.jpg){:class="img-responsive center-block img-article"}
+<img data-src="/{{ page.img }}/original/REPLACE.jpg" class="lazyload img-responsive center-block img-article" />
+<noscript>
+<img src="/{{ page.img }}/original/REPLACE.jpg" class="img-responsive center-block img-article" />
+</noscript>
 
 -->
 
 <!---
-This is how to include a place map. Fill in landmark and make sure it's correctly spelled.
+This is how to include a place map with zoom to 5 (zoomed out). Fill in landmark and make sure it's correctly spelled.
 
 {% include place-map.html %}
+
+-->
+
+<!---
+This is how to include a place map with zoom to 10 (zoomed in). Fill in landmark and make sure it's correctly spelled.
+
+{% include place-map_large.html %}
 
 -->
 
@@ -35,7 +45,7 @@ After spending a night in an overnight bus from Pirenopolis to sao Paulo at 7am 
 First stop was *Boco de Batman* which is a little street famous for its graffiti covered walls. Nearby was an art gallery - *Choque Cultural*, full of great street and urban art. An interesting place celebrating creativity with artwork both inside and outside the gallery. We took a ride on a circle skate and chilled in a Fatboy. After some walking we saw a small coffee place called *King of The Fork*, it looked really cool so we went in for our so far the best coffee in Brazil ! 
 
 ## Jardins
-<img data-original="/{{ page.img }}/original/P1400301.jpg" width="100%" height="100%" class="lazy img-responsive center-block img-article" />
+<img data-src="/{{ page.img }}/original/P1400301.jpg" class="lazyload img-responsive center-block img-article" />
 <noscript>
 <img src="/{{ page.img }}/original/P1400301.jpg" class="img-responsive center-block img-article" />
 </noscript>
@@ -46,10 +56,7 @@ On the way to the *Ibirapuera* park is a posh neighborhood called *Jardins* wher
 Sao Paulo's so called Central Park, Ibirapuera, is beautiful with a lot of black swans on a lake and another Niemeyer's building (Ibirapuera Auditorium) and a museum of modern art MAM. We went in to see an exhibition of Volhi's landscape and square/triangle paintings plus an exhibition of hysteria. We didn't really like it so we enjoyed the park drinking some coconut water instead.
 
 ## Late Afternoon
-<img data-src="/{{ page.img }}/original/P1400301.jpg" class="lazyload img-responsive center-block img-article" />
-<noscript>
-<img src="/{{ page.img }}/original/P1400301.jpg" class="img-responsive center-block img-article" />
-</noscript>
+
 On the way back to the hostel we walked through financial centre with lot of crazy skyscrapers, huge shopping mall covered in gold and homeless families living in the streets... 
 
 It started raining and we were waved into a small restaurant by a hippie looking guy that introduced himself as Kaká. He gave us a free coffee and talked about Bahian food he is makinkg there. We were after dinner so we said we will stop by the next day.
