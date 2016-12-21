@@ -1,3 +1,9 @@
+---
+layout: default
+---
+
+<link href="/css/intro_{{ page.fontstyle }}.css" rel="stylesheet">
+
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -9,15 +15,12 @@ html, body {
     padding:0;
     height:100%
 }
-body { font-family:Georgia, "Times New Roman", Times, serif }
-h1, p { margin:0 0 1em; }
-h1 { text-align:center; }
+
 .intro {
-    display:table;
-    height:100%;
+    display:block;
     width:100%;
     margin:auto;
-    background:url(http://www.pmob.co.uk/mobile/images/a1.jpg) no-repeat 50% 50%;
+    background: url(/assets/intro_cover/cover.jpg) no-repeat 50% 50%;
     background-size:cover;
 }
 .intro .inner {
@@ -51,8 +54,15 @@ h1 { text-align:center; }
 <div class="intro">
         <div class="inner">
                 <div class="content">
-                        <h1>Navigation can go here.</h1>
-                        <p>Galaxies shores of the cosmic ocean, rogue from which we spring, dispassionate extraterrestrial observer. White dwarf. Globular star cluster Rig Veda, made in the interiors of collapsing stars emerged into consciousness Drake Equation</p>
+                        <img src="/assets/icons/Yearinabackpack_logo{{ page.fontstyle }}.png">
+        
+          <div class="logo-main-margin list-inline">
+     <a href="http://www.facebook.com/yearinabackpack" id="btnFb">facebook</a>
+     <a href="http://www.twitter.com/YearinaBackpack" id="btnTw" class="socialMargin">twitter</a>
+              <a href="http://www.instagram.com/yearinabackpack" id="socialMargin btnInstagram">instagram</a>
+              <a href="mailto:hello@yearinabackpack.com" id="btnMail">mail</a>
+           
+    </div>       
                 </div>
         </div>
 </div>
