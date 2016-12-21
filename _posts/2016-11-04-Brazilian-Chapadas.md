@@ -17,7 +17,7 @@ After almost a week in Rio and Brasilia, we were ready for some nature. When Pav
 In Alto Paraiso, we were staying with Kirti, a happy man from Holland, who's lived in Brazil for 25 years, of which he spent 5 years living in the bush. We had an incredible time staying at his house. How'd we spend our days?
 
 In the morning, round 7-8am, green parrots woke us up by flying around and screaming. For breakfast, we usually had coffee with some fruits (papaya or passion fruit or mango or banana). 
-{% include image.html image-name="P1390789" %}
+{% include image.html image-name="P1390789.jpg" %}
 During the day, we either went to a *cachoeira* - there were about 30 of *cachoeiras* on the map and many more not yet located and in fact, you can still buy a waterfall in Brazil..! We visited the Cachoeira Dos Cristais and it really was amazing. It was a small creek nested in a valley, featuring a cascade of waterfalls with small pools below each, ideal for diving in and swimming. Otherwise, we just chilled at the house and chatted with a cool Aussie Ryan or with a Spanish swimmer Tina who had a baby with a Brazilian shaman and they were spending 2 weeks together before she'd go back Spain.
 {% include image.html image-name="P1390835.jpg" %}
 For lunch, we were cooking a lot of rice with random veggies.. Or we cooked and ate some veg with George who was vegan. We spent the afternoon reading or looking for something on wifi. 
