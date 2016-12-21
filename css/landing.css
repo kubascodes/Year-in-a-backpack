@@ -1,7 +1,9 @@
 .block1 {
       height: 100vh
+      background-size: cover;
  }
  
 .block2 {
      height: 400px;
+     background: white;
 }
