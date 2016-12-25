@@ -33,7 +33,7 @@ body, html {
   width: 100%;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
-    font-family: Helvetica, 'serif';
+    font-family: Helvetica, Arial, sans-serif;
 	background: #eaeaea;
 }
 
@@ -102,12 +102,12 @@ blockquote.twitter-tweet {
   border: #000 1px solid;
   border-top-color: #eee;
   border-bottom-color: #bbb;
-  font: bold 14px/18px Helvetica', 'serif';;
+  font: bold 14px/18px Helvetica', Arial, sans-serif;
   color: #666666;
 }
  
 blockquote.twitter-tweet p {
-  font: normal 18px/24px 'Droid Sans', 'serif';
+  font: normal 18px/24px Helvetica, Arial, sans-serif;
   margin: 0 5px 10px 0;
   color: #666666;
 }
@@ -132,7 +132,7 @@ body {
     font-size: 16px;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: Helvetica, sans-serif;
+    font-family: Lato, Arial, sans-serif;
 	color: #10292E;
 }
 h1 {
