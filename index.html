@@ -6,16 +6,66 @@ description: "Backpacking travel adventure around America and Asia."
 ---
 <link href="/css/intro_{{ page.fontstyle }}.css" rel="stylesheet">
 
-<div class="container-fluid content center">
-        <div class="logo-main">
-          <img src="/assets/icons/Yearinabackpack_logo{{ page.fontstyle }}.png">
+<div class="intro">
+                <div class="nopadding logo-main">
+                        <img src="/assets/icons/image.png">
         
-          <div class="logo-main-margin list-inline">
-     <a href="http://www.facebook.com/yearinabackpack" id="btnFb">facebook</a>
-     <a href="http://www.twitter.com/YearinaBackpack" id="btnTw" class="socialMargin">twitter</a>
-              <a href="http://www.instagram.com/yearinabackpack" id="socialMargin btnInstagram">instagram</a>
-              <a href="mailto:hello@yearinabackpack.com" id="btnMail">mail</a>
-           
-    </div>       
+                    <p class="container">Travel blog from two Czech backpackers discovering the wonders of South America and Asia.</p>
+        </div>
 </div>
+<div class="container content center">
+    <h1>Our story</h1>
+
+<p>Hello! We are two friends from Prague, Kuba and Simon, who decided to travel for one year.</p> 
+<p>Jakub is a fresh Bristol graduate, pretty happy when with his backpack and discovering something somewhere.</p>  
+<p>Simon has recently opened up a bar in Prague with his friends - he's always happy to grab beer and meet with new people.</p>
+
+<p>We saved up money from work to finance this trip. We travel on a low budget, with everything we need in our backpacks. We never know where we'd end up sleeping and our plans change often. Our travel is spontaneous, fun and punk.</p>
+    
+    <p>We share our experiences on this blog so keep an eye on stories, pictures, videos and much more from our journey. Interested in knowing more about us and the trip? </p>
+    
+	<a class="button" style="border: 1px #254f75 solid;" href="/about">Read more</a>
 </div>
+    
+<div class="container content center">
+        <h1>Journal</h1>
+        <p>Read our latest stories or check out fresh news from the road.</p>
+          <ul class="journal row">
+  {% for post in site.posts limit: 3 %}
+    <li class="col-md-4">
+        {% for image in site.static_files %}
+    {% if image.path contains post.img and image.path contains 'thumbnail' and image.path contains 'lead' %}
+        <a href="{{ post.url }}"><img class="postImage lazyload" src="{{ image.path }}"></a>
+    {% endif %}
+    {% endfor %}
+        <a class="normal-font" href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+        <div>On {{ post.date | date_to_long_string }} in
+    {% assign categories = post.categories %}
+  {% for category in categories %} <a class="button archive-title country-button" href="{{site.url}}/countries/#{{category|slugize}}">{{category}}</a>
+  {% unless forloop.last %}&nbsp;{% endunless %}
+  {% endfor %}
+{% for tag in post.tags %}
+        <a class="button tag-button archive-title" href="{{ site.baseurl }}/tags#{{ tag | slugify }}">{{ tag }}</a>
+		 {% endfor %}
+        <a class="normal-font" href="{{ post.url }}"><p>{{ post.excerpt | truncatewords: 18 }}</p></a>  
+    </li>
+  {% endfor %}      
+</ul>
+    </div>
+	
+	<div class="container content center">
+		<h1>Get in touch</h1>
+		<p>Wow you made it all the way down here! If you find our idea interesting, sign up to our newsletter or follow us on social media, write to us or meet us? Hasta luego, Kuba and Simon</p>
+		<ul class="list-inline">Find us on:
+    <a href="https://twitter.com/yearinabackpack" rel="nofollow" target="_blank" title="Twitter" class="button twitter-button">Twitter</a>
+    <a href="https://facebook.com/yearinabackpack" rel="nofollow" target="_blank" title="Facebook" class="button facebook-button">Facebook</a>
+    <a href="https://www.youtube.com/channel/UCILHn_zTCYgkoX3J1v9mk2A" target="_blank" title="Youtube" class="button google-button">Youtube</a>
+    <a href="https://www.instagram.com/yearinabackpack/" target="_blank" title="Instagram" class="button instagram-button">Instagram</a>
+    <a href="mailto:hello@yearinabackpack.com" class="button email-button">Email</a>
+
+</ul>
+		
+		{% include signup.html %}
+	</div>
+	{% include signature.html %}
+
