@@ -17,6 +17,20 @@
  }
 </style>
 
+
+<style type="text/css">
+.formbox-editor-766318 {margin: 0 auto;padding: 30px 40px;text-align: left;width: 100%;box-sizing: border-box;}
+.formbox-editor-766318 fieldset {border: none;margin: 0;padding: 0;position: relative;}
+.formbox-editor-766318 fieldset > input, .formbox-editor fieldset > textarea, .formbox-editable-field {margin: 10px 0;outline: none;}
+.formbox-title-766318 {background: none;border: none;padding: 0;width: 100%;word-break: break-word;margin: 10px 0;}
+.formbox-title-766318 {border-radius: 0;min-height: 0;}
+input.formbox-field-766318 {border: 1px solid #f1f2f2;border-radius: 0; display: table-cell; box-sizing: border-box;color: #191919;font-family: Helvetica, Arial, sans-serif;font-size: 14px;padding: 15px;width: 100%;}
+input.field-error-766318 {border-color: #f15858;}
+input.formbox-button-766318 {color: #191919;display: table-cell; border: 1px solid #191919; font-size: 14px;font-weight: 600;padding: 15px;margin: 10px 0;text-align: center;word-break: break-all;cursor: pointer;}
+button.formbox-button-766318 {color: #191919;display: table-cell; border: 1px solid #191919; font-family: Helvetica, Arial, sans-serif;font-size: 14px;font-weight: 600;padding: 15px;margin: 10px 0;text-align: center;word-break: break-all;cursor: pointer;}
+.formbox-editor-766318{background-color:#ffffff !important;}
+</style>
+
 <script type="text/javascript">
 function CheckField766318(fldName, frm){ if ( frm[fldName].length ) { for ( var i = 0, l = frm[fldName].length; i < l; i++ ) {  if ( frm[fldName].type =='select-one' ) { if( frm[fldName][i].selected && i==0 && frm[fldName][i].value == '' ) { return false; }  if ( frm[fldName][i].selected ) { return true; } }  else { if ( frm[fldName][i].checked ) { return true; } }; } return false; } else { if ( frm[fldName].type == "checkbox" ) { return ( frm[fldName].checked ); } else if ( frm[fldName].type == "radio" ) { return ( frm[fldName].checked ); } else { frm[fldName].focus(); return (frm[fldName].value.length > 0); }} }
 function rmspaces(x) {var leftx = 0;var rightx = x.length -1;while ( x.charAt(leftx) == ' ') { leftx++; }while ( x.charAt(rightx) == ' ') { --rightx; }var q = x.substr(leftx,rightx-leftx + 1);if ( (leftx == x.length) && (rightx == -1) ) { q =''; } return(q); }
