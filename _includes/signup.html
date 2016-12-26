@@ -6,9 +6,11 @@
  .signup-email {
   border-bottom: 1px green solid;
  }
- .signup, .signup fieldset, .signup input {
-  display: inline;
-  width: 80%
+ .signup {
+  display: table;
+ }
+ .input {
+  display: table-cell
  }
  .signup-button {
     border: 1px #254f75 solid;
@@ -38,13 +40,18 @@ if ( !isemail(frm["fldEmail"].value) ) {
 <input type=hidden name=errorurl value="http://lb.benchmarkemail.com//Code/Error" />
 <input type=hidden name=token value="mFcQnoBFKMTGH%2Fh2SGYGneZXUawFafLCUAjPvVSGy9cF7QYrl9KV0w%3D%3D" />
 <input type=hidden name=doubleoptin value="" /><fieldset><div class="signup-title formbox-title-766318">Backpackers Newsletter</div></fieldset>
-<fieldset class="signup formbox-field-fname-766318">
+<div class="input">
+ <fieldset class="signup formbox-field-fname-766318">
 <input type=text placeholder="Your Name *" class="signup-name formbox-field-766318" name="fldfirstname" maxlength=100 />
 </fieldset>
+ </div>
+ <div class="input">
 <fieldset class="formbox-field-email-766318">
 <input type=text placeholder="Email Address *" class="signup-email formbox-field-766318" name="fldEmail" maxlength=100 />
 </fieldset>
-
+ </div>
+ <div class="input">
 <fieldset><button type="submit" id="btnSubmit" krydebug="1751" class="button signup-button formbox-button-766318">Subscribe</button></fieldset></form>
-</div>
+ </div>
+ </div>
 </div>
