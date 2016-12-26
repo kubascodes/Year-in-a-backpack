@@ -11,7 +11,7 @@ layout: default
     {% for image in site.static_files %}
     {% if image.path contains page.img and image.path contains 'lead' %}
     {% unless image.path contains 'thumbnail' %}
-    <a href="#links">
+    <a href="#links" style="color: transparent; background: transparent; list-style: none;">
         <img class="img-responsive lazyload blur-up" src="{{ site.baseurl }}{{ image.path | replace: 'original', 'thumbnail' }}" data-src="{{ site.baseurl }}{{ image.path }}"  alt="{{ page.title }}">
     </a>
     {% endunless %}
