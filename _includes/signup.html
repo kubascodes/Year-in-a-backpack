@@ -1,147 +1,51 @@
 <style>
-.signup-name {
- border-bottom: 1px #254f75 solid;
- }
- .signup-email {
-  border-bottom: 1px #254f75 solid;
-  
- }
- .signup {
-  display: inline-block;
-  color: #191919;
- }
- .input {
-  display: inline;
-   color: #191919;
- }
- .signup-button {
-    border: 1px #254f75 solid;
+  form {
+    width: 80%;
+    margin: auto auto;
+  }
+  input {
     background: transparent;
- }
-</style>
-
-
-<style type="text/css">
-input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
-  color: #aca49c;
-  font-size: 0.875em;
-}
-input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
-  color: #bbb5af;
-}
-input::-moz-placeholder, textarea::-moz-placeholder {
-  color: #aca49c;
-  font-size: 0.875em;
-}
-input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
-  color: #bbb5af;
-}
-input::placeholder, textarea::placeholder {
-  color: #aca49c;
-  font-size: 0.875em;
-}
-input:focus::placeholder, textarea::focus:placeholder {
-  color: #bbb5af;
-}
-input::-ms-placeholder, textarea::-ms-placeholder {
-  color: #aca49c;
-  font-size: 0.875em;
-}
-input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
-  color: #bbb5af;
-}
-/* on hover placeholder */
-input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
-  color: #e2dedb;
-  font-size: 0.875em;
-}
-input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-input-placeholder {
-  color: #cbc6c1;
-}
-input:hover::-moz-placeholder, textarea:hover::-moz-placeholder {
-  color: #e2dedb;
-  font-size: 0.875em;
-}
-input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
-  color: #cbc6c1;
-}
-input:hover::placeholder, textarea:hover::placeholder {
-  color: #e2dedb;
-  font-size: 0.875em;
-}
-input:hover:focus::placeholder, textarea:hover:focus::placeholder {
-  color: #cbc6c1;
-}
-input:hover::placeholder, textarea:hover::placeholder {
-  color: #e2dedb;
-  font-size: 0.875em;
-}
-input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
-  color: #cbc6c1;
-}
-body {
-  background: transparent;
-  color: #b3aca7;
-}
-header {
-  position: relative;
-  margin: 100px 0 25px 0;
-  font-size: 2.3em;
-  text-align: center;
-  letter-spacing: 7px;
-}
-#form {
-  position: relative;
-  width: 500px;
-  margin: 50px auto 100px auto;
-}
-input {
-  font-size: 0.875em;
-  width: 470px;
-  height: 50px;
-  padding: 0px 15px 0px 15px;
-  
-  background: transparent;
-  outline: none;
-  color: #726659;
-  
-  border: solid 1px #b3aca7;
-  border-bottom: none;
-  
-  transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-}
-input:hover {
-  background: transparent;
-  color: black;
-}
-textarea {
-  width: 470px;
-  max-width: 470px;
-  height: 110px;
-  max-height: 110px;
+    padding: 10px 5px 10px 5px;
+    border-top: 1px solid #254f75;
+    border-left: 1px solid #254f75;
+    border-bottom: 2px solid #254f75;
+    border-right: 2px solid #254f75;
+    width: 70%;
+    max-width: 400px;
+    float: left;
+  }
+  textarea {
   padding: 15px;
-  
   background: transparent;
-  outline: none;
+  outline: none;}
+ 
+  .signup-button {
+    border: 1px solid #254f75;
+    background: transparent;
+    padding: .75em 4em .75em 4em;
+    color:  #254f75;
+  }
   
-  color: #726659;
-  font-size: 0.875em;
-  
-  border: solid 1px #b3aca7;
-  
-  transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-}
-textarea:hover {
-  background: transparent;
-  color: black;
-}
 </style>
+
+
+<form class="center-block" action="https://lb.benchmarkemail.com//code/lbform" method=post name="frmLB766318" accept-charset="UTF-8" onsubmit="return _checkSubmit766318(this);" >
+<input type=hidden name=successurl value="http://www.benchmarkemail.com/Code/ThankYouOptin" />
+<input type=hidden name=errorurl value="http://lb.benchmarkemail.com//Code/Error" />
+<input type=hidden name=token value="mFcQnoBFKMTGH%2Fh2SGYGneZXUawFafLCUAjPvVSGy9cF7QYrl9KV0w%3D%3D" />
+<input type=hidden name=doubleoptin value="" /><fieldset><div class="signup-title"><h3>Backpackers Newsletter</h3></div></fieldset>
+<div class="input center-block">
+ <fieldset class="signup center-block">
+<input type=text placeholder="Your Name *" class="signup-name formbox-field-766318" id="name" name="fldfirstname" maxlength=100 />
+</fieldset>
+ </div>
+ <div class="center">
+<fieldset class="formbox-field-email-766318">
+<input type=text placeholder="Email Address *" class="signup-email formbox-field-766318" id="email" name="fldEmail" maxlength=100 />
+</fieldset>
+ </div>
+ <div class="input">
+<fieldset><button type="submit" krydebug="1751" class="button signup-button">Subscribe</button></fieldset></form>
 
 <script type="text/javascript">
 function CheckField766318(fldName, frm){ if ( frm[fldName].length ) { for ( var i = 0, l = frm[fldName].length; i < l; i++ ) {  if ( frm[fldName].type =='select-one' ) { if( frm[fldName][i].selected && i==0 && frm[fldName][i].value == '' ) { return false; }  if ( frm[fldName][i].selected ) { return true; } }  else { if ( frm[fldName][i].checked ) { return true; } }; } return false; } else { if ( frm[fldName].type == "checkbox" ) { return ( frm[fldName].checked ); } else if ( frm[fldName].type == "radio" ) { return ( frm[fldName].checked ); } else { frm[fldName].focus(); return (frm[fldName].value.length > 0); }} }
@@ -159,25 +63,3 @@ if ( !isemail(frm["fldEmail"].value) ) {
 }
  return true; }
 </script>
-<div class="center-block">
-<div class="signup list-inline formbox-editor-766318" id="form" style="background: transparent; width: 80%;">
-<form action="https://lb.benchmarkemail.com//code/lbform" method=post name="frmLB766318" accept-charset="UTF-8" onsubmit="return _checkSubmit766318(this);" >
-<input type=hidden name=successurl value="http://www.benchmarkemail.com/Code/ThankYouOptin" />
-<input type=hidden name=errorurl value="http://lb.benchmarkemail.com//Code/Error" />
-<input type=hidden name=token value="mFcQnoBFKMTGH%2Fh2SGYGneZXUawFafLCUAjPvVSGy9cF7QYrl9KV0w%3D%3D" />
-<input type=hidden name=doubleoptin value="" /><fieldset><div class="signup-title formbox-title-766318"><h3>Backpackers Newsletter</h3></div></fieldset>
-<div class="input">
- <fieldset class="signup formbox-field-fname-766318">
-<input type=text placeholder="Your Name *" class="signup-name formbox-field-766318" id="name" name="fldfirstname" maxlength=100 />
-</fieldset>
- </div>
- <div class="input">
-<fieldset class="formbox-field-email-766318">
-<input type=text placeholder="Email Address *" class="signup-email formbox-field-766318" id="email" name="fldEmail" maxlength=100 />
-</fieldset>
- </div>
- <div class="input">
-<fieldset><button type="submit" krydebug="1751" class="button signup-button formbox-button-766318">Subscribe</button></fieldset></form>
- </div>
- </div>
-</div>
