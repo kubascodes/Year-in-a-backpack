@@ -440,6 +440,24 @@ a.button, .button {
     background: #2F7DED;
     color: white;
 }
+.instagram-button {
+	border: 1px #6dc066 solid; 
+	color: #366033;
+}
+.email-button:hover {
+	border: 1px #6dc066 solid;
+	background: #6dc066;
+	color: white;
+}
+.instagram-button {
+	border: 1px #f6546a solid; 
+	color:#7f3939;
+}
+.instagram-button:hover {
+	border: 1px #f6546a solid;
+	background: #f6546a; 
+	color: white;
+}
 .google-button {
     border: 1px #ff4444 solid;
     background: transparent;
