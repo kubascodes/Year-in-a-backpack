@@ -30,6 +30,7 @@
     color:  #254f75;
     display: block;
     max-width: 400px;
+    margin-top: 1em;
   }
   
 </style>
@@ -42,7 +43,7 @@
 <input type=hidden name=doubleoptin value="" /><div class="signup-title"><h3 class="center">Backpackers Newsletter</h3></div>
 <input type=text placeholder="Your Name *" class="signup-name center" id="name" name="fldfirstname" maxlength=100 />
 <input type=text placeholder="Email Address *" class="signup-email center formbox-field-766318" id="email" name="fldEmail" maxlength=100 />
-<button type="submit" krydebug="1751" class="button signup-button">Subscribe</button></form>
+<button type="submit" krydebug="1751" class="button signup-button center">Subscribe</button></form>
 
 <script type="text/javascript">
 function CheckField766318(fldName, frm){ if ( frm[fldName].length ) { for ( var i = 0, l = frm[fldName].length; i < l; i++ ) {  if ( frm[fldName].type =='select-one' ) { if( frm[fldName][i].selected && i==0 && frm[fldName][i].value == '' ) { return false; }  if ( frm[fldName][i].selected ) { return true; } }  else { if ( frm[fldName][i].checked ) { return true; } }; } return false; } else { if ( frm[fldName].type == "checkbox" ) { return ( frm[fldName].checked ); } else if ( frm[fldName].type == "radio" ) { return ( frm[fldName].checked ); } else { frm[fldName].focus(); return (frm[fldName].value.length > 0); }} }
