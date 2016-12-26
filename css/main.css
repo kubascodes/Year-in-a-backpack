@@ -233,10 +233,6 @@ a:hover {
     max-width: 1200px;
 }
 
-body {
-    
-}
-
 #GMaps {
     width: 80%;
     height: 80%;    
@@ -399,14 +395,10 @@ a.button, .button {
     display: inline-block;
     text-decoration:none;
 }
-a.button:hover, .button:hover {
-	color: white;
-}
-
 .tag-button {
     border: 1px #c0c0c0 solid;
     background: #c0c0c0;
-	    color: black;
+    color: black;
 }
 .country-button {
     color: #5A4B3F;
@@ -418,6 +410,7 @@ a.button:hover, .button:hover {
 .country-button:hover {
     background: #ab9788;
     border: 1px #ab9788 solid;
+    color: white;
 }
 .tag-box {
     max-width: 70%;
@@ -425,6 +418,7 @@ a.button:hover, .button:hover {
 .tag-button:hover {
     background: #737373;
     border: 1px #737373 solid;
+    color: white;
 
 }
 .twitter-button {
