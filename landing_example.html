@@ -106,7 +106,7 @@ a:hover {
     <li class="col-md-4">
         {% for image in site.static_files %}
     {% if image.path contains post.img and image.path contains 'thumbnail' and image.path contains 'lead' %}
-        <a href="{{ post.url }}"><img class="postImage" src="{{ image.path }}"></a>
+        <a href="{{ post.url }}"><img class="postImage lazyload" src="{{ image.path }}"></a>
     {% endif %}
     {% endfor %}
         <a class="normal-font" href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
