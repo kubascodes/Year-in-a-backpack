@@ -467,7 +467,11 @@ a.button, .button {
     background: #ff4444;
     color: white;
 }
-
+.author-button {
+	border: 1px #1D4835 solid;
+	color: #1D4835;
+	background: transparent;
+}
 .time-button {
     border: 1px #6897bb solid;
     color: #6897bb;
