@@ -4,13 +4,14 @@
     margin: auto auto;
   }
   input {
+    display: inline-block;
     margin-top: 1em;
     background: transparent;
     padding: 10px 5px 10px 5px;
     border-top: 1px solid #254f75;
     border-left: 1px solid #254f75;
-    border-bottom: 2px solid #254f75;
-    border-right: 2px solid #254f75;
+    border-bottom: 1px solid #254f75;
+    border-right: 1px solid #254f75;
     width: 70%;
     max-width: 400px;
   }
@@ -33,19 +34,15 @@
 <input type=hidden name=successurl value="http://www.benchmarkemail.com/Code/ThankYouOptin" />
 <input type=hidden name=errorurl value="http://lb.benchmarkemail.com//Code/Error" />
 <input type=hidden name=token value="mFcQnoBFKMTGH%2Fh2SGYGneZXUawFafLCUAjPvVSGy9cF7QYrl9KV0w%3D%3D" />
-<input type=hidden name=doubleoptin value="" /><fieldset><div class="signup-title"><h3 class="center">Backpackers Newsletter</h3></div></fieldset>
+<input type=hidden name=doubleoptin value="" /><div class="signup-title"><h3 class="center">Backpackers Newsletter</h3></div>
 <div class="input">
- <fieldset >
 <input type=text placeholder="Your Name *" class="signup-name formbox-field-766318" id="name" name="fldfirstname" maxlength=100 />
-</fieldset>
  </div>
  <div>
-<fieldset class="formbox-field-email-766318">
 <input type=text placeholder="Email Address *" class="signup-email formbox-field-766318" id="email" name="fldEmail" maxlength=100 />
-</fieldset>
  </div>
  <div class="input">
-<fieldset><button type="submit" krydebug="1751" class="button signup-button">Subscribe</button></fieldset></form>
+<button type="submit" krydebug="1751" class="button signup-button">Subscribe</button></form>
 
 <script type="text/javascript">
 function CheckField766318(fldName, frm){ if ( frm[fldName].length ) { for ( var i = 0, l = frm[fldName].length; i < l; i++ ) {  if ( frm[fldName].type =='select-one' ) { if( frm[fldName][i].selected && i==0 && frm[fldName][i].value == '' ) { return false; }  if ( frm[fldName][i].selected ) { return true; } }  else { if ( frm[fldName][i].checked ) { return true; } }; } return false; } else { if ( frm[fldName].type == "checkbox" ) { return ( frm[fldName].checked ); } else if ( frm[fldName].type == "radio" ) { return ( frm[fldName].checked ); } else { frm[fldName].focus(); return (frm[fldName].value.length > 0); }} }
