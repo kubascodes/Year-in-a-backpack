@@ -175,7 +175,7 @@ a {
     font-weight: 500;
     color: #0E2F44;
 }
-a, a:active, a:hover, a:visited {
+a:active, a:hover, a:visited {
     text-decoration:none;
 }
 a:hover {
@@ -396,11 +396,17 @@ a.button, .button {
     padding: 0.2em 0.5em 0.2em 0.5em;
     border-radius: 3px;
     margin-top: 0.5em;
-	display: inline-block;
+    display: inline-block;
+    text-decoration:none;
 }
-.tag-button, .tag-button {
+a.button:hover, .button:hover {
+	color: white;
+}
+
+.tag-button {
     border: 1px #c0c0c0 solid;
     background: #c0c0c0;
+	    color: black;
 }
 .country-button {
     color: #5A4B3F;
@@ -412,9 +418,6 @@ a.button, .button {
 .country-button:hover {
     background: #ab9788;
     border: 1px #ab9788 solid;
-}
-.tag-button {
-    color: black;
 }
 .tag-box {
     max-width: 70%;
