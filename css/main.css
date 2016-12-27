@@ -197,7 +197,7 @@ a:hover {
 }
 
 .postHeader {
-    max-height: 400px;
+    height: 400px;
     width: 100%;
     overflow: hidden;
     transition: ease;
@@ -212,16 +212,16 @@ a:hover {
 }
 
 @media only screen and (min-width: 800px) {
-    .postHeader img {
-        max-height: 500px;
+    .postHeader {
+        height: 500px;
         transition: ease;
         transition-duration: 1s;
     }
 }
 
 @media only screen and (min-width: 1200px) {
-    .postHeader img {
-        max-height: 650px;
+    .postHeader {
+        height: 650px;
         transition: ease;
         transition-duration: 1s;
     }
