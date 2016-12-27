@@ -6,7 +6,7 @@ description: "Photographs from two guys backpacking America and Asia."
 ---
 <link rel="stylesheet" href="/css/blueimp-gallery.css">
 
-    <h1 class="container center">Pics</h1>
+    <h1 class="container center">Photographs</h1>
 {% assign sorted_categories = (site.categories | sort:0) %}
 {% for category in sorted_categories %}
   <div class="archive-title center">
@@ -17,7 +17,7 @@ description: "Photographs from two guys backpacking America and Asia."
           <div class="col-md-4">
       {% for image in site.static_files %}
     {% if image.path contains post.img and image.path contains 'thumbnail' and image.path contains 'lead' %}
-        <a href="{{ post.url }}#links"><img class="postImage" src="{{ image.path }}"></a>
+        <a href="{{ post.url }}#links"><img class="postImage lazyload" data-src="{{ image.path }}"></a>
     {% endif %}
     {% endfor %}
 	<h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.landmark }}, {{post.date | date_to_long_string}}</a></h5>
