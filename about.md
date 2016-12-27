@@ -15,7 +15,7 @@ Kuba finished his bachelors and while he procrastinated during revision for his 
 
 ### The plan 
 The big plan is to spend 6months in South America, 2months in North America and around 4months in Asia. 
-![The plan](/assets/jpegs/plan_map.png){:class="img-responsive center-block"}
+<img data-src="/assets/jpegs/plan_map.png" class="img-responsive center-block lazyload">
 So far, we've been to Brazil, Argentina and Uruguay, it's already been 2 months! Next, we are going to Chile, Bolivia, Peru, Ekvador and Colombia. Our plans change everyday, so who knows where we go next. You can see where we currently are on our [map](/map).
 
 ### How we travel
@@ -53,13 +53,14 @@ Our families and friends, Pavel Slováček, Monika and Oriana from Pirenopolis, 
 We are two czech boys from Prague who decided to travel for one year. Jakub is a fresh Bristol graduate, pretty happy when with his backpack and discovering something somewhere. Simon has recently opened up a bar in Prague with his friends - he's always happy to grab beer and meet with new people. 
 
 ### Kuba
-
+<img data-src="/assets/jpegs/kuba.jpg" class="img-responsive center-block lazyload">
 I am 22 years old, love to be outdoors and hang out with people. I really enjoy biking the forest trails or down the roads, hiking in the mountains, running or snowboarding / cross-country skiing in wintertime. 
 I had the opportunity to learn foreign languages and spend time abroad during my studies so I was comfortable with meeting new people and be in foreign environments. 
 I want to discover new things, see the world instead of sitting at home and that's where my passion for travel comes from. I think it's important to travel because it allows you to self-develop and grow. 
 There are also some important things I want and need to do in my life. Travelling the world was one of them, so I worked a lot during last year, successfully graduated from uni and broke up with my girlfriend to finally make my dream true. There's more about me on my [personal site](www.jakubvelfl.com). Cheers, Kuba
 
 ### Šimon
+<img data-src="/assets/jpegs/simon.jpg" class="img-responsive center-block lazyload">
 
 {% include signature.html %}
     
