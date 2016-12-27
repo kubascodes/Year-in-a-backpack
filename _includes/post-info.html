@@ -1,5 +1,5 @@
 <ul class="list-inline">
-	<li class="button author-button">{{ page.author }}</li>
+	<li class="button author-button">{% assign author = site.authors[page.author] %}</li>
 	<li class="button time-button">{{ page.date | date: "%-d %B %Y"}}</li>
   {% if post %}
     {% assign categories = post.categories %}
