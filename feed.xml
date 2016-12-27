@@ -14,11 +14,9 @@ layout: null
     {% for post in site.posts limit:10 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
-{% for post in site.posts limit: 3 %}
-    <li class="col-md-4">
         {% for image in site.static_files %}
     {% if image.path contains post.img and image.path contains 'thumbnail' and image.path contains 'lead' %}
-        <a href="{{ post.url }}"><img class="postImage lazyload" src="{{ image.path }}"></a>
+        <img class="postImage lazyload" src="{{ image.path }}">
     {% endif %}
     {% endfor %}
         <description>{{ post.content | xml_escape }}</description>
