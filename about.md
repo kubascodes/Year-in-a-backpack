@@ -1,10 +1,9 @@
 ---
-layout: default
+layout: container
 permalink: /about
 title: About
 description: "Two Czech friends decided to travel for one year through South America and Asia, living out of their backpacks. Find out all about this backpacking journey and the guys behind it on this page."
 ---
-<div class="post-container">
 # About YIAB
 
 ### In 2013, we had an idea
@@ -60,9 +59,6 @@ I want to discover new things, see the world instead of sitting at home and that
 There are also some important things I want and need to do in my life. Travelling the world was one of them, so I worked a lot during last year, successfully graduated from uni and broke up with my girlfriend to finally make my dream true. There's more about me on my [personal site](www.jakubvelfl.com). Cheers, Kuba
 
 ### Šimon
-
-</div>
-
 
 {% include signature.html %}
     
