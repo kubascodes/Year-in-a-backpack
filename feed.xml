@@ -12,13 +12,14 @@ layout: null
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
     {% for post in site.posts limit:10 %}
+{% for image in site.static_files %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
-        {% for image in site.static_files %}
+        
     {% if image.path contains post.img and image.path contains 'thumbnail' and image.path contains 'lead' %}
         <img class="postImage lazyload" src="{{ image.path }}">
     {% endif %}
-    {% endfor %}
+    
         <description>{{ post.content | xml_escape }}</description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
@@ -30,6 +31,7 @@ layout: null
         <category>{{ cat | xml_escape }}</category>
         {% endfor %}
       </item>
+{% endfor %}
     {% endfor %}
   </channel>
 </rss>
