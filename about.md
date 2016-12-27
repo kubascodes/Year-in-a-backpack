@@ -5,6 +5,7 @@ title: About
 description: "Two Czech friends decided to travel for one year through South America and Asia, living out of their backpacks. Find out all about this backpacking journey and the guys behind it on this page."
 ---
 # About YIAB
+{: .center }
 
 ### In 2013, we had an idea
 to travel the world in a van. Dream big or stay home, here we are today with our backpacks, discovering the beauty of America from South to North and later going down to Asia.
