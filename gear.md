@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: container
 permalink: /gear
 title: Gear
-description: "Gear and things we have in our backpacks. "
+description: "Two guys decided to travel the world with their backpacks. Look at the gear and things they took on their trip."
 ---
 
 # Gear
