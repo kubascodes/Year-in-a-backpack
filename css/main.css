@@ -120,7 +120,6 @@ blockquote.twitter-tweet a[href^="https://twitter.com"] {
 footer {
     margin-top: 1em;
 }
-
 .white {
     color: #eeeeee;
 }
@@ -185,56 +184,48 @@ a:hover {
     list-style-type: none;
     padding: 0;
 }
-
 .nopadding {
    padding: 0 !important;
    margin: 0 !important;
 }
-
 .padding {
     max-width: 80%;
     word-wrap: normal;
 }
-
 .postHeader {
-    height: 400px;
+    max-height: 400px;
     width: 100%;
     overflow: hidden;
     transition: ease;
         transition-duration: 1s;
 }
-
 .overlay {
-    display: none;   
+    display: none;
+    
 }
-
 @media only screen and (min-width: 800px) {
     .postHeader {
-        height: 500px;
+        max-height: 500px;
         transition: ease;
         transition-duration: 1s;
     }
 }
-
 @media only screen and (min-width: 1200px) {
     .postHeader {
-        height: 650px;
+        max-height: 650px;
         transition: ease;
         transition-duration: 1s;
     }
 }
-
 .postImage {
     width: 100%;
     height: auto;
     max-width: 1200px;
 }
-
 #GMaps {
     width: 80%;
     height: 80%;    
 }
-
 .google-maps {
         position: relative;
         padding-bottom: 75%;
@@ -248,16 +239,13 @@ a:hover {
         width: 100% !important;
         height: 100% !important;
     }
-
 div#links img {
     width: 100%;
     height: auto;
 }
-
 .archive-title {
   text-transform: capitalize;
 }
-
 #archive-child {
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
@@ -267,26 +255,22 @@ div#links img {
     padding-bottom: 1em;
     padding-top: 1em;
 }
-
 .footer {
     border-top: 3px solid #eeeeee;
     background-color: rgba(245,245,245,0.7);
     position:relative;
     margin-bottom: 0;
 }
-
 #links {
     margin-bottom: 1em;
 }
 .instagram {
     padding: 1em 1em 1em 1em;
 }
-
 ul#photowall {
     list-style: none;
     list-style-type: none;
 }
-
 @media (min-width: 1200px) {
   #photo-wall {
         column-gap:           0px;  
@@ -331,13 +315,11 @@ ul#photowall {
     padding-left: 1em;
     }
 }
-
 .sandwich {
     width: auto;
     height: 35px;
     
 }
-
 .cover {
     background: url(/img/googlemapblackwhiteoptim.png) no-repeat center center; 
   -webkit-background-size: cover;
@@ -346,7 +328,6 @@ ul#photowall {
   background-size: cover;
     
 }
-
 .next-article {
     top: 0;
     bottom:0;
@@ -375,7 +356,6 @@ ul#photowall {
     height: 100%;
     max-height: 80%;
 }
-
 .container-post {
     max-width: 800px;
     padding-right: 2em;
@@ -416,7 +396,6 @@ a.button, .button {
     background: #737373;
     border: 1px #737373 solid;
     color: white;
-
 }
 .twitter-button {
     border: 1px #4da6ff solid;
@@ -496,7 +475,6 @@ a.button, .button {
     overflow: hidden;
 	bottom:0;
 	left:0;
-
 }
 html,
 body {
@@ -511,7 +489,6 @@ navbar-default {
 div#myNavbar.navbar-collapse.collapse.ul.nav.navbar-nav {
     background-color: rgba(245,245,245, 0.8);
 }
-
 nav.navbar.navbar-fixed-top.navbar-default {
     background-color: rgba(245,245,245, 0.8);
   border-bottom: 3px solid #eeeeee;
@@ -549,11 +526,9 @@ label {
     border-right: 1px rgba(238,238,238,1) solid;
     background: rgba(238,238,238,0.6);
 }
-
 .pageNavigation {
     width: 100%;
 }
-
 .pageNavigation:hover {
     background-color: rgba(238, 238, 238, 1);
 }
@@ -570,14 +545,11 @@ label {
 div>.pageNavigation>a.next {
     
 }
-
 div>.pageNavigation>a.prev {
 }
-
 #textover a {  
   display: inline-block;
 }
-
 #textover h2 {
 	color: #ffffff;
   font-size: 2em;
