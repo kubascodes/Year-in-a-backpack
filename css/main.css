@@ -193,7 +193,6 @@ a:hover {
     word-wrap: normal;
 }
 .postHeader {
-    max-height: 400px;
     width: 100%;
     overflow: hidden;
     transition: ease;
