@@ -212,7 +212,7 @@ a:hover {
 }
 
 @media only screen and (min-width: 800px) {
-    .postHeader {
+    .postHeader img {
         max-height: 500px;
         transition: ease;
         transition-duration: 1s;
@@ -220,7 +220,7 @@ a:hover {
 }
 
 @media only screen and (min-width: 1200px) {
-    .postHeader {
+    .postHeader img {
         max-height: 650px;
         transition: ease;
         transition-duration: 1s;
