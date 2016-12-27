@@ -203,17 +203,14 @@ a:hover {
     transition: ease;
         transition-duration: 1s;
 }
-.postHeader:hover {
-    background: red;
-}
+
 .overlay {
-    display: none;
-    
+    display: none;   
 }
 
 @media only screen and (min-width: 800px) {
     .postHeader {
-        height: 500px;
+        max-height: 500px;
         transition: ease;
         transition-duration: 1s;
     }
@@ -221,7 +218,7 @@ a:hover {
 
 @media only screen and (min-width: 1200px) {
     .postHeader {
-        height: 650px;
+        max-height: 650px;
         transition: ease;
         transition-duration: 1s;
     }
