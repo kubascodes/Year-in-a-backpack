@@ -1,6 +1,8 @@
 <ul class="list-inline">
 	{% assign author = site.authors[page.author] %}
+{% if author %}
 	<li class="button author-button" itemprop="author" itemscope="" itemtype="http://schema.org/Person" >{{ author.display_name }}</li>
+{% endif %}
 	<li class="button time-button" itemprop="datePublished">{{ page.date | date: "%-d %B %Y"}}</li>
   {% if post %}
     {% assign categories = post.categories %}
