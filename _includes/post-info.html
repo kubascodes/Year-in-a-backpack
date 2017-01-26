@@ -8,16 +8,14 @@
     {% assign categories = page.categories %}
   {% endif %}
   {% for category in categories %}
-<div itemprop="contentLocation" itemscope itemtype="http://schema.org/AdministrativeArea">
-  <li><a class="button country-button archive-title" href="{{site.url}}/countries/#{{category|slugize}}">{{ page.landmark }}</a></li>
-  <li><a class="button country-button archive-title" href="{{site.url}}/countries/#{{category|slugize}}">{{category}}</a></li>
-</div>
+  <li itemprop="contentLocation" itemscope itemtype="http://schema.org/AdministrativeArea"><a class="button country-button archive-title" href="{{site.url}}/countries/#{{category|slugize}}">{{ page.landmark }}</a></li>
+  <li itemprop="contentLocation" itemscope itemtype="http://schema.org/AdministrativeArea"><a class="button country-button archive-title" href="{{site.url}}/countries/#{{category|slugize}}">{{category}}</a></li>
   {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
 
     {% for tag in page.tags %}
-<ul itemprop="keywords">
+<div itemprop="keywords">
         <li><a class="button tag-button archive-title" href="{{ site.baseurl }}/tags#{{ tag | slugify }}" rel="tag">{{ tag }}</a></li>
-</ul>
+</div>
 		 {% endfor %}
 </ul>
