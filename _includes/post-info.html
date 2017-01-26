@@ -14,8 +14,6 @@
   {% endfor %}
 
     {% for tag in page.tags %}
-<div itemprop="keywords">
-        <li><a class="button tag-button archive-title" href="{{ site.baseurl }}/tags#{{ tag | slugify }}" rel="tag">{{ tag }}</a></li>
-</div>
+        <li itemprop="keywords"><a class="button tag-button archive-title" href="{{ site.baseurl }}/tags#{{ tag | slugify }}" rel="tag">{{ tag }}</a></li>
 		 {% endfor %}
 </ul>
