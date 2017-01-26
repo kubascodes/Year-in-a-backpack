@@ -2,7 +2,7 @@
 layout: post
 img: 'img/2017-01-26'
 title: "Armed Robbery in Bariloche"
-author: [kuba]
+author: kuba
 landmark: [Bariloche]
 categories: [Argentina]
 tags: [hitchhiking, robbery, lake, mountains, hike]

@@ -2,7 +2,7 @@
 layout: guide
 title: "10 Tips To Hitchhiking in Brazil"
 img: 'img/2016-12-27'
-author: [kuba]
+author: kuba
 landmark: [Niquelandia]
 categories: [Brazil]
 tags: [hitchhiking]

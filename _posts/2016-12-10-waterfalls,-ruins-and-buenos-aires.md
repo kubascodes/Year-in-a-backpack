@@ -2,7 +2,7 @@
 layout: post
 img: 'img/2016-12-10'
 title: "Waterfalls, ruins and Buenos Aires"
-author: [simon]
+author: simon
 landmark: [Puerto Iguacu]
 categories: [Argentina]
 tags: [nature, city, hitchhiking]

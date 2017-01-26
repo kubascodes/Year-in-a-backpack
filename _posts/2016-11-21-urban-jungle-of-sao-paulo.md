@@ -2,7 +2,7 @@
 layout: post
 img: 'img/2016-11-21'
 title: "Urban Jungle of Sao Paulo"
-author: [kuba, simon]
+author: kuba, simon
 landmark: [Sao Paulo]
 categories: [Brazil]
 tags: [art, city, food]
