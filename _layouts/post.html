@@ -6,6 +6,7 @@ layout: default
 <link rel="stylesheet" href="/css/blueimp-gallery.css">
 </head>
 
+<div itemscope="" itemtype="http://schema.org/BlogPosting">
 <div class="container-fluid postHeader" id="textover">
     {% for image in site.static_files %}
     {% if image.path contains page.img and image.path contains 'lead' %}
@@ -17,10 +18,12 @@ layout: default
 </div>
 
 <div class="container-post">   
-    <h2>{{ page.title }}</h2>
+    <h2 itemprop="name headline" >{{ page.title }}</h2>
     {% include post-info.html %}
     <hr>
+<div itemprop="articleBody">
     {{ content }}
+</div>
     {% include sharer.html %}
 </div>
 
@@ -65,6 +68,7 @@ layout: default
     </a>
 
   {% endif %}
+</div>
 </div>
 
 <script src="/js/blueimp-gallery.min.js"></script>

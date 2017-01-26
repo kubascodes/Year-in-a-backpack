@@ -1,19 +1,23 @@
 <ul class="list-inline">
 	{% assign author = site.authors[page.author] %}
-	<li class="button author-button">{{ author.display_name }}</li>
-	<li class="button time-button">{{ page.date | date: "%-d %B %Y"}}</li>
+	<li class="button author-button" itemprop="author" itemscope="" itemtype="http://schema.org/Person" >{{ author.display_name }}</li>
+	<li class="button time-button" itemprop="datePublished">{{ page.date | date: "%-d %B %Y"}}</li>
   {% if post %}
     {% assign categories = post.categories %}
   {% else %}
     {% assign categories = page.categories %}
   {% endif %}
   {% for category in categories %}
+<div itemprop="contentLocation" itemscope itemtype="http://schema.org/AdministrativeArea">
   <li><a class="button country-button archive-title" href="{{site.url}}/countries/#{{category|slugize}}">{{ page.landmark }}</a></li>
   <li><a class="button country-button archive-title" href="{{site.url}}/countries/#{{category|slugize}}">{{category}}</a></li>
+</div>
   {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
 
     {% for tag in page.tags %}
-        <li><a class="button tag-button archive-title" href="{{ site.baseurl }}/tags#{{ tag | slugify }}">{{ tag }}</a></li>
+<ul itemprop="keywords">
+        <li><a class="button tag-button archive-title" href="{{ site.baseurl }}/tags#{{ tag | slugify }}" rel="tag">{{ tag }}</a></li>
+</ul>
 		 {% endfor %}
 </ul>
