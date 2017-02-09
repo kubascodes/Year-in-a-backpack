@@ -55,7 +55,7 @@ The footpath was lost somewhere in the vegetation, but it was only a brief secti
 
 Coming down, the wide dirt road was being claimed back by the nature and eventually turned into a footpath with overgrown vegetation (or rather a green tunnel). So much that going through it was worse than being in heavy rain as the forest was soaked with water. I was drenched. **The woods I was going through were spectacular** though - huge dead trees, moss of green and pink, a lot of bushes, bamboo, forest fruit which looked like blackcurrant. Awesome! After about 2hrs, I got to another meadow, where I saw an open shelter with some backpackers warming up by the fire, it was great to see someone! Those people were **an American couple, Wes and Kate from California were on a bigger mission and were hiking all the way down to Tierra del Fuego**, following the Greater Patagonian Trail. It was awesome to chat with them by the fire and we'll probably meet again in the USA! They had proper equipment including an inflatable boat to cross the lakes and dried food for 2 weeks... Very inspirational trip, good luck guys!
 
-{% include image.html image-name="DSC00373.jpg" %}
+{% include image.html image-name="DSC00408.jpg" %}
 
 ## Rounding up
 
