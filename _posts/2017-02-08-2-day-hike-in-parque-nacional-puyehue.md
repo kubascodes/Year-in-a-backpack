@@ -13,7 +13,6 @@ description: "I have never been in such wilderness.  This place is still untouch
 Since the robbery in Bariloche, we spent too much time in cities to get our things for the trip - I longed so much for a getaway in the nature! Eventually we made it from Santiago down to Osorno, where temperatures were considerably lower (especially in the night) and days longer (by 2hrs!). Osorno itself is not so special, but its old colorful wooden houses give it a soul. 
 
 {% include video.html video-id="eP9cCFu55xw" %}
-
 **I bought food for 3 days** (pasta, peanuts, sultanas, rice plus some salsa and biscuits) and carried 2L of water. After breakfast, I headed to the bus station to go to Entre Lagos from where I planned to hitchhike. 
 
 ## Getting to Antillanca 
