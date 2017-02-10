@@ -61,7 +61,10 @@ Coming down, the wide dirt road was being claimed back by the nature and eventua
 
 All in all this trail was awesome as it offers great natural diversity - volcanoes, woods, lakes or meadows. I wish I knew what forest fruits were edible (and which were poisonous) as there were loads. It is necessary to carry **enough water** on the trail - water is only available in Antillanca, Pampa Frutilla and at the shelter 8km away from Anticura. It was really cold up at the volcanoes and during night, make sure you have **warm (5°C) and waterproof gear** (mountain-proof clothes, good sleeping bag, pad and tent). There is hardly anyone and the trail is badly marked, **GPS is a must** (smartphone nowadays). Plus be sure to carry enough food as for resupplying, you'd need to go back as far as Entre Lagos, where you can find some supermarkets or bistros selling food at normal prices (there's also a restaurant at Antillanca). Some times and distances are below (I went rather fast and with apx 15kg backpack):
 
-Day 1: From Antillanca over volcanoes 4,5hrs 13,5km
-Day 2: Meadow to Pampa Frutilla 1hr 6km
-Day 2: Pampa Frutilla to shelter 3,5hrs 13km
-Day 3: Shelter to the main road connecting to Argentina 1hr 5km
+- Day 1: From Antillanca over volcanoes 4,5hrs 13,5km
+
+- Day 2: Meadow to Pampa Frutilla 1hr 6km
+
+- Day 2: Pampa Frutilla to shelter 3,5hrs 13km
+
+- Day 3: Shelter to the main road connecting to Argentina 1hr 5km (just to spend one more night in the nature)
