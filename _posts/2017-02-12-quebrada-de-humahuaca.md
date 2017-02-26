@@ -35,4 +35,6 @@ The painted adverts in South America are quite beautiful
 Bolivia. Behind the fence. The locals just go around and cross the river…
 {% include image.html image-name="DSC00585.jpg" %}
 
-So that's it for Argentina! 
+So that's it for Argentina! Watch the video below! ;)
+
+{% include video.html video-id="LzroAhsB-1U" %}
