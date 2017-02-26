@@ -4,6 +4,8 @@ layout: default
 <head>
 <meta name="geo.placename" content="{{ page.landmark }}, {{ page.categories }}">
 <link rel="stylesheet" href="/css/blueimp-gallery.css">
+
+<link rel="image_src" href="http://domain.com/images/logo.gif" />
 </head>
 
 <div itemscope="" itemtype="http://schema.org/BlogPosting">
@@ -12,6 +14,7 @@ layout: default
     {% if image.path contains page.img and image.path contains 'lead' %}
     {% unless image.path contains 'thumbnail' %}
 <noscript><img src="{{ site.baseurl }}{{ image.path }}" /></noscript>
+<link rel="image_src" href="{{ site.baseurl }}{{ image.path }}" />
         <img class="img-responsive lazyload blur-up" src="{{ site.baseurl }}{{ image.path | replace: 'original', 'thumbnail' }}" data-src="{{ site.baseurl }}{{ image.path }}"  alt="{{ page.title }}">
     {% endunless %}
     {% endif %}   
