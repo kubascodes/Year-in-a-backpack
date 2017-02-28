@@ -15,6 +15,8 @@ From the border with Argentina, we took a night bus to Uyuni to see one of Boliv
 
 The next morning, we went to find out which company we'd choose. We were interested in a 1 day tour of the saltar, the prices were ranging from B120 to B150. Many companies offer the same, but some only offer half of the itinerary for the same price (careful)! First impressions were strongest with Giselle Tours as we were promised to see the train cemetery, Colchani village, salt hotel, Isla de Pescado, water reflections, sunset with wine + lunch. All good, we were booked in on the next day and had a free day.
 
+{% include video.html video-id="6zgrchzstO4" %}
+
 ## Salar de Uyuni on a budget
 
 ### Train Cemetery
