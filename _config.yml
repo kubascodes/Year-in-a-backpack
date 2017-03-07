@@ -27,7 +27,7 @@ theme: minima
 
 
 include: ["_pages"]
-exclude: ["working_files"]
+exclude: ["working_files", "_drafts"]
 permalink: /journal/:title
 
 defaults:
