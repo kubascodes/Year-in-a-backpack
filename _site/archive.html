@@ -1,83 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Backpacking adventure around America and Asia.">
-    <meta name="author" content="Jakub Velfl and Simon Tomanik">
-    <link rel="icon" href="/assets/icons/Yearinabackpack_logoblack_small.png">
-
-    <title>Year in a backpack</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="/css/bootstrap_small.css" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Droid+Sans|Lato:400,900" rel="stylesheet">
-    <!-- Custom styles for this template -->
-    <link href="/css/main.min.css" rel="stylesheet">
-  </head>
-
-  <body>
-    <nav class="navbar navbar-fixed-top navbar-default">
-  <div class="container">
-    
-      <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <img class="sandwich" src="/assets/icons/sandwich.png" alt="menu">
-        </button>
-        <a class="navbar-brand" href="/"><img src="/assets/icons/Yearinabackpack_logoblack_medium.png"></a>
-    </div>
-      
-      <div class="collapse navbar-collapse" id="myNavbar">
-    <ul class="nav navbar-nav">
-      <li><a href="/journal">Journal</a></li>
-      <li><a href="/news">News</a></li> 
-      <li><a href="/map">Map</a></li>
-      <li><a href="/pics">Pics</a></li>
-      <li><a href="/gear">Gear</a></li>
-      <li><a href="/stats">Stats</a></li>
-      <li><a href="/about">About</a></li>
-    </ul>
-  </div>
-      
-  </div>
-</nav>
-
-    <div class="fill content">
-      <h1 class="center">Archive</h1>
+---
+layout: default
+permalink: /archive
+title: Archive
+description: "Older posts from Year in a Backpack. Sorted from most recent to oldest."
+---
+<div>
+<h1 class="center">Archive</h1>
+<div class="container">
 <ul class="journal row">
-  
-    <li class="col-xs-12 col-sm-4 col-lg-3 center">
-        <a class="archive-title normal-font" href="/colombia/2016/10/11/Tester2.html"><b>Tester</b><br> 11 October 2016, Colombia</a>
-    </li>
-  
-    <li class="col-xs-12 col-sm-4 col-lg-3 center">
-        <a class="archive-title normal-font" href="/brazil/2016/10/07/Trial.html"><b>Packing for Rio</b><br> 07 October 2016, brazil</a>
-    </li>
-  
-    <li class="col-xs-12 col-sm-4 col-lg-3 center">
-        <a class="archive-title normal-font" href="/brazil/2016/10/06/welcome-to-jekyll.html"><b>El Brasiliero</b><br> 06 October 2016, brazil</a>
-    </li>
-        
-</ul>
-<div class="content-push"></div>
-<footer class="footer">
-    <ul class="center list-inline vertical-align">
-    <li><a href="mailto:hello@yearinabackpack.com">@yearinabackpack</a></li>
-        <li><a href="http://www.facebook.com/yearinabackpack" class="normal-font">facebook</a></li>
-        <li><a href="http://www.twitter.com/yearinabackpack" class="normal-font">twitter</a></li>
-        <li><a href="http://www.instagram.com/yearinabackpack" class="normal-font">instagram</a></li>
-    <li style="font-size:0.8em"><a href="http://www.jakubvelfl.com" class="center normal-font">&copy; Jakub Velfl</a></li>    
-    </ul>
-    
-      </footer>    
-    </div>
-
-      
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="/js/jquery.min.js"><\/script>')</script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
-    <script src="/js/bootstrap.min.js"></script>
-  </body>
-</html>
+{% for post in site.posts %}
+    <li class="col-md-4" id="archive-child">
+        {% for image in site.static_files %}
+    {% if image.path contains post.img and image.path contains 'thumbnail' and image.path contains 'lead' %}
+        <a href="{{ post.url }}"><img class="postImage" src="{{ image.path }}"></a>
+    {% endif %}
+    {% endfor %}
+        <a class="normal-font" href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+        <div>On {{ post.date | date_to_long_string }} in
+    {% assign categories = post.categories %}
+  {% for category in categories %} <a class="button archive-title country-button" href="{{site.url}}/countries/#{{category|slugize}}">{{category}}</a>
+  {% unless forloop.last %}&nbsp;{% endunless %}
+  {% endfor %}
+{% for tag in post.tags %}
+        <a class="button tag-button archive-title" href="{{ site.baseurl }}/tags#{{ tag | slugify }}">{{ tag }}</a>
+		 {% endfor %}
+        <a class="normal-font" href="{{ post.url }}"><p>{{ post.excerpt | truncatewords: 18 }}</p></a>  
+		</li>
+{% endfor %}
+	</ul>
+	</div>
+</div>  
+{% include signature.html %}
