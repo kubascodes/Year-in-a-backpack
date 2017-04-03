@@ -3,7 +3,7 @@ layout: post
 img: 'img/2017-03-31'
 title: "Salkantay trek - why we didn't go to Machu Picchu"
 author: kuba
-landmark: [Santa Teresa District]
+landmark: [Mollepata]
 categories: [Peru]
 tags: [history, hike, mountains]
 description: "When you get to Cusco, you have several options of what to do. We opted to hike the 4-day Salkantay trek on our own, which many people combine with a Machu Picchu visit. We didn't really do that, unlike others, we chose not to go to Machu Picchu."
