@@ -41,7 +41,7 @@ As we walked back, it was time to contemplate on what we just experienced. The w
 
 {% include image.html image-name="DSC02612.jpg" %}
 
-The last town before Choquequirao is Morampata. There is quite a lot of people who live here, isolated in a similar way to the inhabitants of Choquequirao, yet in the modern context. They grow food and keep domestic animals to produce as much as they can. Yet they need to go to the city sometimes - it takes about a day and half by horse or more than two days walking to Cachora, where they buy overpriced supplies such as rice and beer/coke for the tourists. They rely extensively on mules and horses that carry all this load.
+The last town before Choquequirao is Marampata. There is quite a lot of people who live here, isolated in a similar way to the inhabitants of Choquequirao, yet in the modern context. They grow food and keep domestic animals to produce as much as they can. Yet they need to go to the city sometimes - it takes about a day and half by horse or more than two days walking to Cachora, where they buy overpriced supplies such as rice and beer/coke for the tourists. They rely extensively on mules and horses that carry all this load.
 
 {% include image.html image-name="DSC02632.jpg" %}
 

@@ -11,11 +11,7 @@ layout: default
 <div class="container-post">   
     <h2 itemprop="name headline" >{{ page.title }}</h2>
     {% include post-info.html %}
-    <hr>
-<div itemprop="articleBody">
-    {{ content }}
-</div>
-    {% include sharer.html %}
+    <hr> 
 </div>
 
 
@@ -42,6 +38,8 @@ layout: default
 {% endfor %} 
 </div>
 </div>
+
+{% include sharer.html %}
 
     <div class="next-article center">Read next</div>
 <div class="pageNavigation center">
