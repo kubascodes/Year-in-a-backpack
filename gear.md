@@ -34,25 +34,33 @@ description: "Two guys decided to travel the world with their backpacks. Look at
 * Sleeping pad (Klymit Static V)
 * Tent (Husky Brunel for 2)
 * Outdoor cookware (GSI Outdoors Pinnacle)
-* Cutlery (Sea to Summit)
+* Cutlery (Sea to Summit) handmade wooden spoon
 * Kindle
-* Solid hiking shoes
+* Solid hiking shoes (my old Salomon)
 * Headlight
 * Swiss knife
 
 ### Electronics
 {: .center}
+Before we got robbed in Argentina:
 * Charging: 16000mAh Xiaomi battery pack, iPad usb charger, solar panel, DIY usb camera charger, USB cables
 * 2 cellphones (old Samsung Galaxy S3 mini/iPhone 4; Simon goes with Xiaomi), 1 serving as a backup and music player
 * Panasonic LX5 camera
 * Drift Ghost HD action camera
+
+{: .center}
+New equip after the robbery:
+* Charging: 10000mAh GP battery pack (recharges phone 3x), two usb chargers and usb cables that came with electronics (slower but oh well..)
+* Kuba got a Moto G4, Simon goes with Xiaomi Redmi)
+* Sony RX100 camera (the only option in Chile practically)
+* GoPro Hero 4 Session
 
 ### Other practicalities
 {: .center}
 * Playing cards (Kamasutra edition)
 * Waterproof bag for clothes
 * Tablets for purifying water
-* Passport, credit cards 4x, photocopy of all important documents
+* Passport, credit cards 4x 3x, photocopy of all important documents (in the cloud)
 * Cash ($200)
 * South America map (printed out)
 * Sun cream 30
