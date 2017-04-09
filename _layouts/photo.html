@@ -1,0 +1,77 @@
+---
+layout: default
+---
+<head>
+<meta name="geo.placename" content="{{ page.landmark }}, {{ page.categories }}">
+<link rel="stylesheet" href="/css/blueimp-gallery.css">
+<link rel="image_src" href="http://domain.com/images/logo.gif" />
+</head>
+
+
+<div class="container-post">   
+    <h2 itemprop="name headline" >{{ page.title }}</h2>
+    {% include post-info.html %}
+    <hr>
+<div itemprop="articleBody">
+    {{ content }}
+</div>
+    {% include sharer.html %}
+</div>
+
+
+<div id="blueimp-gallery" class="blueimp-gallery">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+</div>
+
+<div id="links">
+    <div class="container-fluid row">
+{% for image in site.static_files %}
+    {% if image.path contains page.img %}
+        {% if image.path contains 'original' %}
+        <a class="col-xs-12 col-sm-6 col-lg-6 gallery pull-left" href="{{ site.baseurl }}{{ image.path }}" alt="image.path">
+    <img class="gallery lazyload" data-src="{{ site.baseurl }}{{ image.path | replace: 'original', 'thumbnail' }}" alt="image.path" />
+    </a>
+        {% endif %}
+   {% endif %}
+{% endfor %} 
+</div>
+</div>
+
+    <div class="next-article center">Read next</div>
+<div class="pageNavigation center">
+  {% if page.previous.url %}
+    <a class="prev" href="{{page.previous.url}}">
+        <h4>{{page.previous.title}}</h4>
+    <p>{{page.previous.content | truncate: 50}}</p>
+    </a>
+    
+    {% elsif page.next.url %}
+    <a class="next" href="{{page.next.url}}">
+        <h4>{{page.next.title}}</h4>
+<p>{{page.next.content | truncate: 50}}</p>
+        </p> 
+    </a>
+
+  {% endif %}
+</div>
+</div>
+
+<script src="/js/blueimp-gallery.min.js"></script>
+</script>
+<script>
+document.getElementById('links').onclick = function (event) {
+    event = event || window.event;
+    var target = event.target || event.srcElement,
+        link = target.src ? target.parentNode : target,
+        options = {index: link, event: event},
+        links = this.getElementsByTagName('a');
+    blueimp.Gallery(links, options);
+};
+</script>
+
