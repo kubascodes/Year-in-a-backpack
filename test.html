@@ -18,13 +18,15 @@ description: "Kuba's photos from backpacking America and Asia."
           <div class="col-md-4">
       {% for image in site.static_files %}
     {% if image.path contains post.img and image.path contains 'thumbnail' and image.path contains 'lead' %}
-        <a href="{{ post.url }}#links"><img class="postImage lazyload" data-src="{{ image.path }}"></a>
-{% else %}
-{% assign images = site.static_files | where:'image.path', post.img %}
-{% for images in site.static_files limit:1 %}
-<a href="{{ post.url }}#links"><img class="postImage lazyload" data-src="{{ image.path }}"></a>
-{% endfor %}
+{% assign lead_image = {{ image.path }} %}
+<a href="{{ post.url }}#links"><img class="postImage lazyload" data-src="{{ lead_image }}"></a>
     {% endif %}
+
+{% if image.path contains post.img and image.path contains 'thumbnail' %}
+{% assign first_image = {{ image.path }} | first %}
+<a href="{{ post.url }}#links"><img class="postImage lazyload" data-src="{{ first_image }}"></a>
+{% endif %}
+
     {% endfor %}
 	<h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.landmark }}, {{post.date | date_to_long_string}}</a></h5>
 			  	  </div>
