@@ -27,7 +27,7 @@ We made it down to the river and from there, we hiked another 4hrs up to Santa R
 
 Choquequirao is a huge complex and you can easily spend more than two days exploring the site without knowing everything. Having hiked all the way here, the work of the Incas remains remarkable and unbelievable. It is hard to comprehend their dedication to building a city so high in the mountains and so isolated from the outside world.
 
-{% include video.html video-id="" %}
+{% include video.html video-id="y9eqXF3Hc6w" %}
 
 There are terraces used for farming built on 60-70° slopes!! It is scary enough to stand on them, but to build them?! These terraces have to be maintained and if not, the powerful jungle quickly covers any sign of man work - I guess there might be many of these sites still undiscovered. At the bottom of these terraces, you can admire white stoned lamas built-in the terraces' walls. 
 

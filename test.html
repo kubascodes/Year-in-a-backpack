@@ -17,7 +17,7 @@ description: "Kuba's photos from backpacking America and Asia."
 {% unless post.layout contains 'guide' %}
           <div class="col-md-4">
       {% for image in site.static_files %}
-    {% if image.path contains post.img and image.path contains 'thumbnail' and image.path contains 'lead' %}
+    {% if image.path contains post.img and image.path contains 'thumbnail' or image.path contains 'lead' %}
         <a href="{{ post.url }}#links"><img class="postImage lazyload" data-src="{{ image.path }}"></a>
     {% endif %}
     {% endfor %}
