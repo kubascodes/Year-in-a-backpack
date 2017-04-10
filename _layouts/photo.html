@@ -25,7 +25,6 @@ layout: default
 </div>
 
 <div id="links">
-    <div class="container-fluid row">
 {% for image in site.static_files %}
     {% if image.path contains page.img %}
         {% if image.path contains 'original' %}
@@ -36,7 +35,6 @@ layout: default
         {% endif %}
    {% endif %}
 {% endfor %} 
-</div>
 </div>
 
 {% include sharer.html %}
