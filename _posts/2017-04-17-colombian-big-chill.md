@@ -23,7 +23,7 @@ Then we explored the Cafetero region, where we visited coffee farms and drank a 
 
 Then we went to Medellin, where we drank rum, played tennis all day after 8 years and went to the Museum of Modern Art. 
 
-{% include image.html image-name="G0013664.jpg" %}
+{% include image_any.html image-name="/img/2017-04-17/original/G0013664.jpg" %}
 
 We then made it to Girardot, a small town with a lot of top-end hotel resorts. We went to a discotheque on the top of a gas station and then to a posh pool party with house music. 
 
