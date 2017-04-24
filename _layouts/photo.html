@@ -43,7 +43,7 @@ layout: default
         <a class="col-xs-12 col-sm-6 col-lg-6 gallery center-block" href="{{ site.baseurl }}{{ image.path }}" alt="image.path">
     <img class="gallery lazyload getPadding" data-src="{{ site.baseurl }}{{ image.path | replace: 'original', 'thumbnail' }}" alt="image.path" />
     </a>
-<br>
+{% endunless %}
         {% endif %}
    {% endif %}
 {% endfor %} 
