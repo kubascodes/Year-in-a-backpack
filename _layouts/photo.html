@@ -28,8 +28,8 @@ layout: default
 {% for image in site.static_files %}
     {% if image.path contains page.img %}
         {% if image.path contains 'original' %}
-        <a class="col-xs-12 col-sm-6 col-lg-6 gallery pull-left getPadding" href="{{ site.baseurl }}{{ image.path }}" alt="image.path">
-    <img class="gallery lazyload" data-src="{{ site.baseurl }}{{ image.path | replace: 'original', 'thumbnail' }}" alt="image.path" />
+        <a class="col-xs-12 col-sm-6 col-lg-6 gallery pull-left" href="{{ site.baseurl }}{{ image.path }}" alt="image.path">
+    <img class="gallery lazyload getPadding" data-src="{{ site.baseurl }}{{ image.path | replace: 'original', 'thumbnail' }}" alt="image.path" />
     </a>
 <br>
         {% endif %}
