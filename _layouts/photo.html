@@ -7,11 +7,22 @@ layout: default
 <link rel="image_src" href="http://domain.com/images/logo.gif" />
 </head>
 
+<div class="container-fluid postHeader" id="textover">
+    {% for image in site.static_files %}
+    {% if image.path contains page.img and image.path contains 'lead' %}
+    {% unless image.path contains 'thumbnail' %}
+<noscript><img src="{{ site.baseurl }}{{ image.path }}" /></noscript>
+<link rel="image_src" href="{{ site.baseurl }}{{ image.path }}" />
+        <img class="img-responsive lazyload blur-up" src="{{ site.baseurl }}{{ image.path | replace: 'original', 'thumbnail' }}" data-src="{{ site.baseurl }}{{ image.path }}"  alt="{{ page.title }}">
+    {% endunless %}
+    {% endif %}   
+    {% endfor %}
+</div>
+
 
 <div class="container-post">   
     <h2 itemprop="name headline" >{{ page.title }}</h2>
     {% include post-info.html %}
-
 
 
 <div id="blueimp-gallery" class="blueimp-gallery">
@@ -28,7 +39,8 @@ layout: default
 {% for image in site.static_files %}
     {% if image.path contains page.img %}
         {% if image.path contains 'original' %}
-        <a class="col-xs-12 col-sm-6 col-lg-6 gallery pull-left" href="{{ site.baseurl }}{{ image.path }}" alt="image.path">
+{% unless image.path contains 'lead' %}
+        <a class="col-xs-12 col-sm-6 col-lg-6 gallery center-block" href="{{ site.baseurl }}{{ image.path }}" alt="image.path">
     <img class="gallery lazyload getPadding" data-src="{{ site.baseurl }}{{ image.path | replace: 'original', 'thumbnail' }}" alt="image.path" />
     </a>
 <br>
