@@ -192,6 +192,9 @@ a:hover {
     max-width: 80%;
     word-wrap: normal;
 }
+.getPadding {
+   padding: 0.5em 0.5em 0.5em 0.5em
+}
 .postHeader {
     width: 100%;
     overflow: hidden;
