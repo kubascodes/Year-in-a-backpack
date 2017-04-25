@@ -8,6 +8,8 @@ layout: default
 <link rel="image_src" href="http://domain.com/images/logo.gif" />
 </head>
 
+<div itemscope="" itemtype="http://schema.org/BlogPosting">
+
 <div class="container-fluid postHeader" id="textover">
     {% for image in site.static_files %}
     {% if image.path contains page.img and image.path contains 'lead' %}
@@ -51,11 +53,8 @@ layout: default
 </div>
 <br>
 {% include sharer.html %}
-</div>
-<br>
-</div>
 
-<div class="container-fluid>
+
     <div class="next-article center">Read next</div>
 <div class="pageNavigation center">
   {% if page.previous.url %}
@@ -70,10 +69,7 @@ layout: default
 <p>{{page.next.content | truncate: 50}}</p>
         </p> 
     </a>
-
   {% endif %}
-</div>
-</div>
 </div>
 
 <script src="/js/blueimp-gallery.min.js"></script>
