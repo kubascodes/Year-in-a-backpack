@@ -51,12 +51,12 @@ layout: default
    {% endif %}
 {% endfor %} 
 </div>
-<br>
-{% include sharer.html %}
 </div>
 
+{% include sharer.html %}
 
-    <div class="container-fluid next-article center">Read next</div>
+    <div class="next-article center">Read next</div>
+
 <div class="pageNavigation center">
   {% if page.previous.url %}
     <a class="prev" href="{{page.previous.url}}">
@@ -72,6 +72,7 @@ layout: default
     </a>
   {% endif %}
 </div>
+
 </div>
 <script src="/js/blueimp-gallery.min.js"></script>
 </script>
