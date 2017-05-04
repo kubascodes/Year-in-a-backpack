@@ -1,7 +1,7 @@
 ---
 layout: guide
 lead: /img/2016-12-29/001lead.jpg
-img: 'img/2017-05'
+img: 
 gallery: no
 title: "How does it feel to be 6 months on the road​"
 author: kuba
