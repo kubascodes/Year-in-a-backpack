@@ -10,7 +10,7 @@
     {% assign categories = page.categories %}
   {% endif %}
   {% for category in categories %}
-{% if page.landmark == defined %}
+{% if page.landmark != '' %}
   <li itemprop="contentLocation" itemscope itemtype="http://schema.org/AdministrativeArea"><a class="button country-button archive-title" href="{{site.url}}/countries/#{{category|slugize}}">{{ page.landmark }}</a></li>
 {% endif %}
   <li itemprop="contentLocation" itemscope itemtype="http://schema.org/AdministrativeArea"><a class="button country-button archive-title" href="{{site.url}}/countries/#{{category|slugize}}">{{category}}</a></li>
