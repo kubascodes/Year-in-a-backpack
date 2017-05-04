@@ -1,6 +1,6 @@
 ---
 layout: guide
-lead: /img/2016-12-29/001lead.jpg
+lead: '/img/2016-12-29/001lead.jpg'
 img: '2017-05-04'
 gallery: no
 title: "How does it feel to be 6 months on the road​"
