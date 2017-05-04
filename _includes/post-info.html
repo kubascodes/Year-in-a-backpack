@@ -10,7 +10,9 @@
     {% assign categories = page.categories %}
   {% endif %}
   {% for category in categories %}
+{% if page.landmark != "" or page.landmark != nil %}
   <li itemprop="contentLocation" itemscope itemtype="http://schema.org/AdministrativeArea"><a class="button country-button archive-title" href="{{site.url}}/countries/#{{category|slugize}}">{{ page.landmark }}</a></li>
+{% endif %}
   <li itemprop="contentLocation" itemscope itemtype="http://schema.org/AdministrativeArea"><a class="button country-button archive-title" href="{{site.url}}/countries/#{{category|slugize}}">{{category}}</a></li>
   {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
