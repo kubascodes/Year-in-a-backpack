@@ -6,6 +6,14 @@ layout: default
 <link rel="stylesheet" href="/css/blueimp-gallery.css">
 </head>
 
+<div itemscope="" itemtype="http://schema.org/BlogPosting">
+<div class="container-fluid postHeader" id="textover">
+   
+<noscript><img src="{{ site.baseurl }}{{ image.path }}" /></noscript>
+<link rel="image_src" href="{{ site.baseurl }}{{ page.lead }}" />
+        <img class="img-responsive lazyload blur-up" data-src="{{ page.lead }}"  alt="{{ page.title }}">
+</div>
+
 <div class="container-post">   
     <h2>{{ page.title }}</h2>
     {% include post-info.html %}
@@ -14,6 +22,7 @@ layout: default
     {{ content }}
 </div>
     {% include sharer.html %}
+</div>
 </div>
 
     <div class="next-article center">Read next</div>
