@@ -15,7 +15,7 @@ description: "Kuba's photos from backpacking America and Asia."
 	 <div class="container">
     <h2 id="#{{ category_name | slugize }}" class="category-head">{{ category_name }}</h2>
 	 {% for post in site.categories[category_name] %}
-	 {% unless post.layout == "guide" %}
+	 {% unless post.layout == 'guide' %}
           <div class="col-md-4">
       {% for image in site.static_files %}
     {% if image.path contains post.img and image.path contains 'thumbnail' and image.path contains 'lead' %}
