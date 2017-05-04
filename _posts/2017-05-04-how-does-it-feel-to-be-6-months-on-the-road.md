@@ -5,7 +5,6 @@ img: '2017-05-04'
 gallery: no
 title: "How does it feel to be 6 months on the road​"
 author: kuba
-landmark: 
 categories: [South America]
 tags: [thoughts, travel tips]
 description: "When we left home in October, we flew into the unknown. I thought I'll be vagabonding, living in my tent all the time. Cooking cheap rice or pasta meals, trying to survive on our tiny $500 per month budget. Trying to survive the dangers of South America. I simply didn't know what to expect from this trip."
