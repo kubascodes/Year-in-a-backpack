@@ -37,3 +37,4 @@ It's exciting to meet people from all over the world all the time. Some of them 
 
 **Be less of a gringo by learning Spanish**. Really! It helps a lot in South America and if you know a little bit already, you'll quickly improve. You won't get ripped off as often, you can have more meaningful conversations with the locals than body language and you'll feel much more like at home than at a hostile country. I am very grateful for paying a little attention​ during Spanish classes at high school.
 
+Live life!
