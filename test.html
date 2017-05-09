@@ -15,7 +15,7 @@ description: "Kuba's photos from backpacking America and Asia."
 	 <div class="container">
     <h2 id="#{{ category_name | slugize }}" class="category-head">{{ category_name }}</h2>
 	 {% for post in site.categories[category_name] %}
-	 {% unless post.layout == 'guide' %}
+		{% if post.layout contains 'photo' or post.layout contains 'post' %}
           <div class="col-md-4">
       {% for image in site.static_files %}
     {% if image.path contains post.img and image.path contains 'thumbnail' and image.path contains 'lead' %}
@@ -24,7 +24,7 @@ description: "Kuba's photos from backpacking America and Asia."
     {% endfor %}
 	<h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.landmark }}, {{post.date | date_to_long_string}}</a></h5>
 			 	 </div>
-			{% endunless %}
+		     {% endif %}
     {% endfor %}
   </div>
 {% endfor %}
