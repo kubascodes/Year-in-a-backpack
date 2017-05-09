@@ -7,7 +7,7 @@ description: "Kuba's photos from backpacking America and Asia."
 
 <link rel="stylesheet" href="/css/blueimp-gallery.css">
 {% if post.layout contains 'photo' or post.layout contains 'post' %}
-{% assign gallery_posts = (site.posts | sort:0) %}
+{% assign gallery_posts = post %}
 {% endif %}
 <h1 class="container center">Photos</h1>
 {% assign sorted_categories = (site.categories | sort:0) %}
