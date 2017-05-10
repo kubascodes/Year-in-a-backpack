@@ -7,7 +7,6 @@ description: "Kuba's photos from backpacking America and Asia."
 <link rel="stylesheet" href="/css/blueimp-gallery.css">
 {% for post in site.posts %}
 {% if post.layout contains 'post' or post.layout contains 'photo' %}
-{% assign photo_post = post %}
+{{ post }}
 {% endif %}
 {% endfor %}
-{{ photo_post }}
