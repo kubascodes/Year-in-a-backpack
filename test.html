@@ -12,3 +12,9 @@ description: "Kuba's photos from backpacking America and Asia."
 {% endfor %}
 {{ photo_posts }}
 
+{% assign guides = (site.posts | where: "gallery" , "no") %}
+{% for post in guide %}
+{{ post.title }}
+{% endfor %}
+
+
