@@ -27,6 +27,8 @@ layout: default
     <h2 itemprop="name headline" >{{ page.title }}</h2>
     {% include post-info.html %}
 
+<p>{{ content }}</p>
+
 
 <div id="blueimp-gallery" class="blueimp-gallery">
     <div class="slides"></div>
@@ -43,7 +45,7 @@ layout: default
     {% if image.path contains page.img %}
         {% if image.path contains 'original' %}
 {% unless image.path contains 'lead' %}
-        <a class="col-xs-12 col-sm-6 col-lg-6 gallery center-block" href="{{ site.baseurl }}{{ image.path }}" alt="image.path">
+        <a class="col-xs-12 col-sm-12 col-lg-12 gallery center-block" href="{{ site.baseurl }}{{ image.path }}" alt="image.path">
     <img class="gallery lazyload getPadding" data-src="{{ site.baseurl }}{{ image.path | replace: 'original', 'thumbnail' }}" alt="image.path" />
     </a>
 {% endunless %}
