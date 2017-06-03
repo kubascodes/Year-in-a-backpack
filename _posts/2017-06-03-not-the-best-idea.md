@@ -1,5 +1,5 @@
 ---
-layout: guide
+layout: post
 img: '2017-06-03'
 gallery: no
 title: "Not the best idea​"
