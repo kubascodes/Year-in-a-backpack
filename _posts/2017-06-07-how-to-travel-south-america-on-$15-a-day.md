@@ -11,13 +11,15 @@ tags: [thoughts, travel tips, guide, experience, money]
 description: "Before we set off, we were told to prepare for South America being expensive. So we did, we took a tent, camping gear and were ready for a bit of discomfort in order to fit in our budget. The worst thing to happen was to run out of cash and go home. That didn't happen and today, 7 months later, we can share our experience and some tips & tricks on cheap but fun travel!  "
 ---
 
-Each country has its specifics when it comes to saving money, meaning that just like each of them has a national dish, each has its own ways of living cheap. While everyone says South America is expensive, we manage to live well for a long term average of around $15/day. You can obviously go up with the budget to luxurious $30/day or cut it down to less than $5-10 just like the street performers or travellers-workers, often artists, who sell their art. It's up to you how you want to travel and where the limits of your comfort zone lie.
+Each country has its specifics when it comes to saving money, meaning that just like each of them has a national dish, each has its own ways of living cheap. While everyone says South America is expensive, we managed to live well for a long term average of around $15/day. You can obviously go up with the budget to luxurious $30/day or cut it down to less than $5-10 just like the street performers or travellers-workers. It's up to you how you want to travel and where you want to push the limits of your comfort zone. 
 
 ## 3 big expenses
 
-There are 3 biggest expenses for travellers: you need to eat, get around and sleep. You should forget about eating in restaurants in expensive countries (Brazil, Argentina, Uruguay, Chile) or sleeping in hostels sometimes even paying the campsites at over $10 a night (Brazil, Chile, Argentina). In cheap countries like Bolivia, Peru, Cuba or Mexico, you can afford eating out, staying in hostels and taking buses. Getting around can be a considerable expense so it makes sense to plan the route ahead, look for cheap routes and cover most distance on these services (for example, Buenos Aires has cheap buses to Mendoza, Bariloche or Salta) or simply hitchhike as there are trucks doing long haul routes and they take you quite far (Chile). 
+There are 3 biggest expenses for travellers: eat, travel and sleep. In expensive countries (Brazil, Argentina, Uruguay, Chile), you should forget about eating out in restaurants, taking the bus, sleeping in hostels or even campsites, some of which charge over $10 or sleeping in hostels sometimes even paying the campsites at over $10 a night (Brazil, Chile, Argentina). However, in cheaper countries like Bolivia, Peru, Cuba or Mexico, you can afford living like a king including eating out, staying at hostels with swimming pools and take comfortable buses. You win some you lose some, right?
 
-## The tips
+Getting around can be a considerable expense so it makes sense for you to plan the intended route ahead - look for cheap routes and cover most distance on these services (for example, Buenos Aires has cheap buses to Mendoza, Bariloche or Salta). You can also hitchhike as there are trucks doing long haul routes and they take you quite far (Chile), just beware they often have only 1 seat legally. It is easy and cheap to find transport for short distances using microbuses. Now that you have the general idea, let's move onto the actual tips!
+
+## The tips & tricks
 
 - take overnight buses, saves you 1 night, gives you a full day of worryless exploration (you can often leave your backpack with the company)
 
@@ -78,4 +80,6 @@ There are 3 biggest expenses for travellers: you need to eat, get around and sle
 
 ## Don't forget
 
-Last but not least, have fun! Low budget shouldn't block you from enjoying your travel, on the contrary, it should enable you to have a great time anywhere you go and put you in situations where you meet a lot of incredible people! 
+You are trying to achieve a long-term average of $15/day. This doesn't mean we'd spend exactly $15, sometimes it'd be $30 having gone to a party, at other times, we would spend exactly 0 bucks!
+
+Don't forget to have a great time, have fun! Low budget shouldn't stop you from enjoying your travel; on the contrary, it should enable you to have a great time anywhere you go and put you in situations where you meet a lot of incredible people! 
