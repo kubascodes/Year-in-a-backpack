@@ -1,7 +1,7 @@
 ---
 layout: post
 img: 'img/2017-02-08'
-title: "2 Day Hike in Parque Nacional Puyehue"
+title: "Hiking Volcanoes in Puyehue National Park"
 author: kuba
 landmark: [Antillanca]
 categories: [Chile]

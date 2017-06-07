@@ -1,7 +1,7 @@
 ---
 layout: post
 img: 'img/2017-01-26'
-title: "Armed Robbery in Bariloche"
+title: "Got robbed with a gun!"
 author: kuba
 landmark: [Bariloche]
 categories: [Argentina]

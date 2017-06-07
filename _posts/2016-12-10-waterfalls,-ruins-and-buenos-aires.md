@@ -1,7 +1,7 @@
 ---
 layout: post
 img: 'img/2016-12-10'
-title: "Waterfalls, ruins and Buenos Aires"
+title: "From Iguaçu waterfalls to Buenos Aires"
 author: simon
 landmark: [Puerto Iguacu]
 categories: [Argentina]

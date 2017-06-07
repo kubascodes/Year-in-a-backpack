@@ -1,7 +1,7 @@
 ---
 layout: post
 img: 'img/2016-11-18'
-title: "Pirenopolis"
+title: "Eating pizza in Pirenopolis"
 author: kuba
 landmark: [Pirenopolis]
 categories: [Brazil]

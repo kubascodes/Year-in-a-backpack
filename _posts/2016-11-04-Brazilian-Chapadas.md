@@ -1,7 +1,7 @@
 ---
 layout: post
 img: 'img/2016-11-04'
-title: "Brazilian Chapadas"
+title: "Paradise in Brazilian Chapadas"
 landmark: [Alto Paraiso]
 author: kuba
 categories: [Brazil]

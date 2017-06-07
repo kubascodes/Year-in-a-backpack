@@ -1,7 +1,7 @@
 ---
 layout: post
 img: 'img/2017-04-09'
-title: "Choquequirao​"
+title: "Choquequirao​, the inaccessible Inca fortress"
 author: kuba
 landmark: [Choquequirao]
 categories: [Peru]

@@ -1,7 +1,7 @@
 ---
 layout: post
 img: 'img/2016-10-30'
-title: "3 days in Rio de Janeiro"
+title: "Rio de Janeiro in 3 days"
 author: simon
 landmark: [Rio de Janeiro]
 categories: [Brazil]

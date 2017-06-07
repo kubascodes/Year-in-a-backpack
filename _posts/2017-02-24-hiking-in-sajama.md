@@ -1,7 +1,7 @@
 ---
 layout: post
 img: 'img/2017-02-24'
-title: "Hiking in Sajama"
+title: "Hiking up to 5500m in Sajama NP"
 author: kuba
 landmark: [Sajama]
 categories: [Bolivia]

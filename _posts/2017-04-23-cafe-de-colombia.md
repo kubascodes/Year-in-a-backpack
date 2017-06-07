@@ -1,7 +1,7 @@
 ---
 layout: post
 img: 'img/2017-04-23'
-title: "Cafe de Colombia​"
+title: "Drinking coffee in Colombia​"
 author: kuba
 landmark: [Salento]
 categories: [Colombia]
