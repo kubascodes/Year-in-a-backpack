@@ -1,14 +1,14 @@
 ---
 layout: guide
 lead: '/img/2017-06-07/original/001lead.jpg'
-img: '2017-06-07'
+img: '/img/2017-06-07'
 gallery: no
 title: "How to travel South America on $15 a day​"
 author: kuba
 landmark: 
 categories: [South America]
 tags: [thoughts, travel tips, guide, experience, money]
-description: "Before we set off, we were told to prepare for South America being expensive. So we did, we took a tent, camping gear and were ready for a bit of discomfort in order to fit in our budget. The worst thing to happen was to run out of cash and go home. That didn't happen and today, 7 months later, we can share our experience and some tips & tricks on cheap but fun travel!  "
+description: "Before we set off, we were told to prepare for South America being expensive. So we did, we took a tent, camping gear and were ready for a bit of discomfort in order to fit in our budget. The worst thing to happen was to run out of cash and go home. That didn't happen and today, 7 months later, we can share our experience and some tips & tricks on cheap but fun travel!"
 ---
 
 Each country has its specifics when it comes to saving money, meaning that just like each of them has a national dish, each has its own ways of living cheap. While everyone says South America is expensive, we managed to live well for a long term average of around $15/day. You can obviously go up with the budget to luxurious $30/day or cut it down to less than $5-10 just like the street performers or travellers-workers. It's up to you how you want to travel and where you want to push the limits of your comfort zone. 
