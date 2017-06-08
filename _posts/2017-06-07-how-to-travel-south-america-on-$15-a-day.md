@@ -31,7 +31,6 @@ Shop at supermarkets, **cook your own food** (in some countries like Bolivia, Pe
 
 **Meet local people**: they can tell you where to eat, sleep or even invite you to sleep at their house (doesn't apply for Cuba!)
 
-
 {% include image.html image-name="localsperu.jpg" %}
 
 **Share a beer** with travelers to exchange tips on what to do or tourist traps, meet new friends or travel partners
@@ -62,19 +61,19 @@ Always **agree on the price before** boarding the bus/micro/taxi and try to nego
 
 **Have some small change**. Especially true for Cuba, you think you've agreed on the price, but they might try scamming you telling you the price is per person not for the two of you, once you hand the bill over, it's too late.
 
-Look for **crowded places** or queues full of people, they usually mean something exceptionally good or cheap. Stick to places with people and you might have just found a hidden gem!
-
 {% include image.html image-name="queue.jpg" %}
 
-Book plane tickets well **in advance**, there's considerable savings here
+Look for **crowded places** or queues full of people, they usually mean something exceptionally good or cheap. Stick to places with people and you might have just found a hidden gem!
+
+Book plane tickets well **in advance**, there's considerable savings here.
 
 Proof your **bargaining skills**. Don't be afraid to cut the price by 2 or even by 25 times (yes this is how much more they want to charge foreigners in Cuba!). Walk off, they will usually run after you with a much better deal (taxis, collectivos). If travelling off peak, you know you are pulling at the longer side of the cord, and you can get significant discounts (true for accommodation in Cuba where we manage 50% off or hostel for the price of camping in Brazil). In some countries you can bargain more (Peru, Cuba) in others, the discounts are not that significant (Colombia, Bolivia, Argentina or Brazil). 
 
-**Take out the tour operators**. Not only are you more free but this saves you so much money. Some people even go in for advice and then do it on their own. For example, we were able to do the Salkantay trek in Peru with our own equipment for less than 1/5 the cost of the tour agencies, doing exactly the same itinerary including transport (public microbus).
+Buy your **own gear**. When you wanna go snorkeling, buy your gear at the shop and not at the beach, it's cheaper than renting it for a day. You can sell it after you're done using it. The same goes for hiking or camping gear. 
 
 {% include image.html image-name="gear.jpg" %}
 
-Buy your **own gear**. When you wanna go snorkeling, buy your gear at the shop and not at the beach, it's cheaper than renting it for a day. You can sell it after you're done using it. The same goes for hiking or camping gear. 
+**Take out the tour operators**. Not only are you more free but this saves you so much money. Some people even go in for advice and then do it on their own. For example, we were able to do the Salkantay trek in Peru with our own equipment for less than 1/5 the cost of the tour agencies, **doing exactly the same** itinerary including transport (public microbus).
 
 {% include image.html image-name="fish.jpg" %}
 
