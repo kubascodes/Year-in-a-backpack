@@ -15,7 +15,7 @@ Each country has its specifics when it comes to saving money, meaning that just 
 
 ## 3 big expenses
 
-There are 3 biggest expenses for travellers: **eat, travel and sleep**. In expensive countries (Brazil, Argentina, Uruguay, Chile), you should forget about eating out in restaurants, taking the bus, sleeping in hostels or even campsites, some of which charge over $10 or sleeping in hostels sometimes even paying the campsites at over $10 a night (Brazil, Chile, Argentina). However, in cheaper countries like Bolivia, Peru, Cuba or Mexico, you can afford living like a king including eating out, staying at hostels with swimming pools and take comfortable buses. You win some you lose some, right?
+There are 3 biggest expenses for travellers: **eat, travel and sleep**. In expensive countries (Brazil, Argentina, Uruguay, Chile), you should forget about eating out in restaurants, taking the bus, sleeping in hostels or even campsites, some of which charge over $10 a night (Brazil, Chile, Argentina). However, in cheaper countries like Bolivia, Peru, Cuba or Mexico, you can afford living like a king including eating out, staying at hostels with swimming pools and take comfortable buses. You win some you lose some, right?
 
 Getting around can be a considerable expense so it makes sense for you to plan the intended route ahead - look for cheap routes and cover most distance on these services (for example, Buenos Aires has cheap buses to Mendoza, Bariloche or Salta). You can also hitchhike as there are trucks doing long haul routes and they take you quite far (Chile), just beware they often have only 1 seat legally. It is easy and cheap to find transport for short distances using microbuses. Now that you have the general idea, let's move onto the actual tips!
 
