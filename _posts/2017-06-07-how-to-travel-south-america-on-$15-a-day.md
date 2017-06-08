@@ -46,15 +46,15 @@ Find **campsites for free** or ask people whether you can stay in their garden (
 
 Use public transportation, hitchhike, walk around, challenge the local stereotypes (many people would put you off from public transportation or tell you it's too far to walk)
 
-Take buses from terminals, where you have more **bargaining power**. Don't go with the first company. Sometimes it's worth paying more for comfort (overnight buses)
-
 {% include image.html image-name="colectivo.jpg" %}
+
+Take buses from terminals, where you have more **bargaining power**. Don't go with the first company. Sometimes it's worth paying more for comfort (overnight buses)
 
 The **best deals** are not always online, ask "offline" as well! (That lady cooking home made food, that family guesthouse…). We book in advance when going to a big city, it's usually cheaper and safer to know about a place (it's a bad idea to wander about a South American city you don't know, might as well get to a bad part of town very quickly).
 
-**Alcohol** is generally expensive, but each country has its national booze. There's very cheap wine in Argentina and Chile. Cheap pisco in Bolivia and Peru. Rum in Colombia, Cuba or cachaça in Brazil. Tequila in Mexico. Beer is rather expensive. 
-
 {% include image.html image-name="cigar.jpg" %}
+
+**Alcohol** is generally expensive, but each country has its national booze. There's very cheap wine in Argentina and Chile. Cheap pisco in Bolivia and Peru. Rum in Colombia, Cuba or cachaça in Brazil. Tequila in Mexico. Beer is rather expensive. 
 
 Always **agree on the price before** boarding the bus/micro/taxi and try to negotiate. Know the real price, if not sure, ask locals who are not interested in selling you expensive, try multiple companies/people to get an idea about the price (we go to them by giving them the price for which we're willing to go). This avoids unnecessary rip offs and disappointment.
 
