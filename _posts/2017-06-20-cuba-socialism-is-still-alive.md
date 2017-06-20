@@ -1,6 +1,6 @@
 ---
 layout: post
-img: '2017-06-20'
+img: '/img/2017-06-20'
 gallery: yes
 title: "Cuba: socialism is still alive"
 author: kuba
