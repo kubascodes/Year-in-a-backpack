@@ -10,7 +10,7 @@ description: "Almost everyone told us Cuba is not a backpacker-friendly country,
 title: "Everything you need to know to visit Cuba on a budget"
 ---
 
-# Before you go
+## Before you go
 
 Take with you a small 30L backpack, 2-3 t-shirts, a shirt, shorts, swimsuit, 2 pairs of underwear and socks, flip flops, sunglasses, sunscream, snorkeling mask, a book and camera. You don't really need proper hiking shoes, take something comfortable. 
 
@@ -34,7 +34,7 @@ Decide which type of vacation you want. If you're in Cuba to relax, it's best fo
 
 Finally, it's better to go to Cuba with someone to split costs. Accommodation will be cheaper (price per room) and overall you have greater negotiating power in 2 people. I split this guide in transportation section, accommodation, food and drinks and finally ending with some tips on what to do.
 
-# Transportation:
+## Transport:
 
 This is the hardest part. Gas is expensive and there are few buses or camionetas so everything is working against you. Moreover, locals give foreigners way higher prices (from 2x to 25x the official price) and you have to do hard bargaining if you don't wanna be ripped off. 
 
@@ -58,7 +58,7 @@ Inside cities, it's best to use either intermunicipal buses (for 1CUP), horse ta
 
 Oh, I almost forgot the train. Slow, difficult and unreliable service. You need to buy in advance, then queue up to spend not so great 22hrs on the train. It's not so bad, just bear in mind the seats are uncomfortable, the air smells toilet and it is hot inside. On the other hand, there is enough legroom and you get to Santiago de Cuba or Guantanamo for around 30 CUC. The ticket office opens from Monday to Friday from 8am to 4pm (by 8am Monday it was crowded) and sometimes on Saturday until 11am. The trains leave every 4 days, but since the train to Guantanamo leaves the day after the Santiago one, there are roughly 4 weekly trains going east. It's an interesting experience for sure.
 
-# Accommodation
+## Accommodation
 
 Foreigners can use casas particulares marked by a blue symbol with 'aprendador divisa' sometimes written underneath, meaning they charge in dollars (CUC). If you're in Cuba off-season, you can cut the price considerably from the high-season standard charge  of 20-25 CUCs per room. It's good to know they will likely have no one else otherwise and will accept almost anything down to $10 per room ($15 for sure). This means you can divide the nightly rate by two or three, depending on how many people are in your group and the size of the room. Although accommodation is a large part of the budget, it is cheap in Cuba. Also, in bigger cities, there are easily more than 100 casas, don't be afraid to walk off if you feel like the price is too high. 
 
@@ -68,7 +68,7 @@ We never had food in the casas particulares as they charge about $3 for breakfas
 
 We didn't stay in hotels nor did we camp although it's possible to. But it's really hot in Cuba and the casas are usually really nice with a terrace as well, why not enjoy yourself?
 
-# Food and drinks
+## Food and drinks
 
 You can buy all your food for CUP or national money.  There's no need to cook for yourself. 
 
