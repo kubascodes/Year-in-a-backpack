@@ -1,5 +1,3 @@
-Yosemite hike
-
 ---
 layout: post
 img: '/img/2017-07-25'
