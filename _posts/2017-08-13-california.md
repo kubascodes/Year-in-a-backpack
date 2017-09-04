@@ -65,6 +65,8 @@ The free camping was really nice - grass camp spots shaded by pines with toilets
 
 Back at Chester, I enjoyed an Oreo milkshake (+ wifi) and talked to some curious people who were amazed that I got here from San Fran. I bought shell brackets and plastic straps to secure my backpack in place. The bike setup seems to be complete.
 
+{% include video.html video-id="3z1uC0mFcgU" %}
+
 Further, the ride led along Lake Almanor, which was super nice, I would happily spend my entire summer chilling here by the water. Lake Almanor is a really large lake, something around 10km by 30km, there's a lot of summer houses, boat rentals, restaurants and day use areas, where you can pull-over and hang out in privacy. 
 
 {% include image.html image-name="24.jpg" %}
