@@ -10,7 +10,7 @@ tags: [bike, bikepacking, nature, camping, travel, cheap, explore, thoughts]
 description: "Although my summers have always been filled with an abundance of outdoor adventure and I've always spent a considerable part of summer camping, trading the comfort of mama hotel for exploration, this has been the longest I've spent in the woods in my life and I absolutely loved it."
 ---
 
-Time flies - a realisation that came after spending nearly 3 weeks in San Francisco. I was having a fabulous time - exploring the city during the day, eating out delicious burgers, tasting great microbrews, shopping organic food, going road-tripping, hiking around or just chilling with my friends there, with whom I had so much fun. I very much enjoyed all of this, but I also knew I was just running away from the moment of getting back on the road and continue traveling. 
+Time flies - a realisation that came after spending nearly 3 weeks in San Francisco. I was having a fabulous time - exploring the city during the day, eating out delicious burgers, tasting great microbrews, shopping organic food, going road-tripping, hiking around or just chilling with my friends there, with whom I had so much fun. I very much enjoyed all of this, but I also knew I was just running away from the moment of getting back on the road to continue traveling. 
 
 ## On the road again
 
@@ -18,19 +18,19 @@ Time flies - a realisation that came after spending nearly 3 weeks in San Franci
 
 Getting back on the road posed some difficulties, I'll explain why. I was no longer in cheapish developing countries, but in the expensive USA. Buses, hostels and campsites were too expensive for me to go backpacking (looking at +$50 daily expenses if living on the cheap). Hitchhiking could do the trick, but I heard from all sides it was unpopular to take hitchhikers, it is thought of as dangerous and I didn't see many hitchhikers either (cheap gas + affordable cars?) - it seemed hitchhiking could prove equally difficult to our experience in Brazil, where we moved by very small distances, spending all day by the dusty roadside, being pissed and dirty at the end of the day. Hiking the Pacific Crest, one of my dreams, was also not an option this year as there was still too much snow on the trails and going alone in these conditions would be dangerous and irresponsible.
 
-I still wanted to do something adventurous, I wanted to experience nature, camp, cook my own food, sleep under the stars, wake up with the sun, hike some mountains, swim in lakes, wash in rivers and put a little bit of effort in all this. Real dreaming. Since forever, I am content with the idea of exploring places by bike, I mean I love biking. It gives you unparalleled freedom and independence to explore. What was initially seemed to be yet another crazy idea I invented in the pub suddenly seemed like the most logical thing to do (note: I think some of the best ideas emerge in pubs).
+I still wanted to do something adventurous, I wanted to experience nature, camp, cook my own food, sleep under the stars, wake up with the sun, hike some mountains, swim in lakes, wash in rivers and put a little bit of effort in all this. Make dreaming real. Since forever, I am content with the idea of exploring places by bike, I mean I love biking. It gives you unparalleled freedom and independence to explore. What was initially yet another crazy idea I invented in the pub suddenly seemed like the most logical thing to do (note: I think some of the best ideas emerge in pubs).
 
 {% include image.html image-name="6461908310577699458.jpg" %}
 
-What did I need to make this happen?First, some of the obvious - bike, helmet, rear rack, air pump, patches and a lock to start. I started to look around for bikes - I decided to opt for a hybrid, I had my eyes on the Giant GTX and Trek FX as they were not too expensive and seemed to be pretty durable/reliable in terms of both reviews and components. I ended up buying a new Trek FX 2 (luckily on sale for a little over $400) with the intention to sell it in Vancouver. I grabbed a used rear rack for $15 and got the other accessories pretty easy from REI, with my friend Hudson lending me his lock and bike tool for the trip (thank you!!). I also bought a new gas stove, allowing me to go on a completely self-supported trip, saving me a lot of cash by not eating out,  not to forget the jump in food quality compared to fast food.
+What did I need to make this happen? First, some of the obvious - bike, helmet, rear rack, air pump, patches and a lock to start. I started to look around for bikes - I decided to opt for a hybrid, I had my eyes on the Giant GTX and Trek FX as they were not too expensive and seemed to be pretty durable/reliable in terms of both reviews and components. I ended up buying a new Trek FX 2 (luckily on sale for a little over $400) with the intention to sell it in Vancouver. I grabbed a used rear rack for $15 and got the other accessories pretty easy from REI, with my friend Hudson lending me his lock and bike tool for the trip (thank you!!). I also bought a new gas stove, allowing me to go on a completely self-supported trip, saving me a lot of cash by not eating out,  not to forget the jump in food quality compared to fast food.
 
 ## First night out the couch
 
-When I started packing, it was a mess. Even after 8 months of travelling, I am still not good at packing and it took me about 3hours to get everything together. When I looked at my phone, it was 3pm and I wanted to go about 70-80kms far, along the coast and then across the mountains and the great valley to the other mountains. 
+When I started packing, it was a mess. Even after 8 months of traveling, I am still not good at packing and it took me about 3hours to get everything together. When I looked at my phone, it was 3pm and I wanted to go about 70-80kms far, along the coast and then across the mountains and the great valley to the other mountains. 
 
 {% include image.html image-name="6462100767808796306.jpg" %}
 
-I was not as fast as I had hoped and it was soon dark and I still needed to cover more ground. I cycled in the dark torching the way through the dark, along numerous no trespassing signs, eventually seeing a hidden turnaround spot, where I pulled in and set up my tent to spend the night. 
+I was not as fast as I had hoped and it was soon dark and I still needed to cover more ground. I cycled in the night torching my way through the dark, along numerous no trespassing signs, eventually seeing a hidden turnaround spot, where I pulled in and set up my tent to spend the night. 
 
 {% include image.html image-name="6462100769385038322.jpg" %}
 
@@ -38,7 +38,7 @@ It was a quiet night, a few cars passed by, but I couldn't dream about other thi
 
 ## Homeless, vagabond or dreamer?
 
-At first, I was really afraid of adopting this new vagabond lifestyle, but the more I slept outside, the less plans I made, the more I became ok with  having no idea where I was going to spend the next night. Things come, change your plans and you simply have to adapt to the new reality - you cannot plan on (not) having a puncture, on strong headwind, closed roads or other things altering your plans. The less you plan, the less stressful travel is. 
+At first, I was really afraid of adopting this new vagabond lifestyle, but the more I slept outside, the less plans I made, the more I became ok with  having no idea where I was going to spend the next night. Things come, change your plans and you simply have to adapt to the new reality - you cannot plan on (not) having a puncture, on (no) strong headwind, (no) closed roads or other things altering your plans. The less you plan, the less stressful and more fun travel is. 
 
 {% include image.html image-name="6461908310176660978.jpg" %}
 
@@ -50,7 +50,7 @@ I slept anywhere I deemed safe enough for spending the night without getting rob
 
 {% include image.html image-name="6461908310632440514.jpg" %}
 
-I began making rough visionary plans up to 3 days ahead, adjusting them as I talked to people who knew better. They often gave me recommendations or a better idea of what to expect (desert, forest, mountains, flats, hills). I often stopped at tourist information or national park ranger stations, where staff were always knowledgeable and helpful. The printed materials also provided some ideas for routing possibilities (notably the famous byways, which are alternative roads to the main highways, often scenic). 
+I began making rough visionary plans up to 3 days ahead, adjusting them as I talked to people who knew better. They often gave me recommendations or a better idea of what to expect (desert, forest, mountains, flats, hills). I often stopped at tourist information or national park ranger stations, where staff were always knowledgeable and helpful. The printed materials also provided some ideas for routing possibilities (notably the famous scenic byways, which are alternative roads to the main highways). 
 
 ## Survive
 
@@ -62,7 +62,7 @@ I lived mainly on rice and pasta (fiber and long sugars), fresh vegetables for d
 
 {% include image.html image-name="6461908309875051474.jpg" %}
 
-Snacks are also important to refuel, but I settled down to some Cliff Bars (about $1 each and they provide good energy/weight ratio), beef jerky (available at any gas station in US/CA) and sweets (skittles, chocolate, biscuits, other candy) and the occasional 50¢ pumpkin/apple pie from Walmart. This snacks part can really eat in your budget, so it's important to shop wise. In the end, I settled on snacking Cliff Bars, peanut butter on rye bread and dried fruit (like sultanas or dates) for their best energy value for money.
+Snacks are also important to refuel, but I settled down to some Cliff Bars (about $1 each and they provide good energy/weight ratio), beef jerky (available at any gas station in US/CA) and sweets (skittles, chocolate, biscuits, other candy) and the occasional 50¢ pumpkin/apple pie from Walmart. This snacks part can really eat in your budget, so it's important to shop wise. In the end, I settled on Cliff Bars, peanut butter on rye bread and dried fruit (like sultanas or dates) for their best energy value + quality for money.
 
 {% include image.html image-name="6461908312149863346.jpg" %}
 
@@ -70,15 +70,15 @@ Now, how did I find where I'd sleep? It's easy enough in the states and british 
 
 {% include image.html image-name="6461908311668852082.jpg" %}
 
-While I was camping in the backcountry, I met incredible people  with a story. Retired couples exploring the country in vans, families camping, adventurers, friends or lone travelers like me.. With some, we would share dinner, wine or simply stories.
+While I was camping in the backcountry, I met incredible people  with a story. Retired couples exploring the country in vans, families camping, adventurers, new friends or lone travelers like me.. With some, we would share dinner, wine or simply stories.
 
-## Live it up
+## Living it up
 
-Whatever you do, make the most of it. During my adventures, I often combined biking with short hikes (up to 2 days) or trail running when I didn't have time. And I found new passion in this because it captures the very essence of bikepacking.
+Whatever you do, make the most of it. During my adventures, I often combined biking with short hikes (up to 2 days) or trail running when I didn't have enough time. And I found a new passion in this because it captures the very essence of bikepacking.
 
 {% include image.html image-name="LRM_EXPORT_20170904_233054.jpg" %}
 
-Bikepacking should get you off the beaten path, to remote and wild places - unlike bike touring. With bike touring, you still rely on civilisation and with bike packing, you don't. I had food for a little over 7 days with me because shopping is quite time consuming (1-2hrs) and simply because I wanted to avoid cities, spend time in nature (plus cheap Walmarts weren't everywhere). You can take bikepacking even further and chase adventure by taking your pack and hiking for a little more to enjoy an evening somewhere spectacular, remote in the wild nature. 
+Bikepacking should get you off the beaten path, to remote and wild places - unlike bike touring. With bike touring, you still rely on civilisation, but with bike packing, you don't. I had carried food good for over 7 days because shopping is quite time consuming (1-2hrs) and simply because I wanted to avoid cities, spend more time in nature (plus cheap Walmarts weren't everywhere). You can take bikepacking even further and chase adventure by locking the bike and hike up somewhere close at the end of the day to enjoy an evening somewhere spectacular, remote in the wild nature. 
 
 {% include image.html image-name="LRM_EXPORT_20170904_233104.jpg" %}
 
