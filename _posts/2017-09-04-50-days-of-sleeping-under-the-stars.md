@@ -28,7 +28,11 @@ What did I need to make this happen?First, some of the obvious - bike, helmet, r
 
 When I started packing, it was a mess. Even after 8 months of travelling, I am still not good at packing and it took me about 3hours to get everything together. When I looked at my phone, it was 3pm and I wanted to go about 70-80kms far, along the coast and then across the mountains and the great valley to the other mountains. 
 
+{% include image.html image-name="6462100767808796306.jpg" %}
+
 I was not as fast as I had hoped and it was soon dark and I still needed to cover more ground. I cycled in the dark torching the way through the dark, along numerous no trespassing signs, eventually seeing a hidden turnaround spot, where I pulled in and set up my tent to spend the night. 
+
+{% include image.html image-name="6462100769385038322.jpg" %}
 
 It was a quiet night, a few cars passed by, but I couldn't dream about other things than thieves, imagining waking up in a bare tent with my belongings gone, in the middle of nowhere, hopeless. Thankfully, nothing of that kind happened and I woke up to a beautiful sunny day instead, ready for a fresh start.
 
@@ -56,7 +60,11 @@ Survival is key. I needed to survive not only financially, but I wanted to live 
 
 I lived mainly on rice and pasta (fiber and long sugars), fresh vegetables for dinner whenever I could (tomato, carrot, courgette, beetroot, avocado) for well balanced meals, fish once a day (canned tuna or sardines) for proteins and sometimes canned beans, corn, soup or other vegetables. For breakfast, I made porridge with dried fruit (goji, sultanas, dates, chia, cranberries, cocoa nibs) and peanut butter because it's fast, lightweight and filling as in fact this meal is rich in fiber, protein, sugar and some superfood nutrients. Always served with nice coffee to wake up. 
 
+{% include image.html image-name="6461908309875051474.jpg" %}
+
 Snacks are also important to refuel, but I settled down to some Cliff Bars (about $1 each and they provide good energy/weight ratio), beef jerky (available at any gas station in US/CA) and sweets (skittles, chocolate, biscuits, other candy) and the occasional 50¢ pumpkin/apple pie from Walmart. This snacks part can really eat in your budget, so it's important to shop wise. In the end, I settled on snacking Cliff Bars, peanut butter on rye bread and dried fruit (like sultanas or dates) for their best energy value for money.
+
+{% include image.html image-name="6461908312149863346.jpg" %}
 
 Now, how did I find where I'd sleep? It's easy enough in the states and british columbia once you're out there in the wild. You need to search for public lands, where low impact wild camping is allowed. National forests in the states fall in this category, they are many and quite often close to national parks or inside incredible landscapes. There, you can set up camp anywhere 50m off the path and creek (unless you see a sign telling you otherwise). You need to pack-out what you pack-in and keep up to the wilderness camping etiquette (do not pollute streams with soap, wash aside from rivers and burry your shit, literally). In BC, there are recreation sites, some of which are free. Wild camping might be a bad idea considering the amount of wildlife out there, true especially for BC (bear in mind you're entering grizzly/black bear habitat). Then, there are some websites for you to take a look at - warmshowers for touring cyclists in need of a warm shower and anything to sleep (bed, floor space, camping), the famous couchsurfing or Airbnb. I became so good at this that I only paid for 1 night camping in the US and 4 nights in Canada. More about this in a separate post.
 
