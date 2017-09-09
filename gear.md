@@ -9,15 +9,15 @@ description: "Find out how to pack your backpack for a trip around the world. Le
 {: .center}
 
 *When it comes to gear, we kept it simple. We travel with old, well tested stuff, so that we are not too sad when it gets lost or broken. Moreover, we know what to expect from these things and there are no unexpected surprises such as bad fit, long drying etc. Look around your house, you might well have all the basics. Remember, you don't need much to get on the road and you can always buy stuff in the destination!*
-{: .center}
+{: .center .padding}
 
 <img data-src="/img/2017-09-04/original/6462100767808796306.jpg" class="img-responsive center-block lazyload">
 
 ### Clothing
 {: .center}
 
-*This pack list will vary according to the destination, but our list provides a good balance for a variety of temperatures, ranging from tropical climate to cold weather found in the mountains. With this pack list, you'll be good for 3-season backpacking. Backpacking is a wide term - you should know who you are as a traveler. Will you be camping, hostel hopping or working away? Do you plan to travel by bus, foot, bike, car, motorbike or plane? The pack list will very much depend on your travel style and the things you want to do. Clothes are the biggest weight, you can be *
-{: .center}
+*This pack list will vary according to the destination, but our list provides a good balance for a variety of temperatures, ranging from tropical climate to cold weather found in the mountains. With this pack list, you'll be good for 3-season backpacking. Backpacking is a wide term - you should know who you are as a traveler. Will you be camping, hostel hopping or working away? Do you plan to travel by bus, foot, bike, car, motorbike or plane? The pack list will very much depend on your travel style and the things you want to do. Clothes are the biggest weight, you can easily get up to 5kgs by choosing inappropriate clothes*
+{: .center .padding}
 
 <img data-src="/img/2017-09-04/original/6461908312149863346.jpg" class="img-responsive center-block lazyload">
 
@@ -44,7 +44,7 @@ description: "Find out how to pack your backpack for a trip around the world. Le
 <img data-src="/img/2017-07-25/original/IMG_0615.jpg" class="img-responsive center-block lazyload">
 
 *This part is completely optional and should be skipped entirely unless you're a hardcore backpacker, planning on going off the beaten path, traveling independently and camping out. It's possible to arrange many hikes with tour companies - this way you support local people but end up paying at least 5 times more than if you diy. Do not try to save money here at any cost - ask yourself how much you're willing to pay for a portable sleeping system for a year? How much would you spend for just one night at any hotel? Maybe those $80 for a good mat or sleeping bag are no longer that expensive.. Ideally, your system will weigh around 3kgs per person. Last, some destinations offer such cheap food and accommodation that it doesn't make sense to camp at all (SE Asia).*
-{: .center}
+{: .center .padding}
 
 * Summer sleeping bag rated down to 10ºC (consider Husky Mini or Micro)
 * Good sleeping pad (Klymit Static V / how much are you willing to pay for a comfortable bed for 6 months or a year?)
@@ -60,7 +60,7 @@ description: "Find out how to pack your backpack for a trip around the world. Le
 {: .center}
 
 *We love them, but remember that electronics are heavy and need juice. Many travel with laptops, ipads, DSLR cameras, gopros etc. but think twice - do you wanna haul 5kgs of metal or rather travel light, having only the gadgets you actually need? You should be able to get under 1kg with your gadgets.*
-{: .center}
+{: .center .padding}
 
 Before we got robbed in Argentina:
 {: .center}
@@ -106,7 +106,7 @@ New equip after the robbery:
 <img data-src="/img/2017-09-04/original/6461908309846316594.jpg" class="img-responsive center-block lazyload">
 
 *I kept a minimalist approach and worked with what I already had, buying the bare minimum to cycle off on two wheels. I didn't get any panniers, just a simple rear rack, onto which I attached my backpack. This setup lasted me for 2 months and although it wasn't perfect, it was actually really good.*
-{: .center}
+{: .center .padding}
 
 * Trek FX 2 $430
 * Topeak Air pump $15
@@ -122,10 +122,11 @@ New equip after the robbery:
 * Replacement chain and pedals $40
 * Workshop charge $3
 
-** total cost $627, sold for $380, net loss $247 or $4/day **
-{: .center}
+**total cost $627, sold for $380, net loss $247 or $4/day**
+{: .center .padding}
 
-For more information about packing, you can consider this [excellent website](http://www.pod7kilo.cz) (in czech), which suggests pack lists all under 7kgs tailored for specific destinations and weather (for low-cost airline carriers). It's good to start here and see how far you can get with minimalist packing! 
+For more information about packing, you can consider this [excellent website](http://www.pod7kilo.cz) (in czech), which suggests pack lists all under 7kgs tailored for specific destinations and weather (for low-cost airline carriers). It's good to start here and see how far you can get with minimalist packing!
+{: .center .padding}
 
 {% capture my_include %}
 {% include signature.html %}
