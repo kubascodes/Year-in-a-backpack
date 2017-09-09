@@ -170,9 +170,12 @@ p {
 .white {
     color: #f5f5f5;
 }
-a {
+h1, h2, h3, h4, h5, h6 a {
     font-weight: 500;
     color: #0E2F44;
+}
+a {
+    color: #141414;
 }
 a:active, a:hover, a:visited {
     text-decoration:none;
