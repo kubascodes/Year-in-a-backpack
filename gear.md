@@ -21,6 +21,7 @@ description: "Find out how to pack your backpack for a trip around the world. Le
 
 <img data-src="/img/2017-09-04/original/6461908312149863346.jpg" class="img-responsive center-block lazyload">
 
+* Osprey Kestrel 58L (although quite heavy, it's a durable and well built backpack I've had for about 8 years now. It's showing wear and tear only now)
 * Columbia Gore-Tex jacket 1x (wind/rain proof)
 * Patagonia Down Jacket (something for cold weather around 0°C, which is often the case in the mountains)
 * Patagonia hiking travel pants (quick dry, look good in city as well)
