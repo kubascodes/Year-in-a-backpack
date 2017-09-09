@@ -125,9 +125,7 @@ New equip after the robbery:
 ** total cost $627, sold for $380, net loss $247 or $4/day **
 {: .center}
 
-For more information about packing, you can consider this [excellent website](http://www.pod7kilo.cz) (in czech), which suggests pack lists all under 7kgs tailored for specific destinations and weather (for low-cost airline carriers). It's good to start here and see how far you can get with minimalist packing!
-
-
+For more information about packing, you can consider this [excellent website](http://www.pod7kilo.cz) (in czech), which suggests pack lists all under 7kgs tailored for specific destinations and weather (for low-cost airline carriers). It's good to start here and see how far you can get with minimalist packing! 
 
 {% capture my_include %}
 {% include signature.html %}
