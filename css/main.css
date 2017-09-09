@@ -269,7 +269,11 @@ div#links img {
     background-color: rgba(245,245,245,0.7);
     position:relative;
     margin-bottom: 0;
+    bottom: 0;
+    position: absolute;
+    height: 40px;
 }
+
 #links {
     margin-bottom: 1em;
 }
