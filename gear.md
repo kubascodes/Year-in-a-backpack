@@ -128,8 +128,3 @@ New equip after the robbery:
 
 For more information about packing, you can consider this [excellent website](http://www.pod7kilo.cz) (in czech), which suggests pack lists all under 7kgs tailored for specific destinations and weather (for low-cost airline carriers). It's good to start here and see how far you can get with minimalist packing!
 {: .getPadding}
-
-{% capture my_include %}
-{% include signature.html %}
-{% endcapture %}
-{{ my_include | markdownify }}
