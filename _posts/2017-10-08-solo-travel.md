@@ -62,7 +62,7 @@ Some people travel to runaway from something, from society, work or responsibili
 ## Why not?
 You can see that solo travel made me think a lot. Maybe it doesn't make any sense at all, who knows. But now, is it better to travel solo or with someone? I don't think I have a single answer for you. 
 
-{% include image_any.html image-name="/img/2017-04-14/original/DSC02879.jpg" %}
+{% include image_any.html image-name="/img/2017-04-14/original/DSC02789.jpg" %}
 
 In my experience, it was really nice to travel South America with my friend Simon and I wouldn't want to travel alone there with a backpack. By having a travel partner, you have someone to support you in rough times, to prove you right or wrong (preventing you from doing something stupid), to judge if that stranger is (not) trustworthy. You have someone you know sitting next to you on those long bus or train journeys, which is really important as having snoring, stinky, disrespectful or loud stranger next to you for over 12hrs is annoying and I'm not even talking about those who might try to rob you while you sleep. At other times, it's really good to share your experience with someone else. We certainly discussed the things we've seen and experienced a lot. And these discussions often included a visit to some of the strangest bars to which I would never go alone (I don't like to go to bars alone). 
 
