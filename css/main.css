@@ -551,7 +551,6 @@ label {
     border-top: 3px solid #eeeeee;
     background-color: rgba(238, 238, 238, 0.5);
     padding: 1em 1em 1em 1em;
-    position: relative;
     color: black;
     
 }
@@ -560,6 +559,7 @@ div>.pageNavigation>a.next {
 }
 div>.pageNavigation>a.prev {
 }
+/* here I wanted to display comments of each photo upon hovering */
 #textover a {  
   display: inline-block;
 }
