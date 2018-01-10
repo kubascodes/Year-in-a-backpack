@@ -571,3 +571,7 @@ div>.pageNavigation>a.prev {
   left: 50%;  
   transform: translate(-50%, -50%);	
 }
+.bottom {
+    position:absolute;
+    bottom:0;
+}

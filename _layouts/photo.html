@@ -56,7 +56,8 @@ layout: default
 </div>
 </div>
 
-<div>{% include sharer.html %}</div>
+<div class="bottom">
+    {% include sharer.html %}
 
     <div class="next-article center">Read next</div>
 
@@ -74,10 +75,9 @@ layout: default
     </a>
   {% endif %}
 </div>
-
+</div>
 
 <script src="/js/blueimp-gallery.min.js"></script>
-</script>
 <script>
 document.getElementById('links').onclick = function (event) {
     event = event || window.event;
