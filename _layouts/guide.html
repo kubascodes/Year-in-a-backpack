@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-nofooter
 ---
 <head>
 <meta name="geo.placename" content="{{ page.landmark }}, {{ page.categories }}">
@@ -8,13 +8,13 @@ layout: default
 
 <div itemscope="" itemtype="http://schema.org/BlogPosting">
 <div class="container-fluid postHeader" id="textover">
-   
+
 <noscript><img src="{{ site.baseurl }}{{ image.path }}" /></noscript>
 <link rel="image_src" href="{{ page.lead }}" />
         <img class="img-responsive lazyload blur-up" data-src="{{ page.lead }}"  alt="{{ page.title }}">
 </div>
 
-<div class="container-post">   
+<div class="container-post">
     <h2>{{ page.title }}</h2>
     {% include post-info.html %}
     <hr>
@@ -32,14 +32,13 @@ layout: default
         <h4>{{page.previous.title}}</h4>
     <p>{{page.previous.content | truncate: 50}}</p>
     </a>
-    
+
     {% elsif page.next.url %}
     <a class="next" href="{{page.next.url}}">
         <h4>{{page.next.title}}</h4>
 <p>{{page.next.content | truncate: 50}}</p>
-        </p> 
+        </p>
     </a>
 
   {% endif %}
 </div>
-

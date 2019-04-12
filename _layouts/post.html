@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-nofooter
 ---
 <head>
 <meta name="geo.placename" content="{{ page.landmark }}, {{ page.categories }}">
@@ -16,11 +16,11 @@ layout: default
 <link rel="image_src" href="{{ site.baseurl }}{{ image.path }}" />
         <img class="img-responsive lazyload blur-up" src="{{ site.baseurl }}{{ image.path | replace: 'original', 'thumbnail' }}" data-src="{{ site.baseurl }}{{ image.path }}"  alt="{{ page.title }}">
     {% endunless %}
-    {% endif %}   
+    {% endif %}
     {% endfor %}
 </div>
 
-<div class="container-post">   
+<div class="container-post">
     <h2 itemprop="name headline" >{{ page.title }}</h2>
     {% include post-info.html %}
     <hr>
@@ -52,7 +52,7 @@ layout: default
     </a>
         {% endif %}
    {% endif %}
-{% endfor %} 
+{% endfor %}
 </div>
 </div>
 
@@ -63,12 +63,12 @@ layout: default
         <h4>{{page.previous.title}}</h4>
     <p>{{page.previous.content | truncate: 50}}</p>
     </a>
-    
+
     {% elsif page.next.url %}
     <a class="next" href="{{page.next.url}}">
         <h4>{{page.next.title}}</h4>
 <p>{{page.next.content | truncate: 50}}</p>
-        </p> 
+        </p>
     </a>
 
   {% endif %}
@@ -87,4 +87,3 @@ document.getElementById('links').onclick = function (event) {
     blueimp.Gallery(links, options);
 };
 </script>
-
