@@ -20,7 +20,7 @@ description: "Posts from Year in a Backpack sorted by tags - you can read posts 
 </div>
     <hr>
 
-    
+
 {% assign sorted_tags = (site.tags | sort:0) %}
 {% for tag in sorted_tags %}
   <div class="center">
@@ -32,9 +32,8 @@ description: "Posts from Year in a Backpack sorted by tags - you can read posts 
     <article class="archive-item tags">
       <h5>{{post.date | date_to_long_string}} <a href="{{ site.baseurl }}{{ post.url }}"> - <b>{{post.title}}</b></a> in <a class="button country-button archive-title" href="{{ site.baseurl }}/countries#{{ category_name }}">{{ post.categories }}</a></h5>
     </article>
-    {% endfor %} 
+    {% endfor %}
   </div>
 {% endfor %}
-    
+
 </div>
-{% include signature.html %}

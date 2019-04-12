@@ -4,7 +4,7 @@ permalink: /journal
 title: Journal
 description: "Travel blog from Year in a backpack. Read our regular posts and enjoy the experiences and feelings from travelling in South America with us. "
 ---
-      
+
       <div class="container center">
         <h1>Journal</h1>
         <p>Three fresh posts below.</p>
@@ -25,9 +25,9 @@ description: "Travel blog from Year in a backpack. Read our regular posts and en
 {% for tag in post.tags %}
         <a class="button tag-button archive-title" href="{{ site.baseurl }}/tags#{{ tag | slugify }}">{{ tag }}</a>
 		 {% endfor %}
-        <a class="normal-font" href="{{ post.url }}"><p>{{ post.excerpt | truncatewords: 18 }}</p></a>  
+        <a class="normal-font" href="{{ post.url }}"><p>{{ post.excerpt | truncatewords: 18 }}</p></a>
     </li>
-  {% endfor %}      
+  {% endfor %}
 </ul>
     </div>
 
@@ -41,7 +41,7 @@ description: "Travel blog from Year in a backpack. Read our regular posts and en
     <li class="col-xs-12 col-sm-4 col-lg-2 center">
         <a href="{{ post.url }}"><h4>{{ post.title }}</h4></a><h5 class="center">{{ post.date | date_to_long_string }}</h5>
     </li>
-  {% endfor %}      
+  {% endfor %}
 </ul>
     </div>
 
@@ -56,7 +56,7 @@ description: "Travel blog from Year in a backpack. Read our regular posts and en
 <a href="{{ site.baseurl }}/countries#{{ category_name | slugize}}" class="archive-title button country-button">{{ category | first }}</a>
     {% unless forloop.last %}&nbsp;{% endunless %}
 {% endfor %}
-	
+
     </div>
 <hr>
 
@@ -81,12 +81,10 @@ description: "Travel blog from Year in a backpack. Read our regular posts and en
 		{% endunless %}
 	{% endif %}
 {% endfor %}
-   <div class="tag-box center-block"> 
+   <div class="tag-box center-block">
        <p>Sorts posts by tags.</p>
 {% for tag in tags %}
     <a href="{{ site.baseurl }}/tags#{{ tag | slugify }}" class="button tag-button archive-title">{{ tag }}</a>
 {% endfor %}
 </div>
     </div>
-
-{% include signature.html %}

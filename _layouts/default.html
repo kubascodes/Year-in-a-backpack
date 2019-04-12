@@ -9,7 +9,7 @@ layout: compress
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="keywords" content="{{ page.tags | join: ', ' }}, backpacking, travel, adventure">
-   {% if page.description != nil %} 
+   {% if page.description != nil %}
 <meta property="og:description" name="description" content="{{ page.description }}">
    {% endif %}
     <meta name="Copyright" content="Copyright Jakub Velfl 2017. All rights reserved.">
@@ -30,18 +30,18 @@ layout: compress
 
   <body>
     <nav class="navbar navbar-fixed-top navbar-default">
-    
+
       <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <img class="sandwich" src="/assets/icons/sandwich.png" alt="menu">
         </button>
         <a class="navbar-brand" href="/"><img src="/assets/icons/YIAB_logo_black_small.png"></a>
     </div>
-      
+
       <div class="collapse navbar-collapse" id="myNavbar">
     <ul class="nav navbar-nav">
       <li><a href="/journal">Journal</a></li>
-      <li><a href="/news">News</a></li> 
+      <li><a href="/news">News</a></li>
       <li><a href="/map">Map</a></li>
       <li><a href="/photo">Photo</a></li>
       <li><a href="/gear">Gear</a></li>
@@ -49,14 +49,15 @@ layout: compress
       <li><a href="/about">About</a></li>
     </ul>
   </div>
-      
+
 </nav>
 
     <div class="fill content container-fluid">
       {{ content }}
     </div>
+    {% include signature.html %}
   </body>
-  
+
   <script src="/js/bootstrap.min.js"></script>
   {% include analytics.html %}
 </html>

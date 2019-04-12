@@ -57,7 +57,7 @@ div.financials {
     width: 100%; min-height: 30rem; height: 100%; max-width: 65rem;
 }
 
-.fill { 
+.fill {
     min-height: 100%;
     height: 100%;
     padding: 0 0 0 0;
@@ -80,13 +80,13 @@ a.twitter-timeline {
   border: none;
   background: transparent;
   background-size: 1em 1em;
- 
+
   /* Text */
   font: normal 12px/18px Helvetica, 'serif';
   color: #666666;
   white-space: nowrap;
 }
- 
+
 a.twitter-timeline:hover,
 a.twitter-timeline:focus {
   background-color: transparent;
@@ -105,13 +105,13 @@ blockquote.twitter-tweet {
   font: bold 14px/18px Helvetica', Arial, sans-serif;
   color: #666666;
 }
- 
+
 blockquote.twitter-tweet p {
   font: normal 18px/24px Helvetica, Arial, sans-serif;
   margin: 0 5px 10px 0;
   color: #666666;
 }
- 
+
 blockquote.twitter-tweet a[href^="https://twitter.com"] {
   font-weight: normal;
   color: #666666;
@@ -210,7 +210,7 @@ a:hover {
 }
 .overlay {
     display: none;
-    
+
 }
 @media only screen and (min-width: 800px) {
     .postHeader {
@@ -233,7 +233,7 @@ a:hover {
 }
 #GMaps {
     width: 80%;
-    height: 80%;    
+    height: 80%;
 }
 .google-maps {
         position: relative;
@@ -286,7 +286,7 @@ ul#photowall {
 }
 @media (min-width: 1200px) {
   #photo-wall {
-        column-gap:           0px;  
+        column-gap:           0px;
       line-height: 0;
   -moz-column-count:    4;
   -webkit-column-count: 4;
@@ -295,7 +295,7 @@ ul#photowall {
 }
 @media (max-width: 1200px) {
   #photo-wall {
-        column-gap:           0px;  
+        column-gap:           0px;
       line-height: 0;
   -moz-column-count:    3;
   -webkit-column-count: 3;
@@ -304,7 +304,7 @@ ul#photowall {
 }
 @media (max-width: 800px) {
   #photo-wall {
-        column-gap:           0px;  
+        column-gap:           0px;
       line-height: 0;
   -moz-column-count:    2;
   -webkit-column-count: 2;
@@ -317,7 +317,7 @@ ul#photowall {
 }
 @media (max-width: 400px) {
   #photo-wall {
-        column-gap:           0px;  
+        column-gap:           0px;
       line-height: 0;
   -moz-column-count:    1;
   -webkit-column-count: 1;
@@ -331,15 +331,15 @@ ul#photowall {
 .sandwich {
     width: auto;
     height: 35px;
-    
+
 }
 .cover {
-    background: url(/img/googlemapblackwhiteoptim.png) no-repeat center center; 
+    background: url(/img/googlemapblackwhiteoptim.png) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-    
+
 }
 .next-article {
     top: 0;
@@ -358,7 +358,7 @@ ul#photowall {
     padding-bottom: 56.25%;
     padding-top: 30px; height: 0; overflow: hidden;
 }
- 
+
 .video-container iframe,
 .video-container object,
 .video-container embed {
@@ -430,7 +430,7 @@ a.button, .button {
     color: white;
 }
 .email-button {
-	border: 1px #6dc066 solid; 
+	border: 1px #6dc066 solid;
 	color: #366033;
 }
 .email-button:hover {
@@ -439,12 +439,12 @@ a.button, .button {
 	color: white;
 }
 .instagram-button {
-	border: 1px #f6546a solid; 
+	border: 1px #f6546a solid;
 	color:#7f3939;
 }
 .instagram-button:hover {
 	border: 1px #f6546a solid;
-	background: #f6546a; 
+	background: #f6546a;
 	color: white;
 }
 .google-button {
@@ -470,7 +470,7 @@ a.button, .button {
     color: #666666
 }
 #inline {
-    
+
 }
 .content-push {
     height: 50px;
@@ -486,8 +486,8 @@ a.button, .button {
     bottom: 0;
     width: 100%;
     overflow: hidden;
-	bottom:0;
-	left:0;
+	  left:0;
+    position: fixed;
 }
 html,
 body {
@@ -497,7 +497,7 @@ body {
 }
 navbar-default {
     background-color: rgba(245,245,245, 0.8);
-      border-bottom: 3px solid #eeeeee;
+    border-bottom: 3px solid #eeeeee;
 }
 div#myNavbar.navbar-collapse.collapse.ul.nav.navbar-nav {
     background-color: rgba(245,245,245, 0.8);
@@ -552,15 +552,15 @@ label {
     background-color: rgba(238, 238, 238, 0.5);
     padding: 1em 1em 1em 1em;
     color: black;
-    
+
 }
 div>.pageNavigation>a.next {
-    
+
 }
 div>.pageNavigation>a.prev {
 }
 /* here I wanted to display comments of each photo upon hovering */
-#textover a {  
+#textover a {
   display: inline-block;
 }
 #textover h2 {
@@ -568,6 +568,6 @@ div>.pageNavigation>a.prev {
   font-size: 2em;
   position: absolute;
   top: 50%;
-  left: 50%;  
-  transform: translate(-50%, -50%);	
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
