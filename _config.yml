@@ -16,7 +16,7 @@
 title: Year in a backpack
 email: yearinabackpack@gmail.com
 description: Blog about backpacking adventure around America and Asia.
-baseurl: "yearinabackpack.jakubv.com" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yearinabackpack.jakubv.com" # the base hostname & protocol for your site
 twitter_username: yearinabackpack
 github_username:  yearinabackpack
