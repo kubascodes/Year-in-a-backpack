@@ -16,8 +16,8 @@
 title: Year in a backpack
 email: yearinabackpack@gmail.com
 description: Blog about backpacking adventure around America and Asia.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.yearinabackpack.com" # the base hostname & protocol for your site
+baseurl: "http://www.yearinabackpack.jakubv.com" # the subpath of your site, e.g. /blog
+url: "http://www.yearinabackpack.jakubv.com" # the base hostname & protocol for your site
 twitter_username: yearinabackpack
 github_username:  yearinabackpack
 
@@ -27,8 +27,8 @@ theme: minima
 
 
 include: ["_pages"]
-exclude: 
-  - working_files 
+exclude:
+  - working_files
   - _drafts"
 
 permalink: /journal/:title
@@ -40,21 +40,21 @@ defaults:
       type: "" # a collection in your site, in plural form
     values:
       layout: "default"
-      
+
 authors:
   kuba:
     name: Jakub Velfl
     display_name: Kuba
-    gravatar: 
-    email: 
-    web: 
-    twitter: 
-    github: 
+    gravatar:
+    email:
+    web:
+    twitter:
+    github:
   simon:
     name: Šimon Tomaník
     display_name: Šimon
-    gravatar: 
+    gravatar:
     email:
     web:
-    twitter: 
-    github: 
+    twitter:
+    github:
